@@ -10,7 +10,7 @@ const B={
    title:{t:'ONE ALARM? FIVE ALARMS?',at:.2},card:{lines:['Most snoozers hit the button','again and again'],at:5}}),
  point1:SCN({bg:'plum',items:[{ic:'brain',at:.3,x:.3,y:.45,s:.7},{ic:'zzz',at:'breaking',x:.72,y:.35,s:.6}],komo:{x:.85,y:1.1,s:.5,expr:'think',at:'groggy'},
    title:{t:'BROKEN SLEEP?',at:.1,fill:'#FF8A8A'},sub:{t:'SLEEP INERTIA',at:'inertia',bg:'#9C7BE0'}}),
- sil_point1:SCN({bg:'navy',items:[{ic:'brain',at:.6,x:.5,y:.45,s:.8}],extra:(t,t0)=>t>t0+2?bigText('GROGGY = NORMAL',PX(.5),PY(.85),isV?60:70,{fill:'#FFE27A',sw:8}):'',
+ sil_point1:SCN({bg:'navy',items:[{ic:'brain',at:.6,x:.5,y:.45,s:.8}],extra:(t,t0)=>t>t0+2&&t<t0+5.7?bigText('GROGGY = NORMAL',PX(.5),PY(.85),isV?60:70,{fill:'#FFE27A',sw:8}):'',
    title:{t:'THAT FOGGY FEELING',at:.2},card:{lines:['Grogginess after waking','usually fades in minutes'],at:6}}),
  point2:SCN({bg:'sky',items:[{ic:'clock',at:'thirty',x:.25,y:.45,s:.6},{ic:'brain',at:'brain',x:.7,y:.45,s:.7},{ic:'check',at:'good',x:.7,y:.15,s:.45}],
    title:{t:'SCIENTISTS TESTED IT',at:.1},sub:{t:'30 MIN OF SNOOZING',at:'thirty',bg:'#9C7BE0'},bot:{t:'THINKING: JUST AS GOOD',at:'thinking',bg:'#3BB273'},src:'Source: Sundelin et al., J Sleep Research (2023)'}),

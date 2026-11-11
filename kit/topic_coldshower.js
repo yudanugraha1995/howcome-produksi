@@ -10,7 +10,7 @@ const B={
    title:{t:'HYPE OR HELPFUL?',at:.2},card:{lines:['Let\'s look at a real','study with real people'],at:5}}),
  point1:SCN({bg:'plum',items:[{ic:'lungs',at:'breathe',x:.25,y:.45,s:.6},{ic:'heart',at:'heart',x:.72,y:.45,s:.6,bob:1}],komo:{x:.5,y:1.1,s:.45,expr:'surprised',at:'gasp'},
    title:{t:'THE COLD SHOCK',at:.1,fill:'#9FD8F5'},sub:{t:'GASP + FAST HEARTBEAT',at:'gasp',bg:'#E5383B'},bot:{t:'HEART PROBLEMS? BE CAREFUL',at:'careful',bg:'#F4C542',fill:OL}}),
- sil_point1:SCN({bg:'navy',items:[{ic:'heart',at:.6,x:.5,y:.45,s:.8,bob:1}],extra:(t,t0)=>t>t0+2?bigText('START SLOW',PX(.5),PY(.85),isV?64:76,{fill:'#FFE27A',sw:8}):'',
+ sil_point1:SCN({bg:'navy',items:[{ic:'heart',at:.6,x:.5,y:.45,s:.8,bob:1}],extra:(t,t0)=>t>t0+2&&t<t0+5.7?bigText('START SLOW',PX(.5),PY(.85),isV?64:76,{fill:'#FFE27A',sw:8}):'',
    title:{t:'YOUR BODY\'S ALARM',at:.2},card:{lines:['The shock fades','after the first minute'],at:6}}),
  point2:SCN({bg:'sky',items:[{ic:'shower',at:'shower',x:.25,y:.4,s:.7},{ic:'calendar',at:'month',x:.72,y:.45,s:.55}],extra:(t,t0,t1,T)=>t>T('fewer')?bigText('-29% SICK DAYS OFF WORK',PX(.5),PY(.88),isV?54:70,{fill:'#3BB273',sw:9}):'',
    title:{t:'~3,000 PEOPLE TESTED',at:'three'},sub:{t:'BUT NOT SICK LESS OFTEN',at:'didn\'t',bg:'#5B6C8F'},src:'Source: Buijze et al., PLOS ONE (2016)'}),

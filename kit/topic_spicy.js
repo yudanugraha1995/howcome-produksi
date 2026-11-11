@@ -10,7 +10,7 @@ const B={
    title:{t:'NATURE\'S SEED DELIVERY',at:.2},card:{lines:['Birds eat peppers','and spread the seeds'],at:5}}),
  point1:SCN({bg:'plum',items:[{ic:'chili',at:.3,x:.25,y:.45,s:.55},{ic:'brain',at:'brain',x:.72,y:.45,s:.6},{ic:'fire',at:'burning',x:.72,y:.15,s:.4}],
    title:{t:'A HEAT SENSOR TRICK',at:'tricks',fill:'#FF8A8A'},bot:{t:'NOTHING IS BURNED',at:'nothing',bg:'#3BB273'}}),
- sil_point1:SCN({bg:'navy',items:[{ic:'drop',at:.6,x:.3,y:.45,s:.6},{ic:'fire',at:1.4,x:.72,y:.45,s:.6}],extra:(t,t0)=>t>t0+2?bigText('SWEAT + RED FACE',PX(.5),PY(.85),isV?60:70,{fill:'#FFE27A',sw:8}):'',
+ sil_point1:SCN({bg:'navy',items:[{ic:'drop',at:.6,x:.3,y:.45,s:.6},{ic:'fire',at:1.4,x:.72,y:.45,s:.6}],extra:(t,t0)=>t>t0+2&&t<t0+5.7?bigText('SWEAT + RED FACE',PX(.5),PY(.85),isV?60:70,{fill:'#FFE27A',sw:8}):'',
    title:{t:'YOUR BODY COOLS DOWN',at:.2},card:{lines:['Your brain reacts','like it\'s real heat'],at:6}}),
  point2:SCN({bg:'sky',items:[{ic:'noodles',at:'spicy',x:.3,y:.45,s:.6},{ic:'heart',at:'lower',x:.72,y:.45,s:.6}],extra:(t,t0,t1,T)=>t>T('fourteen')?bigText('~14% LOWER RISK',PX(.5),PY(.74),isV?60:72,{fill:'#3BB273',sw:9}):'',
    title:{t:'~500,000 ADULTS STUDIED',at:'half'},sub:{t:'SPICY ALMOST EVERY DAY',at:'almost',bg:'#E5383B'},bot:{t:'A CLUE, NOT PROOF',at:'prove',bg:'#5B6C8F'},src:'Source: Lv et al., BMJ (2015)'}),

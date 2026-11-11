@@ -10,7 +10,7 @@ const B={
    title:{t:'ALERTNESS DURING THE DAY',at:.2,size:isV?58:66},card:{lines:['Even after a good night,','the dip still comes'],at:5}}),
  point1:SCN({bg:'plum',items:[{ic:'bed',at:.3,x:.3,y:.55,s:1},{ic:'brain',at:'deep',x:.72,y:.45,s:.6}],komo:{x:.88,y:1.1,s:.45,expr:'think',at:'groggy'},
    title:{t:'TOO LONG = DEEP SLEEP',at:'long',fill:'#FF8A8A'},bot:{t:'GROGGY AND SLOW',at:'groggy',bg:'#9C7BE0'}}),
- sil_point1:SCN({bg:'navy',items:[{ic:'clock',at:.6,x:.3,y:.45,s:.6},{ic:'x',at:2.2,x:.72,y:.45,s:.5}],extra:(t,t0)=>t>t0+2?bigText('1 HOUR+ = TOO LONG',PX(.5),PY(.85),isV?56:70,{fill:'#FFE27A',sw:8}):'',
+ sil_point1:SCN({bg:'navy',items:[{ic:'clock',at:.6,x:.3,y:.45,s:.6},{ic:'x',at:2.2,x:.72,y:.45,s:.5}],extra:(t,t0)=>t>t0+2&&t<t0+5.7?bigText('1 HOUR+ = TOO LONG',PX(.5),PY(.85),isV?56:70,{fill:'#FFE27A',sw:8}):'',
    title:{t:'NAP LENGTH MATTERS',at:.2},card:{lines:['Long naps can make you','feel worse at first'],at:6}}),
  point2:SCN({bg:'sky',items:[{ic:'plane',at:'pilots',x:.3,y:.45,s:.6},{ic:'clock',at:'twenty',x:.72,y:.45,s:.55}],extra:(t,t0,t1,T)=>{let s='';if(t>T('performance'))s+=bigText('PERFORMANCE +34%',PX(.5),PY(.82),isV?56:66,{fill:'#3BB273',sw:9});if(t>T('alertness'))s+=bigText('ALERTNESS +54%',PX(.5),PY(.95),isV?56:66,{fill:'#5EC8FF',sw:9});return s;},
    title:{t:'NASA TESTED IT',at:'nasa'},sub:{t:'~26-MINUTE NAP',at:'twenty',bg:'#9C7BE0'},src:'Source: Rosekind et al., NASA (1995)'}),

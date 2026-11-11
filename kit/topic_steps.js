@@ -10,7 +10,7 @@ const B={
    title:{t:'THE SITTING LIFE',at:.2},card:{lines:['Many daily steps come from','home, car and office'],at:5}}),
  point1:SCN({bg:'plum',items:[{ic:'heart',at:'heart',x:.25,y:.45,s:.6,bob:1},{ic:'sugar',at:'sugar',x:.7,y:.45,s:.9}],
    title:{t:'WALKING = HEART + SUGAR',at:.1,fill:'#FF8A8A'},bot:{t:'WALK AFTER MEALS',at:'walk',bg:'#3BB273'},src:'Source: Buffey et al., Sports Medicine (2022)'}),
- sil_point1:SCN({bg:'navy',items:[{ic:'pizza',at:.6,x:.25,y:.45,s:.6},{ic:'shoe',at:1.6,x:.72,y:.45,s:.6}],extra:(t,t0)=>t>t0+2.5?bigText('SMALLER SUGAR SPIKE',PX(.5),PY(.85),isV?54:66,{fill:'#7BC96F',sw:8}):'',
+ sil_point1:SCN({bg:'navy',items:[{ic:'pizza',at:.6,x:.25,y:.45,s:.6},{ic:'shoe',at:1.6,x:.72,y:.45,s:.6}],extra:(t,t0)=>t>t0+2.5&&t<t0+5.7?bigText('SMALLER SUGAR SPIKE',PX(.5),PY(.85),isV?54:66,{fill:'#7BC96F',sw:8}):'',
    title:{t:'EAT, THEN MOVE',at:.2},card:{lines:['Even 2-5 minutes of walking','after a meal helps'],at:6}}),
  point2:SCN({bg:'sky',items:[{ic:'heart',at:'study',x:.3,y:.45,s:.7},{ic:'shoe',at:'steps',x:.72,y:.45,s:.6}],extra:(t,t0,t1,T)=>{let s='';if(t>T('around'))s+=label('AGE 60+: 6,000-8,000',{x:PX(.5),y:PY(.72),size:isV?44:52,bg:'#F4C542',fill:OL,sc:popS(t,T('around'),.4)});if(t>T('younger'))s+=label('YOUNGER: 8,000-10,000',{x:PX(.5),y:PY(.86),size:isV?44:52,bg:'#5EC8FF',fill:OL,sc:popS(t,T('younger'),.4),r:3});return s;},
    title:{t:'~50,000 ADULTS STUDIED',at:.1},sub:{t:'MORE STEPS = LOWER RISK',at:'risk',bg:'#3BB273'},bot:{t:'BENEFIT LEVELS OFF',at:'leveled',bg:'#E8505B',until:'around'},src:'Source: Paluch et al., Lancet Public Health (2022)'}),

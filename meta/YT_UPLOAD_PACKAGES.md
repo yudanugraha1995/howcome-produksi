@@ -1,0 +1,210 @@
+# HOWCOME: paket upload video YouTube 16:9 (upload manual di YouTube Studio)
+
+Pengaturan tiap video: Audience = No, not made for kids · Category = Education · Visibility = Public (atau Schedule).
+
+Jadwal: 1 video per hari jam 12:00 WIB, lanjut dari slot terakhir (video lama terisi 12–26 Nov).
+
+## 1. snooze
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/snooze_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/snooze_yt.jpg
+- Jadwal tayang saran: Jum 27 Nov 2026, 12:00 WIB
+
+Title:
+```
+What If You Hit Snooze Every Morning? (Science Explained)
+```
+
+Description:
+```
+What If You Hit Snooze Every Morning? KOMO checks what science really says. ⏰🔍
+
+⏱️ Chapters
+0:00 Snooze again?
+0:26 How many people snooze
+0:49 That groggy feeling
+1:11 Scientists tested snoozing
+1:42 Plot twist: the real villain
+2:12 Team snooze or not?
+
+Team snooze or team jump out of bed? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- Sundelin et al., J Sleep Research (2023): survey of snoozing habits + lab study of 30 minutes of snoozing
+
+This video is for education only, not medical advice.
+
+#howcome #snooze #sleep #morning #science #explained
+```
+
+## 2. steps
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/steps_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/steps_yt.jpg
+- Jadwal tayang saran: Sab 28 Nov 2026, 12:00 WIB
+
+Title:
+```
+What If You Walked 10,000 Steps Every Day? (Science Explained)
+```
+
+Description:
+```
+What If You Walked 10,000 Steps Every Day? KOMO checks what science really says. 👟🔍
+
+⏱️ Chapters
+0:00 10,000 steps a day?
+0:25 Most of us walk less
+0:47 Walking, your heart & blood sugar
+1:09 What 50,000 adults showed
+1:42 Plot twist: where 10,000 came from
+2:13 How many steps today?
+
+How many steps did you walk today? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- Paluch et al., Lancet Public Health (2022): daily steps and mortality
+- Buffey et al., Sports Medicine (2022): light walking after meals and blood sugar
+- Tudor-Locke & Bassett, Sports Medicine (2004): origin of the 10,000-step goal
+- Lee et al., JAMA Internal Medicine (2019): steps in older women
+
+This video is for education only, not medical advice.
+
+#howcome #walking #steps #fitness #health #explained
+```
+
+## 3. headphones
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/headphones_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/headphones_yt.jpg
+- Jadwal tayang saran: Min 29 Nov 2026, 12:00 WIB
+
+Title:
+```
+What If You Wore Headphones All Day? (Science Explained)
+```
+
+Description:
+```
+What If You Wore Headphones All Day? KOMO checks what science really says. 🎧🔍
+
+⏱️ Chapters
+0:00 Headphones all day?
+0:27 1 billion+ young people at risk
+0:49 Tiny hair cells in your ear
+1:12 They don't grow back + the 60/60 rule
+1:43 Plot twist: noise cancelling
+2:13 How loud do you listen?
+
+How loud do you play your music? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- World Health Organization (2015): Make Listening Safe, 1.1 billion young people at risk
+- WHO-ITU H.870 (2019): global standard for safe listening devices
+
+This video is for education only, not medical advice.
+
+#howcome #headphones #hearing #ears #science #explained
+```
+
+## 4. coldshower
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/coldshower_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/coldshower_yt.jpg
+- Jadwal tayang saran: Sen 30 Nov 2026, 12:00 WIB
+
+Title:
+```
+What If You Took a Cold Shower Every Day? (Science Explained)
+```
+
+Description:
+```
+What If You Took a Cold Shower Every Day? KOMO checks what science really says. 🚿🔍
+
+⏱️ Chapters
+0:00 Cold shower every day?
+0:25 What the internet says
+0:48 The cold shock response
+1:12 The 3,000-person experiment
+1:45 Plot twist: how long is enough?
+2:12 Team cold or team warm?
+
+Team cold shower or team warm shower? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- Buijze et al., PLOS ONE (2016): the effect of cold showering on health and work (randomized trial, 3,018 people)
+
+This video is for education only, not medical advice.
+
+#howcome #coldshower #health #morningroutine #science #explained
+```
+
+## 5. nap
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/nap_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/nap_yt.jpg
+- Jadwal tayang saran: Sel 1 Des 2026, 12:00 WIB
+
+Title:
+```
+What If You Napped Every Afternoon? (Science Explained)
+```
+
+Description:
+```
+What If You Napped Every Afternoon? KOMO checks what science really says. 😴🔍
+
+⏱️ Chapters
+0:00 A nap every afternoon?
+0:26 The afternoon dip
+0:47 Why long naps feel bad
+1:10 NASA's pilot nap study
+1:42 Plot twist: the coffee nap
+2:13 Napper or never napper?
+
+Are you a napper or a never napper? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- Rosekind et al., NASA Technical Memorandum (1995): planned naps for long-haul pilots
+- Reyner & Horne, Psychophysiology (1997): caffeine plus a short nap for sleepy drivers
+- Hayashi et al., Clinical Neurophysiology (2003): caffeine, nap and bright light
+
+This video is for education only, not medical advice.
+
+#howcome #nap #sleep #productivity #science #explained
+```
+
+## 6. spicy
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/spicy_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/spicy_yt.jpg
+- Jadwal tayang saran: Rab 2 Des 2026, 12:00 WIB
+
+Title:
+```
+What If You Ate Spicy Food Every Day? (Science Explained)
+```
+
+Description:
+```
+What If You Ate Spicy Food Every Day? KOMO checks what science really says. 🌶️🔍
+
+⏱️ Chapters
+0:00 Spicy food every day?
+0:25 Capsaicin (and why birds don't care)
+0:48 The heat sensor trick
+1:12 The half-million-people study
+1:41 Plot twist: water vs milk
+2:13 How spicy can you go?
+
+How spicy can you go? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- Lv et al., BMJ (2015): consumption of spicy foods and mortality (China Kadoorie Biobank)
+- Tewksbury & Nabhan, Nature (2001): birds and chili seeds
+
+This video is for education only, not medical advice.
+
+#howcome #spicyfood #chili #food #science #explained
+```
