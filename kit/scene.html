@@ -210,7 +210,7 @@ function camV(t,t0,t1,a,b){const k=eio((t-t0)/(t1-t0));return [lerp(a[0],b[0],k)
 // ---------- subtitles ----------
 function wrap2(txt){const w=txt.split(' ');if(w.length<2||(w.length<3&&txt.length<=16))return [txt];let best=null;for(let i=1;i<w.length;i++){const a=w.slice(0,i).join(' '),b=w.slice(i).join(' ');const d=Math.abs(a.length-b.length);if(!best||d<best[0])best=[d,a,b];}return [best[1],best[2]];}
 function subs(t){const c=SUBS.find(x=>t>=x.s-0.05&&t<x.e+0.25);if(!c)return '';
-  const lines=wrap2(c.t); const maxc=Math.max(...lines.map(l=>l.length)); const fs=(ASP==='v'?98:76)*Math.min(1,(ASP==='v'?18:30)/maxc), cy=ASP==='v'?1490:968; const k=0.85+0.15*eout((t-c.s+0.05)/0.12);
+  const lines=wrap2(c.t).map(l=>l.toUpperCase()); const maxc=Math.max(...lines.map(l=>l.length)); const fs=(ASP==='v'?90:70)*Math.min(1,(ASP==='v'?16:27)/maxc), cy=ASP==='v'?1490:968; const k=0.85+0.15*eout((t-c.s+0.05)/0.12);
   return lines.map((l,i)=>{const y=cy+(i-(lines.length-1)/2)*fs*1.05+fs*0.35;return `<text x="${W/2}" y="${y}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${fs}" fill="#fff" stroke="#161828" stroke-width="${fs*0.16}" paint-order="stroke" stroke-linejoin="round" transform="translate(${W/2} ${cy}) scale(${k}) translate(${-W/2} ${-cy})">${l.replace(/&/g,'&amp;')}</text>`;}).join('');}
 
 // ---------- compose ----------
