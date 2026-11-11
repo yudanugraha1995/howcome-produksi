@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Took a Cold Shower Every Day? =====
+const B={
+ hook:SCN({bg:'sky',items:[{ic:'shower',at:0.1,x:.3,y:.4,s:.85},{ic:'ice',at:'freezing',x:.72,y:.45,s:.6}],komo:{x:.88,y:1.1,s:.5,expr:'surprised'},
+   title:{t:'COLD SHOWER EVERY DAY?',at:'what',fill:'#1C5D99'},bot:{t:'PAIN FOR NOTHING?',at:'pain'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'shower',at:2.6,x:.4,y:.4,s:.9},{ic:'snow',at:3.4,x:.72,y:.3,s:.6}],
+   title:{t:'WHAT DOES COLD WATER DO?',at:2.5},bot:{t:'LET\'S JUMP IN',at:8}}),
+ context:SCN({bg:'sand',extra:(t,t0,t1,T)=>{let s='';[['MORE ENERGY','energy','#F4C542'],['LESS FAT','fat','#E8505B'],['TOUGHER MIND','tougher','#9C7BE0']].forEach(([l,w,c],i)=>{const k=popS(t,T(w),.45);if(k>0)s+=label(l,{x:PX(.5),y:PY(.15+i*.3),size:isV?50:60,bg:c,fill:OL,sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'ALL OVER THE INTERNET',at:.1,fill:OL},bot:{t:'BUT WHAT DOES SCIENCE SAY?',at:'science',bg:'#5B6C8F'}}),
+ sil_context:SCN({bg:'sky',items:[{ic:'phone',at:.6,x:.3,y:.45,s:.6},{ic:'brain',at:1.4,x:.72,y:.45,s:.6}],
+   title:{t:'HYPE OR HELPFUL?',at:.2},card:{lines:['Let\'s look at a real','study with real people'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'lungs',at:'breathe',x:.25,y:.45,s:.6},{ic:'heart',at:'heart',x:.72,y:.45,s:.6,bob:1}],komo:{x:.5,y:1.1,s:.45,expr:'surprised',at:'gasp'},
+   title:{t:'THE COLD SHOCK',at:.1,fill:'#9FD8F5'},sub:{t:'GASP + FAST HEARTBEAT',at:'gasp',bg:'#E5383B'},bot:{t:'HEART PROBLEMS? BE CAREFUL',at:'careful',bg:'#F4C542',fill:OL}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'heart',at:.6,x:.5,y:.45,s:.8,bob:1}],extra:(t,t0)=>t>t0+2?bigText('START SLOW',PX(.5),PY(.85),isV?64:76,{fill:'#FFE27A',sw:8}):'',
+   title:{t:'YOUR BODY\'S ALARM',at:.2},card:{lines:['The shock fades','after the first minute'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'shower',at:'shower',x:.25,y:.4,s:.7},{ic:'calendar',at:'month',x:.72,y:.45,s:.55}],extra:(t,t0,t1,T)=>t>T('fewer')?bigText('-29% SICK DAYS OFF WORK',PX(.5),PY(.88),isV?54:70,{fill:'#3BB273',sw:9}):'',
+   title:{t:'~3,000 PEOPLE TESTED',at:'three'},sub:{t:'BUT NOT SICK LESS OFTEN',at:'didn\'t',bg:'#5B6C8F'},src:'Source: Buijze et al., PLOS ONE (2016)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'battery',at:.6,x:.5,y:.45,s:.9}],
+   title:{t:'MORE ENERGY, THEY SAID',at:.2},card:{lines:['Many kept doing it','after the study ended'],at:IS_SHORT?.4:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'didn\'t',items:[{ic:'clock',at:'thirty',x:.3,y:.45,s:.6},{ic:'shower',at:'blast',x:.72,y:.4,s:.7}],
+   sub:{t:'30 SECONDS ≈ 90 SECONDS',at:'thirty',bg:'#E5383B'},bot:{t:'END WITH A COLD BLAST',at:'finish',bg:'#5EC8FF',fill:OL},src:'Source: Buijze et al., PLOS ONE (2016)'}),
+ sil_twist:CHECKS({title:'COLD SHOWER TIPS',items:['NORMAL SHOWER FIRST','30 SECONDS IS ENOUGH','BREATHE SLOWLY','HEART ISSUE? ASK A DOCTOR']}),
+ cta:VSCTA({L:'TEAM COLD',R:'TEAM WARM',icL:'ice',icR:'fire',cl:'#5EC8FF',cr:'#F28C38',atL:'cold',atR:'warm',atV:'team',sL:.55,sR:.5,title:'YOUR PICK?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','TOOK A COLD SHOWER','EVERY DAY?']);

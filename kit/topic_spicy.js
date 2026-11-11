@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Ate Spicy Food Every Day? =====
+const B={
+ hook:SCN({bg:'plum',items:[{ic:'chili',at:0.1,x:.3,y:.45,s:.75},{ic:'fire',at:'fire',x:.72,y:.45,s:.6}],komo:{x:.88,y:1.1,s:.5,expr:'surprised'},
+   title:{t:'SPICY FOOD EVERY DAY?',at:'what',fill:'#FFE27A'},bot:{t:'HURTING OR HELPING?',at:'hurting'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'chili',at:2.6,x:.3,y:.45,s:.6},{ic:'noodles',at:3.4,x:.72,y:.45,s:.6}],
+   title:{t:'WHY DOES CHILI BURN?',at:2.5},bot:{t:'LET\'S TURN UP THE HEAT',at:8}}),
+ context:SCN({bg:'sand',items:[{ic:'chili',at:'chili',x:.3,y:.45,s:.6},{ic:'bird',at:'birds',x:.72,y:.45,s:.55}],
+   title:{t:'CAPSAICIN',at:'capsaicin',fill:OL},bot:{t:'BIRDS DON\'T FEEL IT!',at:'birds',bg:'#5EC8FF',fill:OL},src:'Source: Tewksbury & Nabhan, Nature (2001)'}),
+ sil_context:SCN({bg:'sky',items:[{ic:'bird',at:.6,x:.3,y:.45,s:.6},{ic:'chili',at:1.4,x:.72,y:.45,s:.5}],
+   title:{t:'NATURE\'S SEED DELIVERY',at:.2},card:{lines:['Birds eat peppers','and spread the seeds'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'chili',at:.3,x:.25,y:.45,s:.55},{ic:'brain',at:'brain',x:.72,y:.45,s:.6},{ic:'fire',at:'burning',x:.72,y:.15,s:.4}],
+   title:{t:'A HEAT SENSOR TRICK',at:'tricks',fill:'#FF8A8A'},bot:{t:'NOTHING IS BURNED',at:'nothing',bg:'#3BB273'}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'drop',at:.6,x:.3,y:.45,s:.6},{ic:'fire',at:1.4,x:.72,y:.45,s:.6}],extra:(t,t0)=>t>t0+2?bigText('SWEAT + RED FACE',PX(.5),PY(.85),isV?60:70,{fill:'#FFE27A',sw:8}):'',
+   title:{t:'YOUR BODY COOLS DOWN',at:.2},card:{lines:['Your brain reacts','like it\'s real heat'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'noodles',at:'spicy',x:.3,y:.45,s:.6},{ic:'heart',at:'lower',x:.72,y:.45,s:.6}],extra:(t,t0,t1,T)=>t>T('fourteen')?bigText('~14% LOWER RISK',PX(.5),PY(.74),isV?60:72,{fill:'#3BB273',sw:9}):'',
+   title:{t:'~500,000 ADULTS STUDIED',at:'half'},sub:{t:'SPICY ALMOST EVERY DAY',at:'almost',bg:'#E5383B'},bot:{t:'A CLUE, NOT PROOF',at:'prove',bg:'#5B6C8F'},src:'Source: Lv et al., BMJ (2015)'}),
+ sil_point2:SCN({bg:'sky',extra:(t,t0)=>{let s='';['MILD','MEDIUM','HOT','EXTRA HOT'].forEach((x,i)=>{const k=popS(t,t0+.6+i*.6,.4);if(k>0)s+=g(tr(PX(.12+i*.25),PY(.45),k*(.3+i*.08)),IC.chili(t))+(k>.5?bigText(x,PX(.12+i*.25),PY(.7),isV?36:48,{fill:OL}):'');});return s;},
+   title:{t:'HOW HOT IS YOUR PLATE?',at:.2},card:{lines:['Association studies','can\'t prove cause'],at:IS_SHORT?.4:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'water',items:[{ic:'water',at:'water',x:.3,y:.45,s:.6},{ic:'x',at:'spreads',x:.3,y:.15,s:.45},{ic:'milk',at:'milk',x:.72,y:.45,s:.6},{ic:'check',at:'better',x:.72,y:.12,s:.45}],
+   sub:{t:'MILK BEATS WATER',at:'milk',bg:'#3BB273'},bot:{t:'FEEL-GOOD BRAIN CHEMICALS',at:'chemicals',bg:'#9C7BE0'}}),
+ sil_twist:CHECKS({title:'SPICY SURVIVAL',items:['DRINK MILK','NOT WATER','START MILD','ENJOY THE RUSH']}),
+ cta:VSCTA({L:'MILD',R:'EXTRA HOT',icL:'milk',icR:'chili',cl:'#3BB273',cr:'#E5383B',atL:'spicy',atR:'go',atV:'how',sL:.45,sR:.55,title:'HOW SPICY?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','ATE SPICY FOOD','EVERY DAY?']);

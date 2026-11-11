@@ -1,0 +1,49 @@
+{
+ "id": "headphones",
+ "SC": "headphones_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 11.83
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 11.83,
+   "t1": 18.85
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.85,
+   "t1": 34.62
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 34.62,
+   "t1": 35.826
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 35.826,
+   "t1": 49.536
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 49.536,
+   "t1": 54.196
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 54.196,
+   "t1": 55.0
+  }
+ ]
+}

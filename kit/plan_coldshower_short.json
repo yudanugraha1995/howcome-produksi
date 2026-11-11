@@ -1,0 +1,55 @@
+{
+ "id": "coldshower",
+ "SC": "coldshower_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 8.47
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 8.47,
+   "t1": 14.8
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 14.8,
+   "t1": 22.68
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 22.68,
+   "t1": 38.45
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 38.45,
+   "t1": 38.762
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 38.762,
+   "t1": 49.482
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 49.482,
+   "t1": 54.792
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 54.792,
+   "t1": 55.0
+  }
+ ]
+}

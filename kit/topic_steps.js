@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Walked 10,000 Steps Every Day? =====
+const B={
+ hook:SCN({bg:'sky',items:[{ic:'shoe',at:0.1,x:.3,y:.45,s:.75},{ic:'watch',at:'watch',x:.7,y:.45,s:.6}],komo:{x:.88,y:1.1,s:.5,expr:'surprised',at2:'body',expr2:'think'},
+   title:{t:'10,000 STEPS A DAY?',at:'ten',fill:'#E8505B'},bot:{t:'THE MAGIC NUMBER?',at:'magic'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],extra:(t,t0)=>{let s='';for(let i=0;i<8;i++){const k=popS(t,t0+2.6+i*.4,.35);if(k>0)s+=g(tr(PX(.1+i*.11),PY(.75-(i%2)*.12),k*.35,-20),IC.shoe(t));}return s;},
+   title:{t:'WHAT DO STEPS REALLY DO?',at:2.5},bot:{t:'LET\'S COUNT!',at:8}}),
+ context:SCN({bg:'sand',extra:(t,t0,t1,T)=>{let s='';[['COUCH','couch'],['CAR','car'],['DESK','desk'],['COUCH','again']].forEach(([l,w],i)=>{const k=popS(t,T(w),.45);if(k>0)s+=label(l,{x:PX(.12+i*.25),y:PY(.5),size:isV?44:56,bg:['#9C7BE0','#5EC8FF','#F4C542','#9C7BE0'][i],fill:OL,sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'MOST OF US WALK LESS',at:.1,fill:OL},bot:{t:'JUST A FEW THOUSAND STEPS',at:'few'}}),
+ sil_context:SCN({bg:'sky',items:[{ic:'phone',at:.6,x:.3,y:.45,s:.6},{ic:'bed',at:1.4,x:.72,y:.55,s:1}],
+   title:{t:'THE SITTING LIFE',at:.2},card:{lines:['Many daily steps come from','home, car and office'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'heart',at:'heart',x:.25,y:.45,s:.6,bob:1},{ic:'sugar',at:'sugar',x:.7,y:.45,s:.9}],
+   title:{t:'WALKING = HEART + SUGAR',at:.1,fill:'#FF8A8A'},bot:{t:'WALK AFTER MEALS',at:'walk',bg:'#3BB273'},src:'Source: Buffey et al., Sports Medicine (2022)'}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'pizza',at:.6,x:.25,y:.45,s:.6},{ic:'shoe',at:1.6,x:.72,y:.45,s:.6}],extra:(t,t0)=>t>t0+2.5?bigText('SMALLER SUGAR SPIKE',PX(.5),PY(.85),isV?54:66,{fill:'#7BC96F',sw:8}):'',
+   title:{t:'EAT, THEN MOVE',at:.2},card:{lines:['Even 2-5 minutes of walking','after a meal helps'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'heart',at:'study',x:.3,y:.45,s:.7},{ic:'shoe',at:'steps',x:.72,y:.45,s:.6}],extra:(t,t0,t1,T)=>{let s='';if(t>T('around'))s+=label('AGE 60+: 6,000-8,000',{x:PX(.5),y:PY(.72),size:isV?44:52,bg:'#F4C542',fill:OL,sc:popS(t,T('around'),.4)});if(t>T('younger'))s+=label('YOUNGER: 8,000-10,000',{x:PX(.5),y:PY(.86),size:isV?44:52,bg:'#5EC8FF',fill:OL,sc:popS(t,T('younger'),.4),r:3});return s;},
+   title:{t:'~50,000 ADULTS STUDIED',at:.1},sub:{t:'MORE STEPS = LOWER RISK',at:'risk',bg:'#3BB273'},bot:{t:'BENEFIT LEVELS OFF',at:'leveled',bg:'#E8505B',until:'around'},src:'Source: Paluch et al., Lancet Public Health (2022)'}),
+ sil_point2:SCN({bg:'sky',extra:(t,t0)=>{let s='';[2,4,6,8,10].forEach((n,i)=>{const k=popS(t,t0+.6+i*.6,.4);if(k<=0)return;const h=[120,260,360,410,420][i]*k;s+=`<rect x="${fmt(PX(.1+i*.2)-60)}" y="${fmt(PY(.85)-h)}" width="120" height="${fmt(h)}" rx="16" fill="#3BB273" stroke="${OL}" stroke-width="7"/>`+bigText(n+'K',PX(.1+i*.2),PY(.85)+70,isV?44:52,{fill:OL});});return s;},
+   title:{t:'MORE IS BETTER... TO A POINT',at:.2},card:{lines:['The curve flattens','after a few thousand steps'],y:'top',at:IS_SHORT?.4:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'ten',items:[{ic:'watch',at:'pedometer',x:.3,y:.45,s:.6},{ic:'calendar',at:'sixties',x:.72,y:.42,s:.6}],
+   sub:{t:'IT WAS A 1960s PEDOMETER NAME',at:'japanese',bg:'#E5383B'},bot:{t:'EVERY EXTRA STEP HELPS',at:'every',bg:'#3BB273'},src:'Source: Tudor-Locke & Bassett, Sports Med (2004); Lee et al., JAMA Intern Med (2019)'}),
+ sil_twist:CHECKS({title:'STEP SMARTER',items:['ANY EXTRA STEPS COUNT','WALK AFTER MEALS','TAKE THE STAIRS','10K IS NOT MAGIC']}),
+ cta:VSCTA({L:'UNDER 5,000',R:'OVER 10,000',icL:'bed',icR:'shoe',cl:'#9C7BE0',cr:'#3BB273',atL:'many',atR:'walk',atV:'today',sL:.7,sR:.5,title:'HOW MANY TODAY?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','WALKED 10,000 STEPS','EVERY DAY?']);

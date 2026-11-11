@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Napped Every Afternoon? =====
+const B={
+ hook:SCN({bg:'sand',items:[{ic:'clock',at:0.1,x:.3,y:.45,s:.65},{ic:'zzz',at:'closing',x:.72,y:.3,s:.7}],komo:{x:.88,y:1.1,s:.5,expr:'think',at2:'genius',expr2:'surprised'},
+   title:{t:'A NAP EVERY AFTERNOON?',at:'what',fill:OL},bot:{t:'LAZY OR GENIUS?',at:'lazy'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'pillow',at:2.6,x:.4,y:.5,s:.8},{ic:'zzz',at:3.4,x:.7,y:.3,s:.6}],
+   title:{t:'WHAT DOES A NAP DO?',at:2.5},bot:{t:'LET\'S FIND OUT',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'sun',at:.2,x:.3,y:.4,s:.6},{ic:'battery',at:'lowers',x:.72,y:.45,s:.7}],
+   title:{t:'THE AFTERNOON DIP',at:'dip',fill:OL},bot:{t:'YOUR BODY CLOCK DID IT',at:'clock',bg:'#9C7BE0'}}),
+ sil_context:SCN({bg:'sky',extra:(t,t0)=>{let s='';const pts=[[.05,.3],[.25,.2],[.45,.25],[.6,.6],[.75,.35],[.95,.4]];const k=Math.min(1,Math.max(0,(t-t0-.5)/3));let d='';pts.forEach(([x,y],i)=>{d+=(i?'L':'M')+fmt(PX(x))+','+fmt(PY(y));});s+=`<path d="${d}" fill="none" stroke="#E8505B" stroke-width="16" stroke-linecap="round" stroke-dasharray="3000" stroke-dashoffset="${fmt(3000*(1-k))}"/>`;if(k>.6)s+=label('2-3 PM DIP',{x:PX(.6),y:PY(.75),size:isV?44:54,bg:'#F4C542',fill:OL});return s;},
+   title:{t:'ALERTNESS DURING THE DAY',at:.2,size:isV?58:66},card:{lines:['Even after a good night,','the dip still comes'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'bed',at:.3,x:.3,y:.55,s:1},{ic:'brain',at:'deep',x:.72,y:.45,s:.6}],komo:{x:.88,y:1.1,s:.45,expr:'think',at:'groggy'},
+   title:{t:'TOO LONG = DEEP SLEEP',at:'long',fill:'#FF8A8A'},bot:{t:'GROGGY AND SLOW',at:'groggy',bg:'#9C7BE0'}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'clock',at:.6,x:.3,y:.45,s:.6},{ic:'x',at:2.2,x:.72,y:.45,s:.5}],extra:(t,t0)=>t>t0+2?bigText('1 HOUR+ = TOO LONG',PX(.5),PY(.85),isV?56:70,{fill:'#FFE27A',sw:8}):'',
+   title:{t:'NAP LENGTH MATTERS',at:.2},card:{lines:['Long naps can make you','feel worse at first'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'plane',at:'pilots',x:.3,y:.45,s:.6},{ic:'clock',at:'twenty',x:.72,y:.45,s:.55}],extra:(t,t0,t1,T)=>{let s='';if(t>T('performance'))s+=bigText('PERFORMANCE +34%',PX(.5),PY(.82),isV?56:66,{fill:'#3BB273',sw:9});if(t>T('alertness'))s+=bigText('ALERTNESS +54%',PX(.5),PY(.95),isV?56:66,{fill:'#5EC8FF',sw:9});return s;},
+   title:{t:'NASA TESTED IT',at:'nasa'},sub:{t:'~26-MINUTE NAP',at:'twenty',bg:'#9C7BE0'},src:'Source: Rosekind et al., NASA (1995)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'alarm',at:.6,x:.5,y:.45,s:.7}],
+   title:{t:'SET AN ALARM',at:.2},card:{lines:['About 20 minutes =','no deep sleep, no grogginess'],at:IS_SHORT?.4:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'try',items:[{ic:'coffee',at:'coffee',x:.3,y:.45,s:.6},{ic:'pillow',at:'nap#1',x:.72,y:.5,s:.6}],
+   sub:{t:'THE COFFEE NAP',at:'coffee',bg:'#F28C38'},bot:{t:'NOT TOO LATE IN THE DAY',at:'late',bg:'#5B6C8F'},src:'Source: Reyner & Horne, Psychophysiology (1997); Hayashi et al. (2003)'}),
+ sil_twist:CHECKS({title:'PERFECT NAP',items:['15-20 MINUTES','EARLY AFTERNOON','SET AN ALARM','COFFEE FIRST (OPTIONAL)']}),
+ cta:VSCTA({L:'NAPPER',R:'NEVER NAPPER',icL:'pillow',icR:'coffee',cl:'#9C7BE0',cr:'#F28C38',atL:'napper',atR:'never',atV:'are',sL:.55,sR:.5,title:'YOUR PICK?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','NAPPED EVERY','AFTERNOON?']);

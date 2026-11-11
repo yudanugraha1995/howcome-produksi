@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Wore Headphones All Day? =====
+const B={
+ hook:SCN({bg:'night',items:[{ic:'headphones',at:0.1,x:.3,y:.45,s:.75},{ic:'volume',at:'what',x:.72,y:.45,s:.7}],komo:{x:.88,y:1.1,s:.5,expr:'surprised'},
+   title:{t:'HEADPHONES ALL DAY?',at:'what',fill:'#FFE27A'},bot:{t:'WHAT ABOUT YOUR EARS?',at:'ears'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'ear',at:2.6,x:.5,y:.45,s:.9}],
+   title:{t:'WHAT\'S HAPPENING IN YOUR EARS?',at:2.5},bot:{t:'LET\'S LISTEN CLOSELY',at:8}}),
+ context:SCN({bg:'sand',items:[{ic:'headphones',at:'young',x:.3,y:.45,s:.6},{ic:'warn',at:'risk',x:.72,y:.45,s:.6}],
+   title:{t:'1 BILLION+ YOUNG PEOPLE',at:'billion',fill:OL},bot:{t:'AT RISK FROM UNSAFE LISTENING',at:'unsafe'},src:'Source: World Health Organization, Make Listening Safe (2015)'}),
+ sil_context:SCN({bg:'sky',items:[{ic:'phone',at:.6,x:.25,y:.45,s:.6},{ic:'volume',at:1.4,x:.72,y:.45,s:.7}],
+   title:{t:'LOUD MUSIC, LONG HOURS',at:.2},card:{lines:['Loudness x time','= the real danger'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'ear',at:.3,x:.25,y:.45,s:.6},{ic:'hairCell',at:'hair',x:.7,y:.5,s:1}],
+   title:{t:'TINY HAIR CELLS',at:'hair',fill:'#FF8A8A'},bot:{t:'LOUD SOUND BREAKS THEM',at:'break',bg:'#E5383B'}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'hairCell',at:.6,x:.3,y:.5,s:1},{ic:'x',at:2.2,x:.72,y:.45,s:.5}],
+   title:{t:'SOUND → SIGNAL → BRAIN',at:.2},card:{lines:['Each hair cell turns','sound into a signal'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'hairCell',at:.1,x:.25,y:.45,s:.9},{ic:'x',at:'back',x:.25,y:.2,s:.4},{ic:'volume',at:'decibels',x:.72,y:.45,s:.7}],extra:(t,t0,t1,T)=>t>T('sixty')?bigText('60% VOLUME × 60 MINUTES',PX(.5),PY(.88),isV?50:66,{fill:'#3BB273',sw:8}):'',
+   title:{t:'THEY DON\'T GROW BACK',at:.1,fill:'#E5383B'},sub:{t:'PHONES: 100+ DECIBELS',at:'decibels',bg:'#E5383B'},src:'Source: WHO-ITU H.870 Safe Listening (2019)'}),
+ sil_point2:SCN({bg:'sky',extra:(t,t0)=>{let s='';['60%','60 MIN','BREAK'].forEach((x,i)=>{const k=popS(t,t0+.6+i*.9,.4);if(k>0)s+=label(x,{x:PX(.17+i*.33),y:PY(.45),size:isV?56:70,bg:['#5EC8FF','#F4C542','#3BB273'][i],fill:OL,sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'THE 60/60 RULE',at:.2},card:{lines:['Under 60% volume,','about 60 minutes at a time'],at:IS_SHORT?.4:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'noise',items:[{ic:'headphones',at:'cancelling',x:.3,y:.45,s:.65},{ic:'check',at:'protect',x:.3,y:.15,s:.45},{ic:'ear',at:'ring',x:.72,y:.45,s:.55}],
+   sub:{t:'NOISE CANCELLING HELPS',at:'cancelling',bg:'#3BB273'},bot:{t:'RINGING = TOO LOUD',at:'ring',bg:'#E5383B'}}),
+ sil_twist:CHECKS({title:'SAFE LISTENING',items:['UNDER 60% VOLUME','TAKE QUIET BREAKS','USE NOISE CANCELLING','RINGING? TURN IT DOWN']}),
+ cta:VSCTA({L:'QUIET',R:'FULL BLAST',icL:'headphones',icR:'volume',cl:'#3BB273',cr:'#E8505B',atL:'loud',atR:'music',atV:'play',sL:.45,sR:.6,title:'HOW LOUD?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','WORE HEADPHONES','ALL DAY?']);

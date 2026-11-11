@@ -1,0 +1,79 @@
+{
+ "id": "snooze",
+ "SC": "snooze_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 9.9
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 9.9,
+   "t1": 26.076
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 26.076,
+   "t1": 32.906
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 32.906,
+   "t1": 49.082
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 49.082,
+   "t1": 55.212
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 55.212,
+   "t1": 71.388
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 71.388,
+   "t1": 86.728
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 86.728,
+   "t1": 102.904
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 102.904,
+   "t1": 116.524
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 116.524,
+   "t1": 132.7
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 132.7,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

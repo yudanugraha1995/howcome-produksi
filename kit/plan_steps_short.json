@@ -1,0 +1,43 @@
+{
+ "id": "steps",
+ "SC": "steps_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 11.57
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 11.57,
+   "t1": 29.76
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 29.76,
+   "t1": 32.1
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.1,
+   "t1": 48.77
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 48.77,
+   "t1": 53.44
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 53.44,
+   "t1": 55.0
+  }
+ ]
+}

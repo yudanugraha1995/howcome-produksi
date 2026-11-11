@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Hit Snooze Every Morning? =====
+const B={
+ hook:SCN({bg:'night',items:[{ic:'alarm',at:0.1,x:.3,y:.45,s:.75},{ic:'snoozeBtn',at:'snooze',x:.72,y:.5,s:.75},{ic:'zzz',at:'again',x:.72,y:.2,s:.6}],komo:{x:.88,y:1.1,s:.5,expr:'surprised'},
+   title:{t:'SNOOZE AGAIN?',at:'what',fill:'#FFE27A'},bot:{t:'RUINING YOUR BRAIN?',at:'ruining'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'alarm',at:2.6,x:.3,y:.45,s:.7},{ic:'bed',at:3.4,x:.72,y:.55,s:1},{ic:'zzz',at:4.2,x:.72,y:.2,s:.6}],
+   title:{t:'WHAT HAPPENS WHEN YOU SNOOZE?',at:2.5},bot:{t:'LET\'S ASK SCIENCE',at:8}}),
+ context:SCN({bg:'sand',extra:(t,t0,t1,T)=>{let s='';for(let i=0;i<10;i++){const k=popS(t,T('seven')+i*.12,.35);if(k<=0)continue;const x=PX(.1+(i%5)*.2),y=PY(.3+Math.floor(i/5)*.35);s+=`<g transform="${tr(x,y,k*.6)}"><circle cy="-60" r="50" fill="#F6D2B8" stroke="${OL}" stroke-width="6"/><rect x="-55" y="-10" width="110" height="130" rx="40" fill="${i<7?'#9C7BE0':'#CDD6DE'}" stroke="${OL}" stroke-width="6"/></g>`;}return s;},
+   title:{t:'7 IN 10 PEOPLE SNOOZE',at:'seven'},bot:{t:'OFTEN 20+ MINUTES',at:'twenty',bg:'#9C7BE0'},src:'Source: Sundelin et al., J Sleep Research (2023)'}),
+ sil_context:SCN({bg:'sky',items:[{ic:'alarm',at:.6,x:.2,y:.45,s:.5},{ic:'alarm',at:1.2,x:.5,y:.45,s:.5},{ic:'alarm',at:1.8,x:.8,y:.45,s:.5}],
+   title:{t:'ONE ALARM? FIVE ALARMS?',at:.2},card:{lines:['Most snoozers hit the button','again and again'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'brain',at:.3,x:.3,y:.45,s:.7},{ic:'zzz',at:'breaking',x:.72,y:.35,s:.6}],komo:{x:.85,y:1.1,s:.5,expr:'think',at:'groggy'},
+   title:{t:'BROKEN SLEEP?',at:.1,fill:'#FF8A8A'},sub:{t:'SLEEP INERTIA',at:'inertia',bg:'#9C7BE0'}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'brain',at:.6,x:.5,y:.45,s:.8}],extra:(t,t0)=>t>t0+2?bigText('GROGGY = NORMAL',PX(.5),PY(.85),isV?60:70,{fill:'#FFE27A',sw:8}):'',
+   title:{t:'THAT FOGGY FEELING',at:.2},card:{lines:['Grogginess after waking','usually fades in minutes'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'clock',at:'thirty',x:.25,y:.45,s:.6},{ic:'brain',at:'brain',x:.7,y:.45,s:.7},{ic:'check',at:'good',x:.7,y:.15,s:.45}],
+   title:{t:'SCIENTISTS TESTED IT',at:.1},sub:{t:'30 MIN OF SNOOZING',at:'thirty',bg:'#9C7BE0'},bot:{t:'THINKING: JUST AS GOOD',at:'thinking',bg:'#3BB273'},src:'Source: Sundelin et al., J Sleep Research (2023)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'check',at:.6,x:.2,y:.45,s:.5},{ic:'check',at:1.2,x:.5,y:.45,s:.5},{ic:'check',at:1.8,x:.8,y:.45,s:.5}],
+   title:{t:'NO DAMAGE FOUND',at:.2},card:{lines:['Sleep, mood and stress hormone','looked normal'],at:IS_SHORT?.4:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'snoozing',items:[{ic:'moon',at:'late',x:.3,y:.42,s:.7},{ic:'bed',at:'bedtime',x:.72,y:.55,s:1}],
+   sub:{t:'LOSING SLEEP IS THE VILLAIN',at:'losing',bg:'#E5383B'},bot:{t:'FIX: EARLIER BEDTIME',at:'earlier',bg:'#3BB273'}}),
+ sil_twist:CHECKS({title:'SNOOZE SMARTER',items:['GO TO BED EARLIER','ONE LATER ALARM','NOT FIVE ALARMS','SNOOZING IS OK']}),
+ cta:VSCTA({L:'TEAM SNOOZE',R:'JUMP OUT OF BED',icL:'snoozeBtn',icR:'sun',cl:'#9C7BE0',cr:'#F28C38',atL:'snooze',atR:'jump',atV:'team',sL:.5,sR:.5,title:'YOUR PICK?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','HIT SNOOZE','EVERY MORNING?']);

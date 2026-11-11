@@ -1,0 +1,49 @@
+{
+ "id": "snooze",
+ "SC": "snooze_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 9.9
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 9.9,
+   "t1": 16.03
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 16.03,
+   "t1": 31.37
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 31.37,
+   "t1": 34.196
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 34.196,
+   "t1": 47.816
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.816,
+   "t1": 53.116
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 53.116,
+   "t1": 55.0
+  }
+ ]
+}

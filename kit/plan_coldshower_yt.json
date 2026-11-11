@@ -1,0 +1,79 @@
+{
+ "id": "coldshower",
+ "SC": "coldshower_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 8.47
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 8.47,
+   "t1": 25.174
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 25.174,
+   "t1": 31.504
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 31.504,
+   "t1": 48.208
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 48.208,
+   "t1": 56.088
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 56.088,
+   "t1": 72.792
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 72.792,
+   "t1": 88.562
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 88.562,
+   "t1": 105.266
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 105.266,
+   "t1": 115.986
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 115.986,
+   "t1": 132.69
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 132.69,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

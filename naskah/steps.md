@@ -1,0 +1,43 @@
+# What If You Walked 10,000 Steps Every Day?
+
+Total: 1106 characters incl. tags (max 1200). YouTube = full narration + silent scenes (144 s). Short = cut to 55 s.
+
+## hook (SHORT + YT)
+
+[curious] Ten thousand steps. Every. Single. Day. Your watch says it's the magic number, and it buzzes when you hit it. [excited] But what would it really do to your body?
+
+## context (YT only)
+
+Many of us walk far less, often just a few thousand steps a day. Couch, car, desk, couch again.
+
+## point1 (YT only)
+
+Walking gets your heart pumping and helps your muscles pull sugar out of your blood. Even a short walk after a meal can lower the sugar spike.
+
+## point2 (SHORT + YT)
+
+[surprised] And the big one. A huge study of about fifty thousand adults found that more steps meant a lower risk of dying early. But the benefit leveled off, around six to eight thousand steps for people over sixty, and eight to ten thousand for younger adults. So more is better, but only up to a point.
+
+## twist (SHORT + YT)
+
+[laughs] Plot twist! Ten thousand didn't come from science. It came from a Japanese pedometer sold in the nineteen sixties, whose name meant ten thousand steps meter. Great marketing, but every extra step helps! [excited] Even going from two thousand to four thousand makes a real difference.
+
+## cta (SHORT + YT)
+
+How many steps did you walk today? Tell me in the comments, and subscribe for more HowCome!
+
+## Full narration
+
+```
+[curious] Ten thousand steps. Every. Single. Day. Your watch says it's the magic number, and it buzzes when you hit it. [excited] But what would it really do to your body?
+
+Many of us walk far less, often just a few thousand steps a day. Couch, car, desk, couch again.
+
+Walking gets your heart pumping and helps your muscles pull sugar out of your blood. Even a short walk after a meal can lower the sugar spike.
+
+[surprised] And the big one. A huge study of about fifty thousand adults found that more steps meant a lower risk of dying early. But the benefit leveled off, around six to eight thousand steps for people over sixty, and eight to ten thousand for younger adults. So more is better, but only up to a point.
+
+[laughs] Plot twist! Ten thousand didn't come from science. It came from a Japanese pedometer sold in the nineteen sixties, whose name meant ten thousand steps meter. Great marketing, but every extra step helps! [excited] Even going from two thousand to four thousand makes a real difference.
+
+How many steps did you walk today? Tell me in the comments, and subscribe for more HowCome!
+```

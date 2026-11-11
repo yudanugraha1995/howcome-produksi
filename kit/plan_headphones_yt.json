@@ -1,0 +1,79 @@
+{
+ "id": "headphones",
+ "SC": "headphones_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 11.83
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 11.83,
+   "t1": 27.622
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 27.622,
+   "t1": 33.672
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 33.672,
+   "t1": 49.464
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 49.464,
+   "t1": 56.484
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 56.484,
+   "t1": 72.276
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 72.276,
+   "t1": 88.046
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 88.046,
+   "t1": 103.838
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 103.838,
+   "t1": 117.548
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 117.548,
+   "t1": 133.34
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 133.34,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}
