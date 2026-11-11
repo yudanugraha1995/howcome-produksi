@@ -12,6 +12,7 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 ## Video
 - Style = MASA SIH **Style A** (`kit/STYLE_A.md`), but replace YUMA with KOMO and translate all on-screen text to English.
 - Workflow: mp3 -> transcribe (faster-whisper, English) -> `subs_<id>.json` -> write `scenes_<id>.js` -> `kit/runone.sh <id>`.
+- Sound effects (owner request, 11 Nov 2026, new videos from batch 5 on): after `compose.py`, run `python3 kit/sfx.py <id>_short v` and `python3 kit/sfx.py <id>_yt h` (scene server on :8765) before `runone.sh`. Whoosh on every scene change, pop when items appear, ding on the HOW COME / PLOT TWIST cards; louder in silent scenes, soft under the voice. Self-made, royalty-free.
 - Default output: Short 9:16, 1080x1920 (Short = 55 s, cut from the narration). Title thumbnail in the first 0.1 s (`THUMB`).
 - Audio is used as-is; never re-generate or change the narration.
 - Always check a frame sheet before delivering.
