@@ -208,3 +208,73 @@ This video is for education only, not medical advice.
 
 #howcome #spicyfood #chili #food #science #explained
 ```
+
+## 7. coffee
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/coffee_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/coffee_yt.jpg
+- Jadwal tayang saran: Kam 3 Des 2026, 12:00 WIB
+
+Title:
+```
+What If You Drank Coffee Every Day? (Science Explained)
+```
+
+Description:
+```
+What If You Drank Coffee Every Day? KOMO checks what science really says. ☕🔍
+
+⏱️ Chapters
+0:00 Coffee every day?
+0:25 Billions of cups a day
+0:48 How caffeine works
+1:12 What 200+ studies found
+1:44 Plot twist: coffee and hydration
+2:13 How many cups do you drink?
+
+How many cups do you drink a day? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- Poole et al., BMJ (2017): coffee consumption and health, umbrella review of meta-analyses
+- Killer et al., PLOS ONE (2014): no evidence of dehydration with moderate daily coffee intake
+- US FDA: caffeine and how long it lasts
+
+This video is for education only, not medical advice.
+
+#howcome #coffee #caffeine #health #science #explained
+```
+
+## 8. tvclose
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/tvclose_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/tvclose_yt.jpg
+- Jadwal tayang saran: Jum 4 Des 2026, 12:00 WIB
+
+Title:
+```
+What If You Sat Close to the TV Every Day? (Science Explained)
+```
+
+Description:
+```
+What If You Sat Close to the TV Every Day? KOMO checks what science really says. 📺🔍
+
+⏱️ Chapters
+0:00 Move back from the TV!
+0:24 The warning every kid heard
+0:46 What your eyes really feel
+1:11 Eye doctors + time outside
+1:43 Plot twist: the 1960s TVs
+2:13 Were you told to move back?
+
+Were you told to move back from the TV? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- American Academy of Ophthalmology: sitting close to the TV and eye health
+- He et al., JAMA (2015): outdoor time at school and myopia in children
+- US recall of some 1960s color TV sets for excess X-ray emission (1967)
+
+This video is for education only, not medical advice.
+
+#howcome #eyes #tv #myth #science #explained
+```

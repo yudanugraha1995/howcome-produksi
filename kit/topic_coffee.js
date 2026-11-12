@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Drank Coffee Every Day? =====
+const B={
+ hook:SCN({bg:'sand',items:[{ic:'coffee',at:0.1,x:.2,y:.45,s:.5},{ic:'coffee',at:'lunch',x:.45,y:.45,s:.5},{ic:'coffee',at:'four',x:.7,y:.45,s:.5}],komo:{x:.9,y:1.1,s:.5,expr:'surprised',at2:'helping',expr2:'think'},
+   title:{t:'COFFEE EVERY DAY?',at:'what',fill:OL},bot:{t:'HURTING OR HELPING?',at:'hurting'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'coffee',at:2.6,x:.35,y:.45,s:.7},{ic:'brain',at:3.4,x:.72,y:.45,s:.6}],
+   title:{t:'WHAT DOES COFFEE DO?',at:2.5},bot:{t:'LET\'S BREW SOME SCIENCE',at:8}}),
+ context:SCN({bg:'sky',items:[{ic:'cup3',at:'billions',x:.5,y:.45,s:.8}],
+   title:{t:'BILLIONS OF CUPS A DAY',at:'billions',fill:OL},bot:{t:'ESPRESSO TO ICED LATTE',at:'espressos',bg:'#F28C38'}}),
+ sil_context:SCN({bg:'sky',extra:(t,t0)=>{let s='';['ESPRESSO','LATTE','ICED','INSTANT'].forEach((x,i)=>{const k=popS(t,t0+.6+i*.7,.4);if(k>0)s+=label(x,{x:PX(.12+i*.25),y:PY(.45),size:isV?40:52,bg:['#6B3E26','#F28C38','#5EC8FF','#F4C542'][i],fill:i?OL:'#fff',sc:k,r:i%2?3:-3});});return s;},
+   title:{t:'PICK YOUR CUP',at:.2},card:{lines:['One of the most popular','drinks on Earth'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'brain',at:'brain',x:.3,y:.45,s:.6},{ic:'clock',at:'hours',x:.72,y:.45,s:.55}],
+   title:{t:'CAFFEINE BLOCKS "SLEEPY"',at:.1,fill:'#FF8A8A'},sub:{t:'ADENOSINE',at:'adenosine',bg:'#9C7BE0'},bot:{t:'HALF STILL THERE AFTER 5 H',at:'half',bg:'#F28C38'}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'coffee',at:.6,x:.25,y:.45,s:.5},{ic:'moon',at:2,x:.72,y:.45,s:.55}],extra:(t,t0)=>t>t0+2.5&&t<t0+5.7?bigText('3 PM CUP = STILL AWAKE AT 8',PX(.5),PY(.85),isV?44:60,{fill:'#FFE27A',sw:8}):'',
+   title:{t:'CAFFEINE LINGERS',at:.2},card:{lines:['Late coffee can make','falling asleep harder'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'cup3',at:.3,x:.5,y:.4,s:.6},{ic:'heart',at:'heart',x:.82,y:.42,s:.45,bob:1}],extra:(t,t0,t1,T)=>t>T('lower')&&t<T('link')?bigText('LOWER RISK vs NO COFFEE',PX(.5),PY(.74),isV?50:64,{fill:'#3BB273',sw:9}):'',
+   title:{t:'200+ STUDIES REVIEWED',at:'review'},sub:{t:'3-4 CUPS A DAY',at:'three',bg:'#F28C38'},bot:{t:'A LINK, NOT PROOF · GO EASY ON SUGAR',at:'link',bg:'#5B6C8F'},src:'Source: Poole et al., BMJ (2017)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'coffee',at:.4,x:.3,y:.45,s:.6},{ic:'sugar',at:1,x:.72,y:.45,s:.9},{ic:'x',at:1.6,x:.72,y:.2,s:.4}],
+   title:{t:'BLACK > SUPER SWEET',at:.2},card:{lines:['Sugar and cream','add up fast'],at:IS_SHORT?.3:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'coffee',items:[{ic:'coffee',at:'coffee#1',x:.3,y:.45,s:.55},{ic:'water',at:'water',x:.72,y:.45,s:.6}],
+   sub:{t:'COFFEE ≈ WATER FOR HYDRATION',at:'hydration',bg:'#3BB273'},bot:{t:'STOP BY MID AFTERNOON',at:'stop',bg:'#9C7BE0'},src:'Source: Killer et al., PLOS ONE (2014)'}),
+ sil_twist:CHECKS({title:'SMART COFFEE',items:['3-4 CUPS MAX','EASY ON SUGAR','NONE AFTER 3 PM','IT COUNTS AS A DRINK']}),
+ cta:VSCTA({L:'0-1 CUPS',R:'3+ CUPS',icL:'water',icR:'coffee',cl:'#5EC8FF',cr:'#F28C38',atL:'many',atR:'cups',atV:'drink',sL:.5,sR:.5,title:'HOW MANY CUPS?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','DRANK COFFEE','EVERY DAY?']);

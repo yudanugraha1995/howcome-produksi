@@ -1,0 +1,26 @@
+// ===== HOWCOME? | What If You Sat Close to the TV Every Day? =====
+const B={
+ hook:SCN({bg:'night',items:[{ic:'tv',at:0.1,x:.4,y:.42,s:.7},{ic:'eye',at:'eyes',x:.78,y:.3,s:.45}],komo:{x:.75,y:1.1,s:.55,expr:'surprised'},
+   title:{t:'MOVE BACK!',at:0.1,fill:'#FFE27A'},bot:{t:'WOULD IT RUIN YOUR EYES?',at:'ruin'}}),
+ sil_hook:SCN({bg:'grid',chapter:['HOW COME?'],items:[{ic:'tv',at:2.6,x:.35,y:.45,s:.6},{ic:'eye',at:3.4,x:.72,y:.45,s:.6}],
+   title:{t:'IS THE WARNING TRUE?',at:2.5},bot:{t:'LET\'S LOOK CLOSER',at:8}}),
+ context:SCN({bg:'sand',items:[{ic:'glasses',at:.3,x:.3,y:.45,s:.6},{ic:'warn',at:'blind',x:.72,y:.45,s:.55}],
+   title:{t:'EVERY KID HEARD THIS',at:.1,fill:OL},bot:{t:'"YOU\'LL NEED GLASSES!"',at:'glasses'}}),
+ sil_context:SCN({bg:'sky',items:[{ic:'tv',at:.6,x:.3,y:.45,s:.55},{ic:'glasses',at:1.4,x:.72,y:.45,s:.55}],
+   title:{t:'MYTH OR FACT?',at:.2},card:{lines:['Parents everywhere','said the same thing'],at:5}}),
+ point1:SCN({bg:'plum',items:[{ic:'eyeRed',at:.3,x:.3,y:.45,s:.6},{ic:'tv',at:.2,x:.72,y:.45,s:.5}],
+   title:{t:'LESS BLINKING',at:'blink',fill:'#FF8A8A'},sub:{t:'DRY, TIRED, ITCHY EYES',at:'dry',bg:'#E5383B'},bot:{t:'KIDS FOCUS UP CLOSE EASILY',at:'kids',bg:'#3BB273'}}),
+ sil_point1:SCN({bg:'navy',items:[{ic:'eyeRed',at:.6,x:.5,y:.45,s:.7}],extra:(t,t0)=>t>t0+2&&t<t0+5.7?bigText('EYE STRAIN = TEMPORARY',PX(.5),PY(.85),isV?52:66,{fill:'#FFE27A',sw:8}):'',
+   title:{t:'WHAT YOUR EYES FEEL',at:.2},card:{lines:['Rest and blinking','make it go away'],at:6}}),
+ point2:SCN({bg:'sky',items:[{ic:'eye',at:'doctors',x:.25,y:.45,s:.55},{ic:'check',at:'won\'t',x:.25,y:.18,s:.4},{ic:'tree',at:'outside',x:.72,y:.45,s:.6},{ic:'sun',at:'outdoor',x:.86,y:.18,s:.35}],
+   title:{t:'NO PERMANENT DAMAGE',at:.1},sub:{t:'+40 MIN OUTSIDE A DAY',at:'forty',bg:'#3BB273'},bot:{t:'FEWER NEARSIGHTED KIDS',at:'lowered',bg:'#5EC8FF',fill:OL},src:'Sources: American Academy of Ophthalmology; He et al., JAMA (2015)'}),
+ sil_point2:SCN({bg:'sky',items:[{ic:'tree',at:.4,x:.3,y:.45,s:.6},{ic:'sun',at:1,x:.72,y:.35,s:.5}],
+   title:{t:'GO PLAY OUTSIDE!',at:.2},card:{lines:['Daylight helps kids\' eyes','grow the right way'],at:IS_SHORT?.3:4}}),
+ twist:SCN({bg:'brown',chapter:['PLOT TWIST!'],chapterEnd:'warning',items:[{ic:'tv',at:'sixties',x:.3,y:.45,s:.5},{ic:'radiation',at:'radiation',x:.72,y:.45,s:.5},{ic:'check',at:'safe',x:.3,y:.15,s:.4}],
+   sub:{t:'1960s TVs GAVE OFF RADIATION',at:'radiation',bg:'#E5383B'},bot:{t:'20-20-20 RULE',at:'twenty',bg:'#3BB273'},src:'Source: US recall of some 1960s TV sets (1967)'}),
+ sil_twist:CHECKS({title:'THE 20-20-20 RULE',items:['EVERY 20 MINUTES','LOOK 20 FEET AWAY','FOR 20 SECONDS','PLAY OUTSIDE DAILY']}),
+ cta:VSCTA({L:'YES, ALWAYS!',R:'NEVER',icL:'tv',icR:'check',cl:'#E8505B',cr:'#3BB273',atL:'told',atR:'move',atV:'were',sL:.4,sR:.5,title:'WERE YOU TOLD?'}),
+ sil_outro:OUTRO(),
+ pad:(t0,t1,it)=>it.name==='pad_end'?OUTRO()(t0,t1):B.sil_point2(t0,t1),
+};
+var THUMB=buildTopic(B,['WHAT IF YOU','SAT CLOSE TO THE TV','EVERY DAY?']);

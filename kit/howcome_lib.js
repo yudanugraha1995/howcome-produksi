@@ -193,3 +193,11 @@ Object.assign(IC,{
  battery:(t)=>{const f=.2+.8*((t*0.4)%1);return `<rect x="-160" y="-80" width="300" height="160" rx="26" fill="#fff" stroke="${OL}" stroke-width="10"/><rect x="140" y="-34" width="34" height="68" rx="10" fill="${OL}"/><rect x="-140" y="-60" width="${fmt(260*f)}" height="120" rx="14" fill="#7BC96F"/>`;},
  bird:(t)=>`<ellipse rx="120" ry="90" fill="#5EC8FF" stroke="${OL}" stroke-width="9"/><circle cx="90" cy="-70" r="60" fill="#5EC8FF" stroke="${OL}" stroke-width="9"/><path d="M140,-80L200,-60L140,-45Z" fill="#F4C542" stroke="${OL}" stroke-width="7"/><circle cx="105" cy="-80" r="10" fill="${OL}"/><path d="M-40,-30Q-120,${fmt(-120+Math.sin(t*10)*30)} -170,-40" fill="#9FD8F5" stroke="${OL}" stroke-width="8"/>`,
 });
+// =================== kit v3 icons (batch 5: coffee, tvclose) ===================
+Object.assign(IC,{
+ tv:(t)=>`<rect x="-230" y="-150" width="460" height="290" rx="26" fill="#2B3350" stroke="${OL}" stroke-width="10"/><rect x="-205" y="-125" width="410" height="240" rx="14" fill="#5EC8FF"/><rect x="-205" y="${fmt(-125+((t*80)%240))}" width="410" height="16" fill="#fff" opacity=".25"/><path d="M-80,140L-120,200M80,140L120,200" stroke="${OL}" stroke-width="14" stroke-linecap="round"/>`,
+ glasses:(t)=>`<circle cx="-90" r="70" fill="#BFE8FA" fill-opacity=".5" stroke="${OL}" stroke-width="12"/><circle cx="90" r="70" fill="#BFE8FA" fill-opacity=".5" stroke="${OL}" stroke-width="12"/><path d="M-20,-10Q0,-30 20,-10M-160,-10L-200,-30M160,-10L200,-30" stroke="${OL}" stroke-width="12" fill="none" stroke-linecap="round"/>`,
+ tree:(t)=>`<rect x="-26" y="40" width="52" height="150" rx="12" fill="#8B5A3C" stroke="${OL}" stroke-width="8"/><circle cy="-40" r="130" fill="#3BB273" stroke="${OL}" stroke-width="9"/><circle cx="-60" cy="-70" r="30" fill="#7BC96F"/>`,
+ radiation:(t)=>`<circle r="150" fill="#F4C542" stroke="${OL}" stroke-width="10"/>${[0,120,240].map(a=>`<path d="M0,0L-50,-110A120,120 0 0 1 50,-110Z" fill="${OL}" transform="rotate(${a+fmt(t*20)})"/>`).join('')}<circle r="28" fill="#F4C542" stroke="${OL}" stroke-width="10"/>`,
+ cup3:(t)=>[-1,0,1].map(i=>g(`translate(${i*190} 0) scale(.55)`,IC.coffee(t))).join(''),
+});

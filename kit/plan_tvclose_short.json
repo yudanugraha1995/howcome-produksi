@@ -1,0 +1,49 @@
+{
+ "id": "tvclose",
+ "SC": "tvclose_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 9.09
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 9.09,
+   "t1": 18.77
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.77,
+   "t1": 34.93
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 34.93,
+   "t1": 35.566
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 35.566,
+   "t1": 50.056
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 50.056,
+   "t1": 54.576
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 54.576,
+   "t1": 55.0
+  }
+ ]
+}

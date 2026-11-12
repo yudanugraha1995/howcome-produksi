@@ -1,0 +1,43 @@
+# What If You Drank Coffee Every Day?
+
+Total: 1154 characters incl. tags (max 1200). YouTube = full narration + silent scenes (144 s). Short = cut to 55 s.
+
+## hook (SHORT + YT)
+
+[curious] One cup in the morning, one after lunch, maybe one more at four. [gasps] What if you drank coffee every single day? Is it slowly hurting you, or quietly helping you?
+
+## context (YT only)
+
+Coffee is one of the most popular drinks on Earth. Billions of cups are poured every single day, from tiny espressos to giant iced lattes.
+
+## point1 (YT only)
+
+Caffeine blocks a sleepy signal in your brain called adenosine. But it stays around for hours. Half of it can still be in your body five hours later.
+
+## point2 (SHORT + YT)
+
+[surprised] Now the big news. A huge review of more than two hundred studies found that people who drank about three to four cups a day had a lower risk of dying early and of heart disease, compared to people who drank none. That's a link, not proof, but it's a strong clue. Just don't load it with tons of sugar and cream.
+
+## twist (SHORT + YT)
+
+[laughs] Plot twist! Coffee doesn't really dry you out. In one study, men drank either coffee or water for days, and their hydration was about the same. [excited] So your morning cup still counts as a drink. Just stop by mid afternoon if you want to sleep well tonight.
+
+## cta (SHORT + YT)
+
+How many cups do you drink a day? Tell me in the comments, and subscribe for more HowCome!
+
+## Full narration
+
+```
+[curious] One cup in the morning, one after lunch, maybe one more at four. [gasps] What if you drank coffee every single day? Is it slowly hurting you, or quietly helping you?
+
+Coffee is one of the most popular drinks on Earth. Billions of cups are poured every single day, from tiny espressos to giant iced lattes.
+
+Caffeine blocks a sleepy signal in your brain called adenosine. But it stays around for hours. Half of it can still be in your body five hours later.
+
+[surprised] Now the big news. A huge review of more than two hundred studies found that people who drank about three to four cups a day had a lower risk of dying early and of heart disease, compared to people who drank none. That's a link, not proof, but it's a strong clue. Just don't load it with tons of sugar and cream.
+
+[laughs] Plot twist! Coffee doesn't really dry you out. In one study, men drank either coffee or water for days, and their hydration was about the same. [excited] So your morning cup still counts as a drink. Just stop by mid afternoon if you want to sleep well tonight.
+
+How many cups do you drink a day? Tell me in the comments, and subscribe for more HowCome!
+```
