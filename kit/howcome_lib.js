@@ -201,3 +201,9 @@ Object.assign(IC,{
  radiation:(t)=>`<circle r="150" fill="#F4C542" stroke="${OL}" stroke-width="10"/>${[0,120,240].map(a=>`<path d="M0,0L-50,-110A120,120 0 0 1 50,-110Z" fill="${OL}" transform="rotate(${a+fmt(t*20)})"/>`).join('')}<circle r="28" fill="#F4C542" stroke="${OL}" stroke-width="10"/>`,
  cup3:(t)=>[-1,0,1].map(i=>g(`translate(${i*190} 0) scale(.55)`,IC.coffee(t))).join(''),
 });
+// =================== kit v3 icons (night Shorts) ===================
+Object.assign(IC,{
+ watermelon:(t)=>`<path d="M-200,-20A200,200 0 0 0 200,-20Z" fill="#3BB273" stroke="${OL}" stroke-width="10"/><path d="M-176,-20A176,176 0 0 0 176,-20Z" fill="#E8505B"/>${[[-90,30],[-30,70],[40,60],[100,25],[0,20],[-130,5],[140,0]].map(([x,y])=>`<ellipse cx="${x}" cy="${y}" rx="9" ry="15" fill="${OL}"/>`).join('')}`,
+ seed:(t)=>`<ellipse rx="60" ry="95" fill="#2B1B14" stroke="${OL}" stroke-width="8"/><ellipse cx="-18" cy="-30" rx="14" ry="26" fill="#fff" opacity=".35"/>`,
+ sprout:(t)=>`<path d="M0,120L0,-20" stroke="#3BB273" stroke-width="16" stroke-linecap="round"/><path d="M0,-10Q-90,-40 -110,-120Q-20,-110 0,-10Z M0,10Q90,-20 110,-90Q20,-90 0,10Z" fill="#7BC96F" stroke="${OL}" stroke-width="7"/>`,
+});
