@@ -1,0 +1,55 @@
+{
+ "id": "earwax",
+ "SC": "earwax_night",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.19
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.19,
+   "t1": 13.777
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 13.777,
+   "t1": 22.357
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.357,
+   "t1": 30.944
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 30.944,
+   "t1": 38.564
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 38.564,
+   "t1": 47.151
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.151,
+   "t1": 50.001
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.001,
+   "t1": 55.001
+  }
+ ]
+}

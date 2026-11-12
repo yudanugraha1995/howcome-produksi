@@ -1,0 +1,55 @@
+{
+ "id": "stomachgrowl",
+ "SC": "stomachgrowl_night",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.39
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.39,
+   "t1": 15.15
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 15.15,
+   "t1": 22.59
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.59,
+   "t1": 32.35
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.35,
+   "t1": 37.01
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 37.01,
+   "t1": 46.77
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 46.77,
+   "t1": 50.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.0,
+   "t1": 55.0
+  }
+ ]
+}

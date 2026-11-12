@@ -30,3 +30,10 @@ Long videos: owner uploads *_yt manually in YouTube Studio (sleep4h_yt live 11 N
 | 13 Nov 20:00 | hiccups_night |
 | 14 Nov 20:00 | hair_night |
 | 15 Nov 20:00 | sleeptalk_night |
+| 16 Nov 20:00 | goosebumps_night |
+| 17 Nov 20:00 | brainfreeze_night |
+| 18 Nov 20:00 | earwax_night |
+| 19 Nov 20:00 | tickle_night |
+| 20 Nov 20:00 | stomachgrowl_night |
+| 21 Nov 20:00 | fingerprints_night |
+| 22 Nov 20:00 | crying_night |

@@ -1,0 +1,13 @@
+# What If You Had No Fingerprints? (night Short, 21 Nov)
+
+Total: 399 characters incl. tags (night max 400). ~55 s with silent visual beats.
+
+```
+[curious] Look at your fingertips. [gasps] What if those little swirls just disappeared?
+
+Some people really are born with no fingerprints. It's a very rare gene change. Fingerprints may help you grip and feel textures.
+
+[surprised] Plot twist! Koalas have fingerprints too, and they look so much like ours they could fool an expert!
+
+Loops or whirls? Check your fingers and tell me in the comments!
+```

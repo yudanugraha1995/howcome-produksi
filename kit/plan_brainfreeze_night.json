@@ -1,0 +1,55 @@
+{
+ "id": "brainfreeze",
+ "SC": "brainfreeze_night",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.75
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.75,
+   "t1": 15.323
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 15.323,
+   "t1": 22.043
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.043,
+   "t1": 31.616
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 31.616,
+   "t1": 37.476
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 37.476,
+   "t1": 47.049
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.049,
+   "t1": 49.999
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 49.999,
+   "t1": 54.999
+  }
+ ]
+}

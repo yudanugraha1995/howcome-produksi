@@ -1,0 +1,55 @@
+{
+ "id": "fingerprints",
+ "SC": "fingerprints_night",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.38
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.38,
+   "t1": 14.367
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 14.367,
+   "t1": 22.247
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.247,
+   "t1": 31.234
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 31.234,
+   "t1": 37.464
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 37.464,
+   "t1": 46.451
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 46.451,
+   "t1": 50.001
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.001,
+   "t1": 55.001
+  }
+ ]
+}
