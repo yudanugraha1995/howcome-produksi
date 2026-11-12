@@ -1,0 +1,79 @@
+{
+ "id": "coldwater",
+ "SC": "coldwater_yt",
+ "total": 144.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 9.97
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 9.97,
+   "t1": 25.122
+  },
+  {
+   "name": "context",
+   "kind": "voice",
+   "t0": 25.122,
+   "t1": 33.632
+  },
+  {
+   "name": "sil_context",
+   "kind": "silent",
+   "t0": 33.632,
+   "t1": 48.784
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 48.784,
+   "t1": 56.494
+  },
+  {
+   "name": "sil_point1",
+   "kind": "silent",
+   "t0": 56.494,
+   "t1": 71.646
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 71.646,
+   "t1": 88.166
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 88.166,
+   "t1": 103.318
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 103.318,
+   "t1": 117.578
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 117.578,
+   "t1": 132.73
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 132.73,
+   "t1": 138.0
+  },
+  {
+   "name": "sil_outro",
+   "kind": "silent",
+   "t0": 138.0,
+   "t1": 144.0
+  }
+ ]
+}

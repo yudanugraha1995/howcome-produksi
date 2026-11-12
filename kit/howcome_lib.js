@@ -220,3 +220,9 @@ Object.assign(IC,{
  koala:(t)=>`<circle cx="-120" cy="-90" r="70" fill="#A7B1BC" stroke="${OL}" stroke-width="9"/><circle cx="120" cy="-90" r="70" fill="#A7B1BC" stroke="${OL}" stroke-width="9"/><circle r="140" fill="#CDD6DE" stroke="${OL}" stroke-width="9"/><ellipse cy="30" rx="34" ry="46" fill="${OL}"/><circle cx="-50" cy="-30" r="14" fill="${OL}"/><circle cx="50" cy="-30" r="14" fill="${OL}"/>`,
  swab:(t)=>`<rect x="-150" y="-10" width="300" height="20" rx="10" fill="#fff" stroke="${OL}" stroke-width="6"/><ellipse cx="-160" rx="40" ry="28" fill="#fff" stroke="${OL}" stroke-width="7"/><ellipse cx="160" rx="40" ry="28" fill="#fff" stroke="${OL}" stroke-width="7"/>`,
 });
+Object.assign(IC,{
+ pimple:(t)=>`<circle r="150" fill="#F6D2B8" stroke="${OL}" stroke-width="9"/><circle cx="20" cy="10" r="46" fill="#F08A8A" stroke="${OL}" stroke-width="6"/><circle cx="20" cy="4" r="18" fill="#FFF6D8"/>`,
+ patch:(t)=>`<circle r="120" fill="#F3E6C9" stroke="${OL}" stroke-width="9" opacity=".95"/><circle r="70" fill="#E8D7B0"/>`,
+ apple:(t)=>`<path d="M0,-90C-80,-140 -160,-60 -140,40C-120,140 -40,160 0,130C40,160 120,140 140,40C160,-60 80,-140 0,-90Z" fill="#E5383B" stroke="${OL}" stroke-width="9"/><path d="M-20,-60L60,-60L50,90L-30,90Z" fill="#F6E7A8"/><path d="M-20,-60Q-10,0 -30,90" stroke="#B88A4A" stroke-width="10" fill="none"/><path d="M0,-90Q10,-150 40,-170" stroke="${OL}" stroke-width="12" fill="none"/>`,
+ bike:(t)=>`<circle cx="-130" cy="60" r="80" fill="none" stroke="${OL}" stroke-width="14"/><circle cx="130" cy="60" r="80" fill="none" stroke="${OL}" stroke-width="14"/><path d="M-130,60L-30,-60L90,-60L130,60M-30,-60L10,60L90,-60M-50,-100L0,-100M90,-60L80,-110L120,-110" stroke="#E8505B" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+});

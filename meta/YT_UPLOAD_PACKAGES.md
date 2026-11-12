@@ -278,3 +278,71 @@ This video is for education only, not medical advice.
 
 #howcome #eyes #tv #myth #science #explained
 ```
+
+## 9. coldwater
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/coldwater_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/coldwater_yt.jpg
+- Jadwal tayang saran: Sab 5 Des 2026, 12:00 WIB
+
+Title:
+```
+What If You Drank Ice-Cold Water Every Day? (Science Explained)
+```
+
+Description:
+```
+What If You Drank Ice-Cold Water Every Day? KOMO checks what science really says. 🧊🔍
+
+⏱️ Chapters
+0:00 Ice cold water every day?
+0:25 The old warnings
+0:48 Your body is a heater
+1:11 Is it dangerous? (migraines)
+1:43 Plot twist: cold drinks in the heat
+2:12 Team ice cold or room temp?
+
+Team ice cold or team room temperature? 👇 Subscribe for more HowCome!
+
+📚 Sources
+- Mattsson, Headache (2001): ice water and headache in women with and without migraine
+- Lee & Shirreffs, Med Sci Sports Exerc (2008): cold drinks and exercise in the heat
+
+This video is for education only, not medical advice.
+
+#howcome #coldwater #water #health #myth #explained
+```
+
+## 10. pimples
+
+- Video (mp4): https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/pimples_yt.mp4
+- Thumbnail: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/thumbnails/pimples_yt.jpg
+- Jadwal tayang saran: Min 6 Des 2026, 12:00 WIB
+
+Title:
+```
+What If You Popped Every Pimple? (Science Explained)
+```
+
+Description:
+```
+What If You Popped Every Pimple? KOMO checks what science really says. 😬🔍
+
+⏱️ Chapters
+0:00 Pop it or not?
+0:24 Why popping feels so satisfying
+0:47 What's inside a pimple
+1:10 Why squeezing makes it worse
+1:44 Plot twist: blackheads aren't dirt
+2:12 Popper or hands off?
+
+Popper or hands off? Be honest 👇 Subscribe for more HowCome!
+
+📚 Sources
+- American Academy of Dermatology: how to safely treat pimples, and why not to pop them
+- American Academy of Dermatology: blackheads and how to treat them
+
+This video is for education only, not medical advice.
+
+#howcome #pimples #skincare #acne #science #explained
+```

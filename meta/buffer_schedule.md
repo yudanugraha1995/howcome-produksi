@@ -18,7 +18,7 @@ Buffer's YouTube integration accepts Shorts (vertical) only; 16:9 videos must be
 | 16 Nov 08:00 | sneeze_short | 6af428607e9ab194b7fcde36 |
 | 16 Nov 16:00 | gum_short | 6af4409adb6e84f20bedda2c |
 
-Waiting (no free Buffer slot yet): wethair_short, yawn_short, latenight_short, handwash_short, snooze_short, steps_short, headphones_short, coldshower_short, nap_short, spicy_short (batch 4, for 19-21 Nov), coffee_short, tvclose_short (batch 5, for 22 Nov)
+Waiting (no free Buffer slot yet): wethair_short, yawn_short, latenight_short, handwash_short, snooze_short, steps_short, headphones_short, coldshower_short, nap_short, spicy_short (batch 4, for 19-21 Nov), coffee_short, tvclose_short (batch 5, for 22 Nov), coldwater_short, pimples_short (batch 6, for 23 Nov)
 Not postable via Buffer (16:9): all *_yt videos
 
 Long videos: owner uploads *_yt manually in YouTube Studio (sleep4h_yt live 11 Nov). List: meta/YT_MANUAL_UPLOADS.md

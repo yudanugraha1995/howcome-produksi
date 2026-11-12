@@ -1,0 +1,49 @@
+{
+ "id": "coldwater",
+ "SC": "coldwater_short",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 9.97
+  },
+  {
+   "name": "point1",
+   "kind": "voice",
+   "t0": 9.97,
+   "t1": 17.68
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 17.68,
+   "t1": 34.2
+  },
+  {
+   "name": "pad",
+   "kind": "silent",
+   "t0": 34.2,
+   "t1": 34.962
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 34.962,
+   "t1": 49.222
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 49.222,
+   "t1": 54.492
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 54.492,
+   "t1": 55.0
+  }
+ ]
+}
