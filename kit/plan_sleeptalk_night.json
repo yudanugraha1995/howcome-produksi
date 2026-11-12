@@ -1,0 +1,55 @@
+{
+ "id": "sleeptalk",
+ "SC": "sleeptalk_night",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.84
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.84,
+   "t1": 15.36
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 15.36,
+   "t1": 20.92
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 20.92,
+   "t1": 30.44
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 30.44,
+   "t1": 38.14
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 38.14,
+   "t1": 47.66
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.66,
+   "t1": 50.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.0,
+   "t1": 55.0
+  }
+ ]
+}

@@ -207,3 +207,8 @@ Object.assign(IC,{
  seed:(t)=>`<ellipse rx="60" ry="95" fill="#2B1B14" stroke="${OL}" stroke-width="8"/><ellipse cx="-18" cy="-30" rx="14" ry="26" fill="#fff" opacity=".35"/>`,
  sprout:(t)=>`<path d="M0,120L0,-20" stroke="#3BB273" stroke-width="16" stroke-linecap="round"/><path d="M0,-10Q-90,-40 -110,-120Q-20,-110 0,-10Z M0,10Q90,-20 110,-90Q20,-90 0,10Z" fill="#7BC96F" stroke="${OL}" stroke-width="7"/>`,
 });
+Object.assign(IC,{
+ hairLong:(t)=>`<path d="M-120,-80Q-130,-200 0,-210Q130,-200 120,-80L150,300Q0,340 -150,300Z" fill="#6B3E26" stroke="${OL}" stroke-width="9"/><circle cy="-70" r="95" fill="#F6D2B8" stroke="${OL}" stroke-width="8"/><path d="M-100,-110Q0,-190 100,-110Q60,-150 0,-150Q-60,-150 -100,-110Z" fill="#6B3E26"/>${[-1,1].map(s=>`<circle cx="${s*34}" cy="-70" r="9" fill="${OL}"/>`).join('')}`,
+ speech:(t)=>g('',bubble(360,200,'bl')+`<text x="0" y="24" text-anchor="middle" font-family="B2" font-weight="800" font-size="72" fill="${OL}">NO!</text>`),
+ diaphragm:(t)=>{const k=Math.sin(t*12)>0.8?-30:0;return `<path d="M-200,${60+k}Q0,${-80+k} 200,${60+k}" fill="none" stroke="#E8505B" stroke-width="30" stroke-linecap="round"/><path d="M-200,${60+k}Q0,${-80+k} 200,${60+k}" fill="none" stroke="${OL}" stroke-width="6" stroke-linecap="round" opacity=".5"/>`;},
+});

@@ -22,3 +22,11 @@ Waiting (no free Buffer slot yet): wethair_short, yawn_short, latenight_short, h
 Not postable via Buffer (16:9): all *_yt videos
 
 Long videos: owner uploads *_yt manually in YouTube Studio (sleep4h_yt live 11 Nov). List: meta/YT_MANUAL_UPLOADS.md
+
+## Night slot 20:00 WIB (posted by Bot A from the repo, videos/<id>_night.mp4)
+| night (WIB) | video |
+|---|---|
+| 12 Nov 20:00 | watermelonseed_night |
+| 13 Nov 20:00 | hiccups_night |
+| 14 Nov 20:00 | hair_night |
+| 15 Nov 20:00 | sleeptalk_night |
