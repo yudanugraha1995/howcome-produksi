@@ -1,0 +1,55 @@
+{
+ "id": "eatfast",
+ "SC": "eatfast_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.0
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.0,
+   "t1": 14.92
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 14.92,
+   "t1": 23.51
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 23.51,
+   "t1": 33.43
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 33.43,
+   "t1": 37.6
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 37.6,
+   "t1": 47.52
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.52,
+   "t1": 50.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.0,
+   "t1": 55.0
+  }
+ ]
+}

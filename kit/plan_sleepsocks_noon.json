@@ -1,0 +1,55 @@
+{
+ "id": "sleepsocks",
+ "SC": "sleepsocks_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.849
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.849,
+   "t1": 14.196
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 14.196,
+   "t1": 22.197
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.197,
+   "t1": 32.544
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.544,
+   "t1": 36.944
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 36.944,
+   "t1": 47.291
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.291,
+   "t1": 50.001
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.001,
+   "t1": 55.001
+  }
+ ]
+}

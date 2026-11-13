@@ -1,0 +1,55 @@
+{
+ "id": "petbed",
+ "SC": "petbed_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.48
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.48,
+   "t1": 15.667
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 15.667,
+   "t1": 22.857
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.857,
+   "t1": 33.044
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 33.044,
+   "t1": 36.944
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 36.944,
+   "t1": 47.131
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.131,
+   "t1": 50.001
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.001,
+   "t1": 55.001
+  }
+ ]
+}

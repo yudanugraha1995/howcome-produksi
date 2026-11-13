@@ -1,0 +1,55 @@
+{
+ "id": "nightshower",
+ "SC": "nightshower_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.33
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 6.33,
+   "t1": 15.317
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 15.317,
+   "t1": 23.177
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 23.177,
+   "t1": 32.164
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.164,
+   "t1": 38.034
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 38.034,
+   "t1": 47.021
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.021,
+   "t1": 50.001
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.001,
+   "t1": 55.001
+  }
+ ]
+}

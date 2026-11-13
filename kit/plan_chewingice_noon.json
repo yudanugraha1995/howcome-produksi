@@ -1,0 +1,55 @@
+{
+ "id": "chewingice",
+ "SC": "chewingice_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.63
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.63,
+   "t1": 15.203
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 15.203,
+   "t1": 22.893
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.893,
+   "t1": 32.466
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.466,
+   "t1": 38.516
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 38.516,
+   "t1": 48.089
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 48.089,
+   "t1": 49.999
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 49.999,
+   "t1": 54.999
+  }
+ ]
+}

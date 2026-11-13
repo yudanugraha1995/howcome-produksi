@@ -1,0 +1,55 @@
+{
+ "id": "sleepmusic",
+ "SC": "sleepmusic_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 4.32
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 4.32,
+   "t1": 14.88
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 14.88,
+   "t1": 22.01
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.01,
+   "t1": 32.57
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.57,
+   "t1": 36.6
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 36.6,
+   "t1": 47.16
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.16,
+   "t1": 50.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.0,
+   "t1": 55.0
+  }
+ ]
+}

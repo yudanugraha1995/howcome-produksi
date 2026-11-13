@@ -1,0 +1,55 @@
+{
+ "id": "phonebed",
+ "SC": "phonebed_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 6.47
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 6.47,
+   "t1": 16.15
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 16.15,
+   "t1": 23.48
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 23.48,
+   "t1": 33.16
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 33.16,
+   "t1": 37.51
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 37.51,
+   "t1": 47.19
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.19,
+   "t1": 50.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.0,
+   "t1": 55.0
+  }
+ ]
+}

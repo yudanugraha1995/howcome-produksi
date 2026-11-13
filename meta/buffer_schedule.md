@@ -37,3 +37,8 @@ Long videos: owner uploads *_yt manually in YouTube Studio (sleep4h_yt live 11 N
 | 20 Nov 20:00 | stomachgrowl_night |
 | 21 Nov 20:00 | fingerprints_night |
 | 22 Nov 20:00 | crying_night |
+
+## Noon slot 11:00 WIB (posted by Bot A from the repo, videos/<id>_noon.mp4)
+| noon (WIB) | video |
+|---|---|
+| 13 Nov 11:00 | phonebed_noon |

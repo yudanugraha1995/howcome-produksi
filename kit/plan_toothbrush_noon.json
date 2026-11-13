@@ -1,0 +1,55 @@
+{
+ "id": "toothbrush",
+ "SC": "toothbrush_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.06
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.06,
+   "t1": 14.02
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 14.02,
+   "t1": 22.43
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.43,
+   "t1": 31.39
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 31.39,
+   "t1": 37.99
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 37.99,
+   "t1": 46.95
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 46.95,
+   "t1": 50.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 50.0,
+   "t1": 55.0
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "breadmold",
+ "SC": "breadmold_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 5.01
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 5.01,
+   "t1": 14.183
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 14.183,
+   "t1": 22.883
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 22.883,
+   "t1": 32.056
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 32.056,
+   "t1": 38.126
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 38.126,
+   "t1": 47.299
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.299,
+   "t1": 49.999
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 49.999,
+   "t1": 54.999
+  }
+ ]
+}

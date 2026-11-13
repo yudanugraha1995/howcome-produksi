@@ -1,0 +1,55 @@
+{
+ "id": "dreams",
+ "SC": "dreams_noon",
+ "total": 55.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 7.28
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 7.28,
+   "t1": 15.413
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 15.413,
+   "t1": 23.083
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 23.083,
+   "t1": 31.216
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 31.216,
+   "t1": 39.246
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 39.246,
+   "t1": 47.379
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 47.379,
+   "t1": 49.999
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 49.999,
+   "t1": 54.999
+  }
+ ]
+}
