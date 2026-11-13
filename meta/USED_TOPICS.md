@@ -5,6 +5,8 @@ Rule: never repeat a title/topic on the How Come channel. Same topic as a Masa S
 ## How Come (produced or scheduled)
 sleep4h, skipbreakfast, sitallday, energydrink, knuckles, teeth, phone, water (30 days), blinking, nails, sneeze, gum, wethair, yawn, latenight, handwash, snooze, steps, headphones, coldshower, nap, spicy, coffee, tvclose, coldwater, pimples, watermelonseed (night 12 Nov), hiccups (night 13 Nov), hair (night 14 Nov), sleeptalk (night 15 Nov), goosebumps (16 Nov), brainfreeze (17 Nov), earwax (18 Nov), tickle (19 Nov), stomachgrowl (20 Nov), fingerprints (21 Nov), crying (22 Nov)
 
+Noon slot 11:00 WIB (reserved 13 Nov): phonebed (13 Nov), sleepsocks (14), breadmold (15), nightshower (16), toothbrush (17), snoring (18), chewingice (19), dreams (20), sleepmusic (21), eatfast (22), petbed (23)
+
 ## Masa Sih (other channel, for reference)
 nasi sisa, biji semangka, micin, telur bisul, mi instan lilin, nonton dekat TV, kopi dehidrasi, utang tidur, ulat gigi, makan malam gemuk, biji cabai usus buntu, kehujanan pilek, kipas semalaman, permen karet 7 tahun, kerokan, keretek jari, otak 10%, gula hiperaktif, cukur bulu, wortel mata, ikan mas 3 detik, 8 gelas air, petir, bintik kuku, banteng merah
 
