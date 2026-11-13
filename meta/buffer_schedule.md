@@ -42,3 +42,13 @@ Long videos: owner uploads *_yt manually in YouTube Studio (sleep4h_yt live 11 N
 | noon (WIB) | video |
 |---|---|
 | 13 Nov 11:00 | phonebed_noon |
+| 14 Nov 11:00 | sleepsocks_noon |
+| 15 Nov 11:00 | breadmold_noon |
+| 16 Nov 11:00 | nightshower_noon |
+| 17 Nov 11:00 | toothbrush_noon |
+| 18 Nov 11:00 | snoring_noon |
+| 19 Nov 11:00 | chewingice_noon |
+| 20 Nov 11:00 | dreams_noon |
+| 21 Nov 11:00 | sleepmusic_noon |
+| 22 Nov 11:00 | eatfast_noon |
+| 23 Nov 11:00 | petbed_noon |
