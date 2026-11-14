@@ -1,7 +1,7 @@
 #!/bin/bash
 # Instal KOMO TTS di macOS (M1/M2/M3). Butuh internet SEKALI saja, setelah itu 100% offline.
 #   bash install.sh          -> suara bawaan (cepat, ~400 MB)
-#   bash install.sh clone    -> + clone suara & ekspresi (VoxCPM2, ~5 GB)
+#   bash install.sh clone    -> + clone suara & ekspresi (VoxCPM2; Mac M1/M2/M3: versi MLX 4-bit ~2,3 GB)
 set -e
 cd "$(dirname "$0")"
 
@@ -20,9 +20,19 @@ echo "== Download suara bawaan (~400 MB) =="
 
 if [ "$1" = "clone" ]; then
   echo "== Instal fitur clone + ekspresi =="
-  "$UV" pip install --python .venv/bin/python -r requirements-clone.txt
-  echo "== Download model VoxCPM2 (~5 GB, sabar ya) =="
+  if [ "$(uname -s)" = "Darwin" ] && [ "$(uname -m)" = "arm64" ]; then
+    "$UV" pip install --python .venv/bin/python -r requirements-clone-mac.txt
+    echo "== Download model VoxCPM2 MLX 4-bit (~2,3 GB) + Whisper =="
+  else
+    "$UV" pip install --python .venv/bin/python -r requirements-clone.txt
+    echo "== Download model VoxCPM2 (~5 GB) + Whisper =="
+  fi
   .venv/bin/python clone.py
+  if [ "$(uname -s)" = "Darwin" ] && [ -d models/VoxCPM2 ]; then
+    echo
+    echo "Info: model lama models/VoxCPM2 (4,7 GB) tidak dipakai lagi di Mac."
+    echo "      Boleh dihapus biar disk lega:  rm -rf models/VoxCPM2"
+  fi
 fi
 
 chmod +x run.command

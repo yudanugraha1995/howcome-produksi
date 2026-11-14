@@ -19,7 +19,7 @@ Aplikasi TTS yang jalan **100% offline** di MacBook Air M1. Internet hanya dipak
    cd ~/Downloads/howcome-produksi/tts-app    # sesuaikan lokasi folder
    bash install.sh
    ```
-   Mau fitur clone + ekspresi juga? Pakai `bash install.sh clone` (tambahan ~5 GB, sekali saja).
+   Mau fitur clone + ekspresi juga? Pakai `bash install.sh clone` (Mac: tambahan ~4 GB, sekali saja).
 2. (Opsional, untuk MP3) `brew install ffmpeg`
 3. (Opsional, suara Indonesia tambahan dari macOS) System Settings -> Accessibility -> Spoken Content
    -> System Voice -> Manage Voices -> Indonesian -> download **Damayanti**.
@@ -50,9 +50,10 @@ Tag: `[excited] [cheerful] [curious] [surprised] [gasps] [laughs] [sighs] [scoff
 Tag lain bebas dalam bahasa Inggris (mis. `[slow, dramatic narrator]`). Tag berlaku untuk kalimat tempatnya.
 
 Catatan:
-- Model 4,7 GB (+ Whisper 1,5 GB untuk transkrip). MacBook Air M1 **16 GB** aman; versi **8 GB** bisa jalan tapi lambat (memori swap).
-  Jalan di GPU M1 (MPS) otomatis; kalau gagal, pindah ke CPU.
-- Kecepatan: di server tes (CPU 4 core) sekitar 4-7 detik proses per 1 detik audio. Di M1 belum diukur.
+- **Mac M1/M2/M3**: otomatis pakai versi **MLX 4-bit** (2,3 GB, jalan di GPU M1, muat di RAM 8 GB).
+  Komputer lain pakai versi PyTorch (4,7 GB). Whisper (1,5 GB) dipakai hanya saat menambah suara.
+  Butuh macOS 13.5 atau lebih baru.
+- Kecepatan di M1 belum diukur. Versi PyTorch di Mac 8 GB terlalu lambat (~1 jam per kalimat) - karena itu Mac pakai MLX.
 - Ekspresi berupa "arahan gaya", bukan efek suara: `[laughs]` bikin nada tertawa/geli, belum tentu ada "hahaha".
 - Clone hanya suara milikmu sendiri atau yang kamu punya izinnya.
 

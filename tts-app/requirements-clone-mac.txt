@@ -1,0 +1,4 @@
+mlx-audio==0.6.5
+librosa
+huggingface_hub
+faster-whisper

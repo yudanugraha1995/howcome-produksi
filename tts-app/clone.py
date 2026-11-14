@@ -62,18 +62,26 @@ EXPRESSIONS = ["(tanpa)", "excited", "cheerful", "curious", "surprised", "seriou
 
 _model = None
 
+# Di Mac Apple Silicon pakai MLX 4-bit (2,3 GB, muat di RAM 8 GB, jalan di GPU M1).
+# Di komputer lain pakai VoxCPM PyTorch (4,7 GB).
+IS_APPLE_SILICON = platform.system() == "Darwin" and platform.machine() == "arm64"
+MLX_DIR = ROOT / "models" / "VoxCPM2-mlx-4bit"
+MLX_REPO = "mlx-community/VoxCPM2-4bit"
 
-def device():
-    try:
-        import torch
-        if torch.backends.mps.is_available():
-            return "mps"
-    except Exception:
-        pass
-    return "cpu"
+
+def backend() -> str:
+    if IS_APPLE_SILICON or os.environ.get("KOMO_BACKEND") == "mlx":
+        return "mlx"
+    return "torch"
 
 
 def installed() -> bool:
+    if backend() == "mlx":
+        try:
+            import mlx_audio  # noqa: F401
+        except ImportError:
+            return False
+        return (MLX_DIR / "model.safetensors").exists()
     try:
         import voxcpm  # noqa: F401
     except ImportError:
@@ -83,23 +91,50 @@ def installed() -> bool:
 
 def download_model():
     from huggingface_hub import snapshot_download
-    MODEL_DIR.mkdir(parents=True, exist_ok=True)
-    snapshot_download(REPO, local_dir=str(MODEL_DIR))
+    if backend() == "mlx":
+        MLX_DIR.mkdir(parents=True, exist_ok=True)
+        snapshot_download(MLX_REPO, local_dir=str(MLX_DIR))
+    else:
+        MODEL_DIR.mkdir(parents=True, exist_ok=True)
+        snapshot_download(REPO, local_dir=str(MODEL_DIR))
     snapshot_download(WHISPER_REPO, local_dir=str(WHISPER_DIR))
-    print("Model VoxCPM2 + Whisper siap (offline):", MODEL_DIR.parent)
+    print("Model clone + Whisper siap (offline):", ROOT / "models")
+
+
+class _MLX:
+    def __init__(self):
+        from mlx_audio.tts.utils import load_model
+        self.m = load_model(str(MLX_DIR))
+        self.sample_rate = self.m.sample_rate
+
+    def gen(self, text, ref, prompt_text=None, cfg=2.0, steps=10):
+        kw = dict(ref_audio=ref)
+        if prompt_text:
+            kw.update(prompt_audio=ref, prompt_text=prompt_text)
+        parts = [np.array(r.audio, dtype=np.float32)
+                 for r in self.m.generate(text=text, cfg_value=cfg, inference_timesteps=steps, **kw)]
+        return np.concatenate(parts) if parts else np.zeros(0, np.float32)
+
+
+class _Torch:
+    def __init__(self):
+        from voxcpm import VoxCPM
+        # di GPU Mac model dipaksa float32 (~9 GB) -> pakai CPU; di NVIDIA otomatis CUDA
+        self.m = VoxCPM.from_pretrained(str(MODEL_DIR), load_denoiser=False, optimize=False,
+                                        device=None if not platform.system() == "Darwin" else "cpu")
+        self.sample_rate = self.m.tts_model.sample_rate
+
+    def gen(self, text, ref, prompt_text=None, cfg=2.0, steps=10):
+        kw = dict(reference_wav_path=ref)
+        if prompt_text:
+            kw.update(prompt_wav_path=ref, prompt_text=prompt_text)
+        return np.asarray(self.m.generate(text=text, cfg_value=cfg, inference_timesteps=steps, **kw), np.float32)
 
 
 def model():
     global _model
     if _model is None:
-        from voxcpm import VoxCPM
-        dev = device()
-        try:
-            _model = VoxCPM.from_pretrained(str(MODEL_DIR), load_denoiser=False, optimize=False, device=dev)
-        except Exception:
-            if dev == "cpu":
-                raise
-            _model = VoxCPM.from_pretrained(str(MODEL_DIR), load_denoiser=False, optimize=False, device="cpu")
+        _model = _MLX() if backend() == "mlx" else _Torch()
     return _model
 
 
@@ -187,7 +222,7 @@ def synthesize(text: str, voice: str, default_expr: str = "", speed: float = 1.0
     if not ref.exists():
         raise ValueError(f"Suara '{voice}' belum ada. Tambahkan dulu di bagian 'Tambah suara'.")
     m = model()
-    sr = m.tts_model.sample_rate
+    sr = m.sample_rate
     base = "" if default_expr in ("", "(tanpa)") else TAGS.get(default_expr, default_expr)
     pace = "slightly faster" if speed > 1.1 else "slower, unhurried" if speed < 0.9 else ""
     ref_text = get_transcript(voice)
@@ -210,12 +245,10 @@ def synthesize(text: str, voice: str, default_expr: str = "", speed: float = 1.0
         if use_style:
             # mode gaya: referensi saja + instruksi gaya (ekspresif)
             prompt = f"({style}){sent}" if style else sent
-            a = m.generate(text=prompt, reference_wav_path=str(ref), cfg_value=cfg,
-                           inference_timesteps=int(quality))
+            a = m.gen(prompt, str(ref), None, cfg, int(quality))
         else:
             # mode paling mirip: lanjutan dari sampel + transkripnya (logat & warna suara paling dekat)
-            a = m.generate(text=sent, prompt_wav_path=str(ref), prompt_text=ref_text,
-                           reference_wav_path=str(ref), cfg_value=cfg, inference_timesteps=int(quality))
+            a = m.gen(sent, str(ref), ref_text, cfg, int(quality))
         out += [np.asarray(a, np.float32), gap]
         done += 1
         if progress:
