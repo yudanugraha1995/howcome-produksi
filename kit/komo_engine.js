@@ -70,7 +70,7 @@ function body(){
   <!-- crew neck -->
   <path d="M-40,-348Q0,-310 40,-348" stroke="${C.hoodD}" stroke-width="12" fill="none" stroke-linecap="round"/>
   <!-- chest print: HowCome -->
-  <text x="0" y="-232" text-anchor="middle" font-family="B2" font-weight="800" font-size="50" letter-spacing="-1" fill="#FFE08A" stroke="${OL}" stroke-width="9" paint-order="stroke">HowCome</text>
+  <text x="${(typeof window!=="undefined"&&window.NEWFX)?-6:0}" y="${(typeof window!=="undefined"&&window.NEWFX)?-236:-232}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${(typeof window!=="undefined"&&window.NEWFX)?27:50}" letter-spacing="${(typeof window!=="undefined"&&window.NEWFX)?0:-1}" fill="#FFE08A" stroke="${OL}" stroke-width="9" paint-order="stroke">${(typeof window!=="undefined"&&window.NEWFX)?"HOW COME":"HowCome"}</text>
   <path d="M-62,-214Q0,-200 62,-214" stroke="#FFE08A" stroke-width="7" fill="none" stroke-linecap="round"/>`;
 }
 function komo(x,y,s,expr,aL,aR,handR=''){

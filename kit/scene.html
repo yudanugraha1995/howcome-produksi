@@ -225,7 +225,7 @@ const THUMB_DUR=0.1;
 function thumbTitle(lines){
   const v=ASP==='v'; const base=v?150:118; const gap=v?1.07:1.05;
   const maxc=Math.max(...lines.map(l=>l.length)); const fs=Math.min(base,(v?1000:1500)/(maxc*0.6));
-  const cy=v?1260:560; const n=lines.length;
+  const cy=v?(window.NEWFX?900:1260):560; const n=lines.length;
   let out='';
   lines.forEach((l,k)=>{const y=cy+(k-(n-1)/2)*fs*gap+fs*0.35;
     out+=`<text x="${W/2}" y="${y}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${fs}" fill="#fff" stroke="#1C1730" stroke-width="${fs*0.17}" paint-order="stroke" stroke-linejoin="round" filter="url(#tsh)">${l.replace(/&/g,'&amp;')}</text>`;});
@@ -238,7 +238,7 @@ function drawThumb(){
   document.getElementById('hud').innerHTML=DEFS.replace('SEED',7)+thumbTitle(THUMB.lines);
 }
 window.draw=function(t){
-  if(typeof THUMB!=='undefined' && t<THUMB_DUR){drawThumb();return;}
+  if(typeof THUMB!=='undefined' && t<(window.NEWFX?0.5:THUMB_DUR)){drawThumb();return;}
   // TMAP (opsional, untuk versi dubbing): [[detik audio baru, detik timeline scene asli], ...] -> scene ikut audio baru, subtitle pakai waktu asli
   const T0=t; if(typeof TMAP!=='undefined'){let k=0;while(k<TMAP.length-2&&t>=TMAP[k+1][0])k++;const [a0,b0]=TMAP[k],[a1,b1]=TMAP[k+1];t=b0+(b1-b0)*Math.min(1,Math.max(0,(t-a0)/(a1-a0)));}
   let i=S.findIndex(s=>t>=s.t0&&t<s.t1);if(i<0)i=S.length-1;

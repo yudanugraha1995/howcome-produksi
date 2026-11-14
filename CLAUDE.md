@@ -8,6 +8,11 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 - Narration **max 600 characters incl. audio tags**, 1 take, ElevenLabs Alex voice with model **eleven_v4**. Video length **exactly 35 s** (narration + short visual beats, never slow the voice).
 - Retention style: strong hook in the first 1-2 s, visual change every 2-3 s, varied transitions (zoom punch-in, slide, flash cut, whoosh), big pop-up keyword text, gentle motion on still images (Ken Burns), SFX on every transition and key moment (pop for text, ding for facts, riser/boom for the plot twist) kept below the voice, ending that loops back to the start + comment CTA. Title cover in the first frame.
 - Files: `videos/<id>_short.mp4` + `meta/<id>.md` (SHORT title + description). Topics: still never repeat, check `meta/USED_TOPICS.md`.
+- Hook (owner, 14 Nov): the first 3 s are a question that starts with "What if..." (or "They say if...", "Is it true that if..."); the title follows the same pattern.
+- Audio on every video: background music bed under the voice, SFX, a pop sound for every text/element that appears, a transition sound on every scene change (pipeline v2 does this).
+- Title cover for the feed: the first 0-0.5 s show the hook/title big (2-3 lines, max 6-8 words), white/yellow text with thick dark outline, centered in the 9:16 safe area (not in the top/bottom 20%); KOMO may sit behind; the narration starts at 0 s.
+- KOMO's shirt shows "HOW COME" on the chest (owner approved 14 Nov 2026, new videos only; older videos keep "HowCome").
+- New Shorts set `window.NEWFX=true;` in `kit/scenes_<id>_short.js` before `loadTopic`: this switches on the v2 transitions, keyword pop-ups, 0.5 s cover and the "HOW COME" shirt.
 - Stock: keep **4 days = 16 Shorts** ready and not yet posted; if there are already 16 or more, make nothing new (save tokens). A daily scheduled task (08:47 WIB) checks this.
 
 ## Channel
