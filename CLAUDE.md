@@ -2,6 +2,14 @@
 
 Talk to the owner in casual Indonesian. Everything in the videos is in **English** (international audience).
 
+## CURRENT FORMAT (owner approved 14 Nov 2026, overrides older rules below for NEW productions; finished videos stay as they are)
+- **Shorts only.** No more 16:9 YouTube videos and no upload packages.
+- 4 Shorts a day via Buffer at **22:00, 02:00, 06:00, 10:00 WITA** (21:00, 01:00, 05:00, 09:00 WIB). No more _short/_noon/_night split; all Shorts are equal. Bot A manages the queue and posting.
+- Narration **max 600 characters incl. audio tags**, 1 take, ElevenLabs Alex voice with model **eleven_v4**. Video length **exactly 35 s** (narration + short visual beats, never slow the voice).
+- Retention style: strong hook in the first 1-2 s, visual change every 2-3 s, varied transitions (zoom punch-in, slide, flash cut, whoosh), big pop-up keyword text, gentle motion on still images (Ken Burns), SFX on every transition and key moment (pop for text, ding for facts, riser/boom for the plot twist) kept below the voice, ending that loops back to the start + comment CTA. Title cover in the first frame.
+- Files: `videos/<id>_short.mp4` + `meta/<id>.md` (SHORT title + description). Topics: still never repeat, check `meta/USED_TOPICS.md`.
+- Stock: keep **4 days = 16 Shorts** ready and not yet posted; if there are already 16 or more, make nothing new (save tokens). A daily scheduled task (08:47 WIB) checks this.
+
 ## Channel
 - Name: **HOWCOME?** Mascot: **KOMO** (locked, see `maskot/KOMO.md` and `maskot/KOMO_official.png`). Do not change the design.
 - Narrator: young male voice, US accent. Owner sends only the audio (mp3).
