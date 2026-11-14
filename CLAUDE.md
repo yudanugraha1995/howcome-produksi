@@ -5,7 +5,7 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 ## CURRENT FORMAT (owner approved 14 Nov 2026, overrides older rules below for NEW productions; finished videos stay as they are)
 - **Shorts only.** No more 16:9 YouTube videos and no upload packages.
 - 4 Shorts a day via Buffer at **22:00, 02:00, 06:00, 10:00 WITA** (21:00, 01:00, 05:00, 09:00 WIB). No more _short/_noon/_night split; all Shorts are equal. Bot A manages the queue and posting.
-- Narration **max 600 characters incl. audio tags**, 1 take, ElevenLabs Alex voice with model **eleven_v4**. Video length **exactly 35 s** (narration + short visual beats, never slow the voice).
+- Narration **max 600 characters incl. audio tags**, 1 take, ElevenLabs Alex voice with model **eleven_v4**. Video length **exactly 40 s** (owner, 14 Nov 2026; was 35 s, finished videos stay as they are): narration + short visual beats, never slow the voice. Build with `python3 kit/compose_night.py <id> 40 short`.
 - Retention style: strong hook in the first 1-2 s, visual change every 2-3 s, varied transitions (zoom punch-in, slide, flash cut, whoosh), big pop-up keyword text, gentle motion on still images (Ken Burns), SFX on every transition and key moment (pop for text, ding for facts, riser/boom for the plot twist) kept below the voice, ending that loops back to the start + comment CTA. Title cover in the first frame.
 - Files: `videos/<id>_short.mp4` + `meta/<id>.md` (SHORT title + description). Topics: still never repeat, check `meta/USED_TOPICS.md`.
 - Hook (owner, 14 Nov): the first 3 s are a question that starts with "What if..." (or "They say if...", "Is it true that if..."); the title follows the same pattern.
