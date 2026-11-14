@@ -1,0 +1,67 @@
+{
+ "id": "readdark",
+ "SC": "readdark_short",
+ "total": 35.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 4.46
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 4.46,
+   "t1": 5.485
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.485,
+   "t1": 12.895
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 12.895,
+   "t1": 13.92
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 13.92,
+   "t1": 20.02
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 20.02,
+   "t1": 21.045
+  },
+  {
+   "name": "twist",
+   "kind": "voice",
+   "t0": 21.045,
+   "t1": 27.955
+  },
+  {
+   "name": "sil_twist",
+   "kind": "silent",
+   "t0": 27.955,
+   "t1": 28.98
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 28.98,
+   "t1": 32.5
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 32.5,
+   "t1": 35.0
+  }
+ ]
+}
