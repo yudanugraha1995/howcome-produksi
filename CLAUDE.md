@@ -14,7 +14,7 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 - KOMO's shirt shows "HOW COME" on the chest (owner approved 14 Nov 2026, new videos only; older videos keep "HowCome").
 - New Shorts set `window.NEWFX=true;` in `kit/scenes_<id>_short.js` before `loadTopic`: this switches on the v2 transitions, keyword pop-ups, 0.5 s cover and the "HOW COME" shirt.
 - Backgrounds (owner, 14 Nov 2026, new videos only): scenes use illustrated place backgrounds instead of plain colours, mostly bright, sometimes dark for variety: `bg:'classroom' | 'livingroom' | 'library' | 'kitchen' | 'bedroom' | 'bathroom' | 'park' | 'office' | 'cafe'` (bright) and `'bedroomnight' | 'citynight'` (dark), defined in `kit/places.js`. Pick places that fit the topic and vary them across scenes.
-- Popup close-up (owner, 14 Nov 2026, NEWFX only): items, labels and keyword pop-ups slam in from big to their size, and the camera pushes in toward each new item/label for ~1 s, then eases back (`push:false` on a scene turns the camera push off).
+- Popup close-up (owner, 14 Nov 2026, NEWFX only): items, labels and keyword pop-ups are drawn bigger (items x1.4, labels x1.35, keywords 175 px; leave room for this when placing them), slam in from big to their size, and the camera pushes in toward each new item/label for ~1 s, then eases back (`push:false` on a scene turns the camera push off).
 - Stock: keep **4 days = 16 Shorts** ready and not yet posted; if there are already 16 or more, make nothing new (save tokens). A daily scheduled task (08:47 WIB) checks this.
 
 ## Channel
