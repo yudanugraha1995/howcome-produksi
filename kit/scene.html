@@ -41,6 +41,7 @@ function rnd(i){const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x
 const DEFS=`<defs>
 <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter>
 <filter id="dof" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="bgsoft" x="0" y="0" width="100%" height="100%"><feGaussianBlur stdDeviation="2.2"/></filter>
 <filter id="dof2" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4"/></filter>
 <filter id="glowf" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
 <filter id="dsh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="6" dy="11" stdDeviation="7" flood-color="#000" flood-opacity=".28"/></filter>
@@ -205,6 +206,7 @@ function camV(t,t0,t1,a,b){const k=eio((t-t0)/(t1-t0));return [lerp(a[0],b[0],k)
 </script>
 <script src="komo_engine.js"></script>
 <script src="howcome_lib.js"></script>
+<script src="places.js"></script>
 <script>const SC=Q.get('s')||'airdingin';document.write('<script src="scenes_'+SC+'.js"><\/script>');</script>
 <script>
 // ---------- subtitles ----------
