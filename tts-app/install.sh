@@ -1,20 +1,29 @@
 #!/bin/bash
 # Instal KOMO TTS di macOS (M1/M2/M3). Butuh internet SEKALI saja, setelah itu 100% offline.
+#   bash install.sh          -> suara bawaan (cepat, ~400 MB)
+#   bash install.sh clone    -> + clone suara & ekspresi (VoxCPM2, ~5 GB)
 set -e
 cd "$(dirname "$0")"
 
-echo "== 1/3  Menyiapkan Python (via uv) =="
+echo "== Menyiapkan Python (via uv) =="
 if ! command -v uv >/dev/null 2>&1 && [ ! -x "$HOME/.local/bin/uv" ]; then
   curl -LsSf https://astral.sh/uv/install.sh | sh
 fi
 UV="$(command -v uv || echo "$HOME/.local/bin/uv")"
-"$UV" venv --python 3.12 .venv
+[ -x .venv/bin/python ] || "$UV" venv --python 3.12 .venv
 
-echo "== 2/3  Instal library =="
+echo "== Instal library =="
 "$UV" pip install --python .venv/bin/python -r requirements.txt
 
-echo "== 3/3  Download suara (sekitar 400 MB) =="
+echo "== Download suara bawaan (~400 MB) =="
 .venv/bin/python voices.py
+
+if [ "$1" = "clone" ]; then
+  echo "== Instal fitur clone + ekspresi =="
+  "$UV" pip install --python .venv/bin/python -r requirements-clone.txt
+  echo "== Download model VoxCPM2 (~5 GB, sabar ya) =="
+  .venv/bin/python clone.py
+fi
 
 chmod +x run.command
 if ! command -v ffmpeg >/dev/null 2>&1; then

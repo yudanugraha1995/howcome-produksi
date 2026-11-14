@@ -1,4 +1,6 @@
 .venv/
 voices/
 output/
+models/
+my_voices/
 __pycache__/
