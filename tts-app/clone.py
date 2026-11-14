@@ -19,6 +19,14 @@ MODEL_DIR = ROOT / "models" / "VoxCPM2"
 VOICE_DIR = ROOT / "my_voices"
 VOICE_DIR.mkdir(exist_ok=True)
 REPO = "openbmb/VoxCPM2"
+WHISPER_DIR = ROOT / "models" / "whisper-medium"
+WHISPER_REPO = "Systran/faster-whisper-medium"
+
+# Mode clone
+MODE_MIX = "Campur: kalimat ber-tag ekspresif, sisanya paling mirip"
+MODE_SIMILAR = "Paling mirip (tag ekspresi diabaikan)"
+MODE_STYLE = "Ekspresif semua (sedikit kurang mirip)"
+MODES = [MODE_MIX, MODE_SIMILAR, MODE_STYLE]
 
 # tag -> instruksi gaya untuk model
 TAGS = {
@@ -77,7 +85,8 @@ def download_model():
     from huggingface_hub import snapshot_download
     MODEL_DIR.mkdir(parents=True, exist_ok=True)
     snapshot_download(REPO, local_dir=str(MODEL_DIR))
-    print("Model VoxCPM2 siap (offline):", MODEL_DIR)
+    snapshot_download(WHISPER_REPO, local_dir=str(WHISPER_DIR))
+    print("Model VoxCPM2 + Whisper siap (offline):", MODEL_DIR.parent)
 
 
 def model():
@@ -99,22 +108,48 @@ def voices():
     return sorted(p.stem for p in VOICE_DIR.glob("*.wav"))
 
 
-def add_voice(src: str, name: str, start: float = 0.0, length: float = 15.0) -> str:
-    """Potong sampel (mp3/wav/m4a) jadi referensi mono 16 kHz, maks 20 detik, volume dinormalkan."""
+def transcribe(wav: Path) -> str:
+    """Transkrip otomatis sampel (dipakai untuk mode 'paling mirip')."""
+    try:
+        from faster_whisper import WhisperModel
+    except ImportError:
+        return ""
+    src = str(WHISPER_DIR) if (WHISPER_DIR / "model.bin").exists() else "medium"
+    w = WhisperModel(src, device="cpu", compute_type="int8")
+    import librosa
+    x, _ = librosa.load(str(wav), sr=16000, mono=True)
+    segs, info = w.transcribe(x, beam_size=5)
+    return " ".join(s.text.strip() for s in segs).strip()
+
+
+def get_transcript(name: str) -> str:
+    p = VOICE_DIR / f"{name}.txt"
+    return p.read_text(encoding="utf-8").strip() if p.exists() else ""
+
+
+def save_transcript(name: str, text: str):
+    (VOICE_DIR / f"{name}.txt").write_text((text or "").strip(), encoding="utf-8")
+
+
+def add_voice(src: str, name: str, start: float = 0.0, length: float = 15.0):
+    """Potong sampel (mp3/wav/m4a) jadi referensi mono, maks 30 detik, volume dinormalkan,
+    lalu buat transkripnya. Hasil: (nama, transkrip)."""
     import librosa
     import soundfile as sf
     name = re.sub(r"[^\w\- ]", "", name or "").strip().replace(" ", "_")
     if not name:
         raise ValueError("Kasih nama suaranya dulu.")
-    length = max(3.0, min(float(length), 20.0))
-    x, sr = librosa.load(src, sr=16000, mono=True, offset=float(start), duration=length)
+    length = max(3.0, min(float(length), 30.0))
+    x, sr = librosa.load(src, sr=None, mono=True, offset=float(start), duration=length)
     if len(x) < sr * 3:
         raise ValueError("Sampel terlalu pendek (minimal 3 detik).")
     x, _ = librosa.effects.trim(x, top_db=35)
     x = x / (np.abs(x).max() + 1e-9) * 0.9
     out = VOICE_DIR / f"{name}.wav"
     sf.write(out, x, sr)
-    return name
+    text = transcribe(out)
+    save_transcript(name, text)
+    return name, text
 
 
 # ---------------------------------------------------------------- teks -> segmen
@@ -144,7 +179,8 @@ def parse(text: str, default_style: str = ""):
 
 
 def synthesize(text: str, voice: str, default_expr: str = "", speed: float = 1.0,
-               pause: float = 0.3, quality: int = 10, cfg: float = 2.0, progress=None):
+               pause: float = 0.3, quality: int = 10, cfg: float = 2.0, progress=None,
+               mode: str = MODE_MIX):
     """Kembalikan (audio float32, sample_rate)."""
     import engine as E
     ref = VOICE_DIR / f"{voice}.wav"
@@ -154,6 +190,9 @@ def synthesize(text: str, voice: str, default_expr: str = "", speed: float = 1.0
     sr = m.tts_model.sample_rate
     base = "" if default_expr in ("", "(tanpa)") else TAGS.get(default_expr, default_expr)
     pace = "slightly faster" if speed > 1.1 else "slower, unhurried" if speed < 0.9 else ""
+    ref_text = get_transcript(voice)
+    if ref_text:
+        ref_text = E.normalize(ref_text, E.detect_lang(ref_text))
     segs = parse(text, base)
     gap = np.zeros(int(sr * pause), np.float32)
     out = []
@@ -166,10 +205,17 @@ def synthesize(text: str, voice: str, default_expr: str = "", speed: float = 1.0
         style, sent = val
         lang = E.detect_lang(sent)
         sent = E.normalize(sent, lang)
+        use_style = not ref_text or mode == MODE_STYLE or (mode == MODE_MIX and bool(style))
         style = ", ".join(s for s in (style, pace) if s)
-        prompt = f"({style}){sent}" if style else sent
-        a = m.generate(text=prompt, reference_wav_path=str(ref), cfg_value=cfg,
-                       inference_timesteps=int(quality))
+        if use_style:
+            # mode gaya: referensi saja + instruksi gaya (ekspresif)
+            prompt = f"({style}){sent}" if style else sent
+            a = m.generate(text=prompt, reference_wav_path=str(ref), cfg_value=cfg,
+                           inference_timesteps=int(quality))
+        else:
+            # mode paling mirip: lanjutan dari sampel + transkripnya (logat & warna suara paling dekat)
+            a = m.generate(text=sent, prompt_wav_path=str(ref), prompt_text=ref_text,
+                           reference_wav_path=str(ref), cfg_value=cfg, inference_timesteps=int(quality))
         out += [np.asarray(a, np.float32), gap]
         done += 1
         if progress:

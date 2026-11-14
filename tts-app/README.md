@@ -32,15 +32,25 @@ Browser terbuka di `http://127.0.0.1:7860`. Tulis teks -> pilih bahasa/suara -> 
 ## Clone suara + ekspresi
 
 1. Tab **Suaraku**: upload sampel (mp3/wav/m4a), kasih nama, atur "Mulai dari detik" supaya potongannya
-   bersih (satu orang, tanpa musik), lalu **Simpan suara**. Gaya bicara di sampel ikut ter-clone.
+   bersih (satu orang, tanpa musik, 15-30 detik), lalu **Simpan suara**. Transkripnya dibuat otomatis (Whisper);
+   cek dan perbaiki kalau ada yang salah: transkrip yang persis = suara paling mirip.
 2. Tab **Clone + Ekspresi**: pilih suara, tulis teks + tag, **Buat Suara**. Output 48 kHz.
+
+Mode:
+- **Campur** (default): kalimat tanpa tag pakai mode *paling mirip* (melanjutkan sampel + transkrip, logat &
+  warna suara paling dekat); kalimat ber-tag pakai mode *ekspresif* (referensi + arahan gaya).
+- **Paling mirip**: semua kalimat mirip maksimal, tag ekspresi diabaikan (jeda tetap jalan).
+- **Ekspresif semua**: semua pakai arahan gaya.
+
+Hasil tes (skor kemiripan suara 0-1; dua rekaman asli orang yang sama = 0,68-0,78):
+mode ekspresif 0,63-0,71, mode paling mirip 0,72-0,88.
 
 Tag: `[excited] [cheerful] [curious] [surprised] [gasps] [laughs] [sighs] [scoffs] [whispers] [mysterious]
 [dramatic] [serious] [calm] [sad] [angry] [fast] [slow]`, jeda `[pause] [short pause] [long pause]`.
 Tag lain bebas dalam bahasa Inggris (mis. `[slow, dramatic narrator]`). Tag berlaku untuk kalimat tempatnya.
 
 Catatan:
-- Model 4,7 GB. MacBook Air M1 **16 GB** aman; versi **8 GB** bisa jalan tapi lambat (memori swap).
+- Model 4,7 GB (+ Whisper 1,5 GB untuk transkrip). MacBook Air M1 **16 GB** aman; versi **8 GB** bisa jalan tapi lambat (memori swap).
   Jalan di GPU M1 (MPS) otomatis; kalau gagal, pindah ke CPU.
 - Kecepatan: di server tes (CPU 4 core) sekitar 4-7 detik proses per 1 detik audio. Di M1 belum diukur.
 - Ekspresi berupa "arahan gaya", bukan efek suara: `[laughs]` bikin nada tertawa/geli, belum tentu ada "hahaha".

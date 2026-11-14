@@ -47,7 +47,7 @@ def run_fast(text, lang_label, voice_id, voice_en, speed, pause, name, progress=
 
 
 # ---------------------------------------------------------------- Clone
-def run_clone(text, voice, expr, speed, pause, quality, cfg, name, progress=gr.Progress()):
+def run_clone(text, voice, mode, expr, speed, pause, quality, cfg, name, progress=gr.Progress()):
     if not C.installed():
         raise gr.Error("Fitur clone belum diinstal. Jalankan: bash install.sh clone")
     if not text or not text.strip():
@@ -57,7 +57,7 @@ def run_clone(text, voice, expr, speed, pause, quality, cfg, name, progress=gr.P
     t0 = time.time()
     progress(0, desc="Memuat model (pertama kali agak lama)...")
     try:
-        audio, sr = C.synthesize(text, voice, expr, speed, pause, int(quality), float(cfg), progress)
+        audio, sr = C.synthesize(text, voice, expr, speed, pause, int(quality), float(cfg), progress, mode)
     except ValueError as e:
         raise gr.Error(str(e))
     wav, files = save(audio, sr, name)
@@ -68,12 +68,24 @@ def add_voice(f, name, start, length):
     if not f:
         raise gr.Error("Upload sampel suaranya dulu.")
     try:
-        n = C.add_voice(f, name, start, length)
+        n, txt = C.add_voice(f, name, start, length)
     except ValueError as e:
         raise gr.Error(str(e))
     v = C.voices()
-    msg = f"Suara **{n}** tersimpan. Dengarkan potongannya di bawah; kalau ada musik/noise, ganti 'Mulai dari detik'."
-    return gr.update(choices=v, value=n), msg, str(C.VOICE_DIR / f"{n}.wav")
+    msg = (f"Suara **{n}** tersimpan. Dengarkan potongannya, lalu **cek transkripnya**: harus persis sama dengan "
+           "yang diucapkan (angka tulis sebagai kata). Kalau ada yang salah, perbaiki lalu klik 'Simpan transkrip'.")
+    return gr.update(choices=v, value=n), msg, str(C.VOICE_DIR / f"{n}.wav"), txt, gr.update(choices=v, value=n)
+
+
+def save_tr(v, txt):
+    if not v:
+        raise gr.Error("Pilih suaranya dulu.")
+    C.save_transcript(v, txt)
+    return f"Transkrip **{v}** disimpan."
+
+
+def load_voice(v):
+    return preview_voice(v), C.get_transcript(v) if v else ""
 
 
 def preview_voice(v):
@@ -104,6 +116,7 @@ def build():
                         c_voice = gr.Dropdown(my, value=my[0] if my else None, label="Suara", scale=4)
                         c_refresh = gr.Button("↻", scale=1, min_width=40)
                     c_ref = gr.Audio(label="Contoh suara referensi", type="filepath", value=preview_voice(my[0]) if my else None)
+                    c_mode = gr.Radio(C.MODES, value=C.MODE_MIX, label="Mode")
                     c_expr = gr.Dropdown(C.EXPRESSIONS, value="(tanpa)", label="Ekspresi default (kalimat tanpa tag)")
                     c_speed = gr.Slider(0.8, 1.2, value=1.0, step=0.1, label="Tempo (lambat - normal - cepat)")
                     c_pause = gr.Slider(0.0, 1.5, value=0.3, step=0.05, label="Jeda antar kalimat (detik)")
@@ -116,7 +129,7 @@ def build():
             c_files = gr.File(label="Download (WAV / MP3)", file_count="multiple")
 
         with gr.Tab("Suaraku (tambah suara)"):
-            gr.Markdown("Upload rekaman suara **10-20 detik**, satu orang, bersih tanpa musik/noise. "
+            gr.Markdown("Upload rekaman suara **15-30 detik**, satu orang, bersih tanpa musik/noise. "
                         "Gaya bicara di sampel ikut ter-clone (sampel semangat → hasil semangat). "
                         "Pakai hanya suara milikmu sendiri atau yang kamu punya izinnya.")
             with gr.Row():
@@ -124,10 +137,16 @@ def build():
                 with gr.Column():
                     s_name = gr.Textbox(label="Nama suara", placeholder="misal: suara_aku_semangat")
                     s_start = gr.Number(value=0, label="Mulai dari detik")
-                    s_len = gr.Slider(5, 20, value=15, step=1, label="Panjang potongan (detik)")
+                    s_len = gr.Slider(5, 30, value=20, step=1, label="Panjang potongan (detik)")
                     s_btn = gr.Button("Simpan suara", variant="primary")
             s_info = gr.Markdown()
             s_prev = gr.Audio(label="Potongan yang disimpan", type="filepath")
+            gr.Markdown("### Transkrip sampel\nDipakai mode *paling mirip*. Harus persis sama dengan isi potongan suara.")
+            with gr.Row():
+                s_pick = gr.Dropdown(my, value=my[0] if my else None, label="Suara", scale=1)
+                s_tr = gr.Textbox(label="Transkrip", lines=4, scale=3, value=C.get_transcript(my[0]) if my else "")
+            s_trbtn = gr.Button("Simpan transkrip")
+            s_trinfo = gr.Markdown()
 
         with gr.Tab("Cepat (suara bawaan)"):
             with gr.Row():
@@ -145,11 +164,13 @@ def build():
             player = gr.Audio(label="Hasil", type="filepath")
             files = gr.File(label="Download (WAV / MP3)", file_count="multiple")
 
-        c_btn.click(run_clone, [c_text, c_voice, c_expr, c_speed, c_pause, c_quality, c_cfg, c_name],
+        c_btn.click(run_clone, [c_text, c_voice, c_mode, c_expr, c_speed, c_pause, c_quality, c_cfg, c_name],
                     [c_out, c_files, c_info])
         c_voice.change(preview_voice, c_voice, c_ref)
         c_refresh.click(lambda: gr.update(choices=C.voices()), None, c_voice)
-        s_btn.click(add_voice, [s_file, s_name, s_start, s_len], [c_voice, s_info, s_prev])
+        s_btn.click(add_voice, [s_file, s_name, s_start, s_len], [c_voice, s_info, s_prev, s_tr, s_pick])
+        s_pick.change(load_voice, s_pick, [s_prev, s_tr])
+        s_trbtn.click(save_tr, [s_pick, s_tr], s_trinfo)
         btn.click(run_fast, [text, lang, voice_id, voice_en, speed, pause, name], [player, files, info])
     return ui
 

@@ -1,3 +1,4 @@
 voxcpm==2.0.3
 librosa
 huggingface_hub
+faster-whisper
