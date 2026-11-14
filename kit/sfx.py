@@ -39,6 +39,16 @@ W = whoosh()
 for p in plan[1:]: add(W, max(0, p['t0'] - 0.2), 0.10 if p['kind'] == 'voice' else 0.18)
 for p in plan:
     if p['name'] in ('twist',) or p['name'].startswith('sil_hook'): add(ding(), p['t0'] + 0.1, 0.10)
+def riser(d=0.9):
+    n = int(d * SR); tt = np.arange(n) / SR; f = 200 + 900 * (tt / d) ** 2
+    return (0.6 * np.sin(2 * np.pi * np.cumsum(f) / SR) + 0.4 * rng.standard_normal(n) * (tt / d)) * (tt / d) ** 1.5
+def boom(d=0.8):
+    n = int(d * SR); tt = np.arange(n) / SR; f = 90 * np.exp(-tt * 3) + 35
+    return np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 4)
+if os.environ.get('NEWFX', '1') == '1':
+    for p in plan:
+        if p['name'] == 'twist':
+            add(riser(), max(0, p['t0'] - 0.9), 0.10); add(boom(), p['t0'], 0.35)
 last = -1
 for t in pops:
     if t - last < 0.12: continue

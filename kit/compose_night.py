@@ -66,7 +66,7 @@ def build(SC, items, total):
 # ---- night Short: every block, a silent beat after each block except the CTA, CTA held at the end ----
 names = [b['name'] for b in spans]
 voice_len = sum(b['b'] - b['a'] for b in spans)
-end = 5.0
+end = 5.0 if TOTAL >= 50 else 2.5
 gaps = len(names) - 1
 g = max(0.0, (TOTAL - voice_len - end) / gaps)
 items = []

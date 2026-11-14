@@ -1,7 +1,7 @@
 # usage: python3 tts.py <id> <text_file>
 # ElevenLabs TTS (Alex v3, LOCKED) via API, 1 take. Saves audio/<id>.mp3, logs credit usage to audio/usage_log.md.
 import json,sys,os,base64,urllib.request,time
-VOICE='yl2ZDV1MzN4HbQJbMihG'; MODEL='eleven_v3'
+VOICE='yl2ZDV1MzN4HbQJbMihG'; MODEL=os.environ.get('TTS_MODEL','eleven_v4')  # eleven_v4 from 14 Nov 2026 (older titles used eleven_v3)
 id_,tf=sys.argv[1],sys.argv[2]; text=open(tf).read().strip()
 root=os.path.dirname(os.path.abspath(__file__))+'/..'
 def req(url,data=None):
