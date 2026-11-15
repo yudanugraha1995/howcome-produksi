@@ -1,5 +1,6 @@
 # Build the NIGHT Short timeline (~55 s) from ONE short narration (<=400 chars).
-# usage: python3 compose_night.py <id> [seconds=55] [suffix=night|noon]
+# usage: python3 compose_night.py <id> [seconds=55 | maxNN] [suffix=night|noon|short]
+# maxNN (e.g. max35): length follows the narration (short beats, no padding), capped at NN seconds
 # Silent visual beats are spread after every block except the CTA; the CTA/outro is held at the end.
 # needs: ../audio/<id>.mp3, timing_<id>_full.json (fa2words), ../naskah/blocks_<id>.json ([[name, short|yt, text], ...])
 # writes (for SC in <id>_yt, <id>_short): narasi_<SC>.mp3 (narration + silent beats + music bed),
@@ -7,7 +8,7 @@
 import json, re, subprocess, sys, os
 import numpy as np
 
-ID = sys.argv[1]; TOTAL = float(sys.argv[2]) if len(sys.argv) > 2 else 55.0; SUF = sys.argv[3] if len(sys.argv) > 3 else 'night'
+ID = sys.argv[1]; AUTO = len(sys.argv) > 2 and sys.argv[2].startswith('max'); TOTAL = (float(sys.argv[2][3:]) if AUTO else float(sys.argv[2])) if len(sys.argv) > 2 else 55.0; SUF = sys.argv[3] if len(sys.argv) > 3 else 'night'
 HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE)
 SR = 44100
 blocks = json.load(open(f'../naskah/blocks_{ID}.json'))
@@ -68,6 +69,11 @@ names = [b['name'] for b in spans]
 voice_len = sum(b['b'] - b['a'] for b in spans)
 end = 5.0 if TOTAL >= 50 else 2.5
 gaps = len(names) - 1
+if AUTO:  # 'max35' (owner 15 Nov 2026): no padding, short beats (~0.45 s) + 2 s end, never longer than the cap
+    end = 2.0; g = 0.45
+    if voice_len + g * gaps + end > TOTAL: g = max(0.0, (TOTAL - voice_len - end) / gaps)
+    TOTAL = round(min(TOTAL, voice_len + g * gaps + end), 3)
+    if voice_len + end > TOTAL + 0.01: sys.exit(f'narration too long for the cap: {voice_len:.1f} s')
 g = max(0.0, (TOTAL - voice_len - end) / gaps)
 items = []
 for i, nm in enumerate(names):
