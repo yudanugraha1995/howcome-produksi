@@ -1,0 +1,55 @@
+{
+ "id": "toilet_i",
+ "SC": "toilet_i_short",
+ "total": 24.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.944
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.944,
+   "t1": 5.017
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.017,
+   "t1": 11.713
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 11.713,
+   "t1": 13.786
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 13.786,
+   "t1": 15.926
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 15.926,
+   "t1": 17.999
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 17.999,
+   "t1": 21.499
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 21.499,
+   "t1": 23.999
+  }
+ ]
+}
