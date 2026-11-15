@@ -54,9 +54,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #tickle #brain #shorts
 
-## Tags
-what if you tried to tickle yourself, why cant you tickle yourself, tickling, tickle science, ticklish, cerebellum, brain prediction, self touch, tickle robot experiment, why do we laugh when tickled, rats laugh, most ticklish spot, brain facts, neuroscience, psychology, human body facts, weird facts, fun facts, science explained, did you know, howcome, komo, what if, shorts, tickle experiment, ticklish feet, brain trick, laughing
-
 ## NIGHT SHORT (videos/tickle_night.mp4, 55 s, slot 19 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/tickle_night.mp4
 

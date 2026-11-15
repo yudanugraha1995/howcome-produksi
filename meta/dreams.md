@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #dreams #sleep #shorts
 
-## Tags
-what if you remembered every dream, dreams, why do we forget dreams, how to remember dreams, rem sleep, dream journal, lucid dreaming, sleep cycles, do blind people dream, dream science, weird dreams, nightmares, brain, memory, sleep facts, sleep science, psychology, fun facts, science explained, did you know, howcome, komo, what if, shorts, dream meaning, why dreams feel real, sleep talk, brain science
-
 ## NOON SHORT (videos/dreams_noon.mp4, 55 s, slot 20 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/dreams_noon.mp4
 

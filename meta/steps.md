@@ -57,9 +57,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #walking #fitness #shorts
 
-## Tags
-what if you walked 10000 steps every day, 10000 steps, 10k steps a day, how many steps a day, walking benefits, daily steps, step count, walking for health, manpo kei, walking after meals, fitness tracker, pedometer, weight loss walking, healthy habits, fitness, exercise science, longevity, science explained, did you know, howcome, komo, what if, shorts, walk every day, steps challenge, walking goal, step goal, walking tips
-
 ## SHORT (videos/steps_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/steps_short.mp4
 

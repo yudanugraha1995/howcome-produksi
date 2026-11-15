@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #sleep #shower #shorts
 
-## Tags
-what if you showered before bed every night, shower before bed, night shower, warm shower sleep, how to fall asleep faster, sleep tips, bedtime routine, body temperature and sleep, morning vs night shower, warm bath before bed, insomnia tips, relaxing routine, self care, sleep science, healthy habits, science explained, did you know, howcome, komo, what if, shorts, fall asleep fast, sleep hacks, evening routine, warm feet sleep, relax before bed
-
 ## NOON SHORT (videos/nightshower_noon.mp4, 55 s, slot 16 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/nightshower_noon.mp4
 

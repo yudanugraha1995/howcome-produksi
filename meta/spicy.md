@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #spicyfood #chili #shorts
 
-## Tags
-what if you ate spicy food every day, spicy food, is spicy food healthy, capsaicin, chili peppers, why is spicy food hot, trpv1, spicy food benefits, spicy challenge, hot sauce, milk vs water spicy, heartburn, spice tolerance, food science, nutrition, foodie, science explained, did you know, howcome, komo, what if, shorts, chili, spicy noodles, ghost pepper, scoville scale, why chili burns, spicy food lovers
-
 ## SHORT (videos/spicy_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/spicy_short.mp4
 

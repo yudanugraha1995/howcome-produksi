@@ -57,9 +57,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #headphones #hearing #shorts
 
-## Tags
-what if you wore headphones all day, headphones all day, are headphones bad for your ears, earbuds, noise induced hearing loss, hearing loss, safe listening, 60 60 rule, tinnitus, ringing ears, noise cancelling headphones, volume limit, cochlea, hair cells, ear health, music, gaming headset, human body facts, science explained, did you know, howcome, komo, what if, shorts, how loud is too loud, airpods, hearing protection, protect your hearing
-
 ## SHORT (videos/headphones_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/headphones_short.mp4
 

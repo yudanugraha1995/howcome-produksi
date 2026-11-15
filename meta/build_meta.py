@@ -1,4 +1,4 @@
-# Builds the "## SHORT METADATA (current)" + "## Tags" sections in meta/<id>.md
+# Builds the "## SHORT METADATA (current)" section (no tags: owner 15 Nov 2026) in meta/<id>.md
 # from the TOPICS dicts in meta/longmeta_*.py (owner rule 14 Nov 2026).
 # usage: python3 meta/build_meta.py [id ...]   (no ids = all)
 import glob, os, re, sys, importlib.util
@@ -26,20 +26,18 @@ def describe(t):
     return '\n'.join(d)
 
 def build(i):
-    t = TOPICS[i]; desc = describe(t); tags = ', '.join(t['tags'] + t.get('more_tags', []))
+    t = TOPICS[i]; desc = describe(t)
     hs = t['hashtags']
     assert 3 <= len(hs) <= 5 and '#shorts' in hs, (i, 'hashtags')
     assert len(desc) <= 5000, (i, 'desc', len(desc))
-    assert len(tags) <= 500, (i, 'tags', len(tags))
-    assert len(tags) >= 400, (i, 'tags too short', len(tags))
     assert '<' not in desc and '>' not in desc, (i, 'YouTube rejects < and > in descriptions')
     p = f'{HERE}/{i}.md'; s = open(p).read()
     s = re.sub(r'## SHORT METADATA \(current\).*?(?=\n## (?!Tags)|\Z)', '', s, flags=re.S).rstrip('\n') + '\n'
     lines = s.split('\n'); head = lines[0]; rest = '\n'.join(lines[1:]).lstrip('\n')
     sec = (f"## SHORT METADATA (current)\nUse this for posting (owner rule 14 Nov 2026). Older description sections below are superseded.\n"
-           f"Video: videos/{t['file']}\n\nTitle: {t['title']}\n\nDescription:\n{desc}\n\n## Tags\n{tags}\n")
+           f"Video: videos/{t['file']}\n\nTitle: {t['title']}\n\nDescription:\n{desc}\n")
     open(p, 'w').write(f'{head}\n\n{sec}\n{rest}')
-    return len(desc), len(tags)
+    return (len(desc),)
 
 if __name__ == '__main__':
     for i in (sys.argv[1:] or sorted(TOPICS)):

@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #hair #body #shorts
 
-## Tags
-what if you never cut your hair, never cutting your hair, how fast does hair grow, how long can hair grow, hair growth cycle, anagen phase, longest hair world record, does cutting hair make it grow faster, hair loss, split ends, long hair, hair care, human body facts, world records, fun facts, science explained, did you know, howcome, komo, what if, shorts, hair growth tips, long hair journey, haircut, hair facts
-
 ## NIGHT SHORT (videos/hair_night.mp4, 55 s, slot 14 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/hair_night.mp4
 

@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #toothbrush #germs #shorts
 
-## Tags
-what if your toothbrush sat next to the toilet, toothbrush next to toilet, toilet plume, toothbrush bacteria, where to keep your toothbrush, close the toilet lid, bathroom germs, toothbrush hygiene, how often to replace toothbrush, toothbrush case, oral hygiene, dental tips, cleaning tips, germs, microbiology, bathroom hacks, science explained, did you know, howcome, komo, what if, shorts, gross facts, flush
-
 ## NOON SHORT (videos/toothbrush_noon.mp4, 55 s, slot 17 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/toothbrush_noon.mp4
 

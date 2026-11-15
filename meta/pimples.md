@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #pimples #skincare #shorts
 
-## Tags
-what if you popped every pimple, popping pimples, should you pop pimples, acne, pimple patch, acne scars, dark spots, blackheads, what are blackheads, skincare, skin care routine, dermatologist tips, teen acne, clogged pores, benzoyl peroxide, salicylic acid, beauty myths, skincare myths, science explained, did you know, howcome, komo, what if, shorts, how to get rid of pimples, pimple popping, acne tips, acne treatment, clear skin
-
 ## SHORT (videos/pimples_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/pimples_short.mp4
 

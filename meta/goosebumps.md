@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #goosebumps #body #shorts
 
-## Tags
-what if you got goosebumps every day, goosebumps, why do we get goosebumps, chills, frisson, music chills, arrector pili, fight or flight, cold reflex, hair follicle, skin facts, evolution, human body facts, nervous system, weird body facts, fun facts, science explained, did you know, psychology, howcome, komo, what if, shorts, cat fur puffing, why music gives chills, goose bumps, skin reflex, hair growth
-
 ## NIGHT SHORT (videos/goosebumps_night.mp4, 55 s, slot 16 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/goosebumps_night.mp4
 

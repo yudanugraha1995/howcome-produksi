@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #dogs #pets #shorts
 
-## Tags
-what if your pet slept in your bed every night, sleeping with your dog, sleeping with pets, should my dog sleep in my bed, cat sleeping in bed, dog in bed, pets and sleep quality, mayo clinic dog study, bed hog, dog owners, cat owners, puppy, pet care tips, pet allergies, sleep tips, sleep science, dog lovers, science explained, did you know, howcome, komo, what if, shorts, pets in bedroom, cats at night, dog bed, sleep quality tips, pet hygiene
-
 ## NOON SHORT (videos/petbed_noon.mp4, 55 s, slot 23 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/petbed_noon.mp4
 

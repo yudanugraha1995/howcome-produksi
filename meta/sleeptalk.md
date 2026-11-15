@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #sleeptalking #sleep #shorts
 
-## Tags
-what if you talked in your sleep, sleep talking, why do people talk in their sleep, somniloquy, parasomnia, sleep talk recording, funny sleep talking, sleep talking study, swearing in sleep, sleep disorders, sleep habits, sleep apps, dreams, brain, sleep science, fun facts, science explained, did you know, psychology, howcome, komo, what if, shorts, talking while sleeping, sleep talking causes, what sleep talkers say, sleep recording, night talk
-
 ## NIGHT SHORT (videos/sleeptalk_night.mp4, 55 s, slot 15 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/sleeptalk_night.mp4
 

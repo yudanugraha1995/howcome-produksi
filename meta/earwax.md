@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #earwax #ears #shorts
 
-## Tags
-what if you never cleaned your ears, ear wax, earwax, how to clean your ears, should you use cotton swabs, q tips in ears, do ears clean themselves, wet vs dry ear wax, ear wax gene, abcc11, cerumen, blocked ear, ear health, ear care, hygiene myths, human body facts, genetics, fun facts, science explained, did you know, howcome, komo, what if, shorts, ear candles, clogged ear, ear cleaning tips, ear facts
-
 ## NIGHT SHORT (videos/earwax_night.mp4, 55 s, slot 18 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/earwax_night.mp4
 

@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #mold #foodsafety #shorts
 
-## Tags
-what if you ate moldy bread, moldy bread, is moldy bread safe, can you cut mold off bread, mold on bread, food safety, mycotoxins, penicillin, blue cheese, mold facts, kitchen tips, food myths, science explained, fun facts, howcome, komo, what if, shorts, what happens if you eat mold, green mold on bread, can mold make you sick, bread storage tips, should you cut mold off cheese, food waste, fungus, spores, kitchen hacks, food science, did you know, grocery tips
-
 ## NOON SHORT (videos/breadmold_noon.mp4, 55 s, slot 15 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/breadmold_noon.mp4
 

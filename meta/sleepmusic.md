@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #music #sleep #shorts
 
-## Tags
-what if you fell asleep to music every night, sleeping with music, music before bed, sleep music, earworm, song stuck in head, does music help you sleep, white noise, rain sounds, sleep playlist, lofi, sleep timer, sleep tips, bedtime routine, insomnia, sleep science, music psychology, science explained, did you know, howcome, komo, what if, shorts, earworm at night, music and sleep study, falling asleep with headphones, calm music, relaxing music
-
 ## NOON SHORT (videos/sleepmusic_noon.mp4, 55 s, slot 21 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/sleepmusic_noon.mp4
 

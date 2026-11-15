@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #brainfreeze #icecream #shorts
 
-## Tags
-what if you got brain freeze, brain freeze, ice cream headache, why do we get brain freeze, cold stimulus headache, how to stop brain freeze, brain freeze cure, ice cream, slushie, headache facts, body facts, fun facts, science explained, howcome, komo, what if, shorts, why does ice cream hurt my head, frozen drink headache, slurpee headache, cold headache, brain freeze science, tongue trick, sphenopalatine ganglioneuralgia, referred pain, migraine, summer treats, did you know, weird body facts
-
 ## NIGHT SHORT (videos/brainfreeze_night.mp4, 55 s, slot 17 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/brainfreeze_night.mp4
 

@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #eating #food #shorts
 
-## Tags
-what if you ate super fast every day, eating fast, eating too fast, why eat slowly, how long to feel full, 20 minute rule, fullness hormones, mindful eating, weight gain, overeating, chewing food, bloating, heartburn, eating habits, healthy habits, nutrition, food science, fun facts, science explained, did you know, howcome, komo, what if, shorts, eating slowly benefits, portion control, diet tips, satiety
-
 ## NOON SHORT (videos/eatfast_noon.mp4, 55 s, slot 22 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/eatfast_noon.mp4
 

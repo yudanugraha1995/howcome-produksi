@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #snoring #sleep #shorts
 
-## Tags
-what if you snored every night, snoring, why do people snore, how to stop snoring, sleep apnea, obstructive sleep apnea, loud snoring, snoring causes, sleeping on your side, snoring remedies, sleep study, daytime sleepiness, sleep health, partner snoring, sleep tips, sleep science, human body facts, science explained, did you know, howcome, komo, what if, shorts, snore, breathing at night, sleep quality
-
 ## NOON SHORT (videos/snoring_noon.mp4, 55 s, slot 18 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/snoring_noon.mp4
 

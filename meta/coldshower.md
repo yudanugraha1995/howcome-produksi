@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #coldshower #health #shorts
 
-## Tags
-what if you took a cold shower every day, cold shower, cold shower benefits, cold shower every morning, cold shock response, cold water therapy, morning routine, immune system, sick days study, wim hof, health habits, science explained, howcome, komo, what if, shorts, cold shower challenge, cold shower vs hot shower, cold exposure, cold plunge, ice bath, morning shower, wake up fast, discipline, healthy habits, energy boost, mood boost, did you know
-
 ## SHORT (videos/coldshower_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/coldshower_short.mp4
 

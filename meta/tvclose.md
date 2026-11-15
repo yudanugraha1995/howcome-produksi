@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #eyes #myth #shorts
 
-## Tags
-what if you sat close to the tv every day, sitting close to the tv, is sitting close to the tv bad for your eyes, tv myth, eye strain, myopia, nearsighted kids, screen time, 20 20 20 rule, outdoor time, childhood myths, parents myths, 1960s tv radiation, eye health, eye doctor facts, dry eyes, health myths, science explained, did you know, howcome, komo, what if, shorts, kids eyesight, retro tv, tv distance, eyes
-
 ## SHORT (videos/tvclose_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/tvclose_short.mp4
 

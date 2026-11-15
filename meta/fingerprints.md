@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #fingerprints #body #shorts
 
-## Tags
-what if you had no fingerprints, fingerprints, people without fingerprints, adermatoglyphia, immigration delay disease, why do we have fingerprints, koala fingerprints, fingerprint patterns, loops whorls arches, identical twins fingerprints, smarcad1, genetics, forensics, human body facts, weird facts, animal facts, fun facts, science explained, did you know, howcome, komo, what if, shorts, fingerprint facts, crime scene, touch sense, rare genetic condition
-
 ## NIGHT SHORT (videos/fingerprints_night.mp4, 55 s, slot 21 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/fingerprints_night.mp4
 

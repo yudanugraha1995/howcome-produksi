@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #coldwater #myth #shorts
 
-## Tags
-what if you drank ice cold water every day, cold water, is cold water bad for you, ice water, cold water myth, cold water and digestion, drinking water, hydration, migraine trigger, health myths, water facts, science explained, howcome, komo, what if, shorts, warm water vs cold water, cold water after meals, is ice water bad, water temperature, drinking water benefits, hydration tips, grandma myths, cold drinks, summer drinks, exercise in heat, did you know, myth busting
-
 ## SHORT (videos/coldwater_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/coldwater_short.mp4
 

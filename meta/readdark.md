@@ -57,9 +57,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #eyes #reading #shorts
 
-## Tags
-what if you read in the dark, reading in the dark, reading in dim light, does reading in the dark ruin your eyes, eye strain, eye health, myopia, nearsighted kids, 20 20 20 rule, dry eyes, eye myths, blinking, reading habits, eye doctor facts, science facts, health myths, howcome, komo, what if, shorts, reading in bed, reading with a flashlight, eye strain relief, kids eyesight, outdoor time and myopia, do you need glasses, eye care tips, study tips, book lovers, did you know
-
 ## SHORT (videos/readdark_short.mp4, 35 s, new style: place backgrounds + popup close-up) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/readdark_short.mp4
 

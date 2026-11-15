@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #crying #tears #shorts
 
-## Tags
-what if you cried every day, crying, why do we cry, tears, emotional tears, types of tears, is crying good for you, crying and stress, why onions make you cry, onion tears, basal tears, reflex tears, eyes, emotions, mental health, feelings, sad movies, human body facts, fun facts, science explained, did you know, psychology, howcome, komo, what if, shorts, tears science, crying benefits, self soothing, why do i cry so easily, happy tears
-
 ## NIGHT SHORT (videos/crying_night.mp4, 55 s, slot 22 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/crying_night.mp4
 

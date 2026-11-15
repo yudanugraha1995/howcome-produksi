@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #nap #sleep #shorts
 
-## Tags
-what if you napped every afternoon, napping, power nap, how long should a nap be, nasa nap study, coffee nap, afternoon slump, post lunch dip, sleep inertia, groggy after nap, sleep tips, productivity, energy boost, study tips, circadian rhythm, sleep science, healthy habits, science explained, did you know, howcome, komo, what if, shorts, nap benefits, best time to nap, tired after lunch, short nap, nap vs coffee, pilot study
-
 ## SHORT (videos/nap_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/nap_short.mp4
 

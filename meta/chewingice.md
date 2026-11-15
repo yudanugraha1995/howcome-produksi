@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #teeth #ice #shorts
 
-## Tags
-what if you chewed ice every day, chewing ice, is chewing ice bad for your teeth, ice craving, pagophagia, iron deficiency, anemia, cracked tooth, tooth enamel, dental health, teeth facts, bad habits, health facts, science explained, howcome, komo, what if, shorts, why do i crave ice, ice cravings and anemia, chipped tooth, tooth sensitivity, braces tips, dentist advice, crunchy habits, low iron symptoms, iron deficiency anemia, teeth care, oral health, did you know
-
 ## NOON SHORT (videos/chewingice_noon.mp4, 55 s, slot 19 Nov 11:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/chewingice_noon.mp4
 

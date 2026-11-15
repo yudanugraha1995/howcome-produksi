@@ -55,9 +55,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #stomach #body #shorts
 
-## Tags
-what if your stomach growled all day, stomach growling, why does my stomach growl, borborygmi, stomach rumbling, hungry stomach, migrating motor complex, ghrelin, hunger hormone, digestion, gut health, embarrassing moments, quiet classroom, tummy noises, human body facts, weird body facts, fun facts, science explained, did you know, howcome, komo, what if, shorts, stomach noises, gut sounds, rumbling tummy, hungry
-
 ## NIGHT SHORT (videos/stomachgrowl_night.mp4, 55 s, slot 20 Nov 20:00 WIB) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/stomachgrowl_night.mp4
 

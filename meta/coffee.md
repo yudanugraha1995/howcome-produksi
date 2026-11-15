@@ -56,9 +56,6 @@ HOWCOME? turns everyday "What if...?" questions into short animated science stor
 
 #howcome #coffee #caffeine #shorts
 
-## Tags
-what if you drank coffee every day, coffee every day, is coffee good for you, coffee health benefits, caffeine, how much caffeine is too much, does coffee dehydrate you, coffee and sleep, coffee facts, morning coffee, health myths, nutrition, science explained, howcome, komo, what if, shorts, how many cups of coffee a day, coffee and heart health, coffee and longevity, decaf, espresso, latte, caffeine and sleep, coffee myths, coffee lovers, energy boost, healthy habits, did you know
-
 ## SHORT (videos/coffee_short.mp4, 55 s) [OLD description, superseded by SHORT METADATA above]
 Download: https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/main/videos/coffee_short.mp4
 
