@@ -74,7 +74,7 @@ function factCard(t,t0,lines,{bg='#fff',col=OL,size=isV?60:58,w=isV?900:1300}={}
 function subscribeEnd(t,t0,t1){return {world:t=>{let s=`<rect width="1920" height="1920" fill="#0F2A3A"/><circle cx="960" cy="900" r="560" fill="#5EC8FF" opacity=".22" filter="url(#glowf)"/>`+rays(960,300,9,1600,10,.35,Math.sin(t)*2);
   s+=komo({x:isV?960:700,y:isV?1300:1400,s:isV?.9:.8,expr:'happy',aL:70,aR:-60+Math.sin(t*9)*14,blink:blinkAt(t,14)});
   const k=popS(t,t0+.3,.5);if(k>0)s+=g(tr(isV?960:1280,isV?640:900,k*(isV?.9:1)),`<rect x="-300" y="-90" width="600" height="180" rx="40" fill="#E5383B" stroke="${OL}" stroke-width="10"/><text x="0" y="34" text-anchor="middle" font-family="B2" font-weight="800" font-size="96" fill="#fff">SUBSCRIBE</text>`,'filter="url(#dsh)"');return s;},
-  cam:t=>camV(t,t0,t1,[960,940,1.0],[960,920,1.05]),hud:t=>hudTitle('SEE YOU IN THE NEXT HOWCOME!',isV?470:150,popS(t,t0+.6,.45),{fill:'#FFE27A',size:isV?60:66})};}
+  cam:t=>camV(t,t0,t1,[960,940,1.0],[960,920,1.05]),hud:t=>hudTitle((typeof window!=='undefined'&&window.DYK)?'SEE YOU IN THE NEXT ONE!':'SEE YOU IN THE NEXT HOWCOME!',isV?470:150,popS(t,t0+.6,.45),{fill:'#FFE27A',size:isV?60:66})};}
 
 const grid=c=>{let s=`<rect width="1920" height="1920" fill="${c}"/>`;for(let i=0;i<20;i++)s+=`<path d="M${i*100},0V1920M0,${i*100}H1920" stroke="#fff" stroke-opacity=".05" stroke-width="3"/>`;return s;};
 
