@@ -177,7 +177,9 @@ function VSCTA(o){return (t0,t1)=>({world:t=>{const sl=eout((t-t0)/.5);
    const kc=popS(t,T('comments'),.45);if(kc>0)s+=g(tr(isV?1150:1290,1080,kc*(isV?.85:1),3),bubble(520,170,'bl')+`<text x="0" y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="56" fill="${OL}">Tell me below!</text>`,'filter="url(#dsh)"');
    return s;},
   cam:t=>{const c=camV(t,t0,t1,[960,1000,1.0],[960,980,1.05]);return isV?c:[c[0],c[1]+90,c[2]];},
-  hud:t=>hudTitle(o.title||'YOUR PICK?',isV?470:150,popS(t,t0+.05,.45),{fill:'#FFE27A',size:isV?(o.title&&o.title.length>18?56:72):76})});}
+  hud:t=>{let h=hudTitle(o.title||'YOUR PICK?',isV?470:150,popS(t,t0+.05,.45),{fill:'#FFE27A',size:isV?(o.title&&o.title.length>18?56:72):76});
+   if(o.subT){const ta=TS(o.atSub||'Subscribe',t0,'cta');const Z=ZP(t,ta);const k=Z?Z[0]:popS(t,ta,.45);if(k>0)h+=(Z?`<g opacity="${fmt(Z[1])}">`:'<g>')+label(o.subT,{x:W/2,y:isV?1330:900,size:isV?(o.subT.length>20?50:62):56,bg:'#E5383B',fill:'#fff',sc:k,r:-2})+'</g>';}
+   return h;}});} // subT: on-screen subscribe line (owner 15 Nov 2026), atSub: word/seconds when it pops
 function OUTRO(){return (t0,t1)=>{const r=subscribeEnd(null,t0,t1);const c=r.cam;r.cam=t=>{const v=c(t);return isV?v:[v[0],v[1]+90,v[2]];};return r;};}
 function buildTopic(B,thumb){buildFromPlan(B);var th={t:ITEM('hook').t1-0.3,lines:thumb};return th;}
 // =================== kit v3 icons (batch 4: snooze, steps, headphones, coldshower, nap, spicy) ===================
