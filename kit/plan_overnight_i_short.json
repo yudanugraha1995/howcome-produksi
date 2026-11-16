@@ -1,0 +1,55 @@
+{
+ "id": "overnight_i",
+ "SC": "overnight_i_short",
+ "total": 19.6,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.232
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.232,
+   "t1": 3.812
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.812,
+   "t1": 7.892
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 7.892,
+   "t1": 8.472
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 8.472,
+   "t1": 13.272
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 13.272,
+   "t1": 13.852
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 13.852,
+   "t1": 17.1
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 17.1,
+   "t1": 19.6
+  }
+ ]
+}

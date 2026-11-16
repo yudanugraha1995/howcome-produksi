@@ -1,0 +1,55 @@
+{
+ "id": "ice_dyk",
+ "SC": "ice_dyk_short",
+ "total": 22.6,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.55
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.55,
+   "t1": 3.143
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.143,
+   "t1": 5.568
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 5.568,
+   "t1": 6.161
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 6.161,
+   "t1": 17.192
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 17.192,
+   "t1": 17.785
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 17.785,
+   "t1": 20.099
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 20.099,
+   "t1": 22.599
+  }
+ ]
+}
