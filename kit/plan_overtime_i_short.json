@@ -1,0 +1,55 @@
+{
+ "id": "overtime_i",
+ "SC": "overtime_i_short",
+ "total": 20.28,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.276
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.276,
+   "t1": 3.869
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.869,
+   "t1": 5.98
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 5.98,
+   "t1": 6.573
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 6.573,
+   "t1": 14.082
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 14.082,
+   "t1": 14.675
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 14.675,
+   "t1": 17.779
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 17.779,
+   "t1": 20.279
+  }
+ ]
+}

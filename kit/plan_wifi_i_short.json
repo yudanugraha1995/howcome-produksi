@@ -1,0 +1,55 @@
+{
+ "id": "wifi_i",
+ "SC": "wifi_i_short",
+ "total": 21.56,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.63
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.63,
+   "t1": 4.223
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 4.223,
+   "t1": 7.618
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 7.618,
+   "t1": 8.211
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 8.211,
+   "t1": 15.218
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 15.218,
+   "t1": 15.811
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 15.811,
+   "t1": 19.059
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 19.059,
+   "t1": 21.559
+  }
+ ]
+}

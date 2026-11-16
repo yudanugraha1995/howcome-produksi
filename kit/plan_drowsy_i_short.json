@@ -1,0 +1,55 @@
+{
+ "id": "drowsy_i",
+ "SC": "drowsy_i_short",
+ "total": 21.32,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.831
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.831,
+   "t1": 3.424
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.424,
+   "t1": 4.808
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 4.808,
+   "t1": 5.401
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 5.401,
+   "t1": 15.212
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 15.212,
+   "t1": 15.805
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 15.805,
+   "t1": 18.819
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 18.819,
+   "t1": 21.319
+  }
+ ]
+}

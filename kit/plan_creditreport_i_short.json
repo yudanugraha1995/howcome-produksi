@@ -1,0 +1,55 @@
+{
+ "id": "creditreport_i",
+ "SC": "creditreport_i_short",
+ "total": 20.2,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.501
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.501,
+   "t1": 3.094
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.094,
+   "t1": 7.451
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 7.451,
+   "t1": 8.044
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 8.044,
+   "t1": 14.474
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 14.474,
+   "t1": 15.067
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 15.067,
+   "t1": 17.699
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 17.699,
+   "t1": 20.199
+  }
+ ]
+}

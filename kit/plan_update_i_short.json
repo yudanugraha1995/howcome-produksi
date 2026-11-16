@@ -1,0 +1,55 @@
+{
+ "id": "update_i",
+ "SC": "update_i_short",
+ "total": 19.72,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.422
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.422,
+   "t1": 3.015
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.015,
+   "t1": 6.61
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 6.61,
+   "t1": 7.203
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 7.203,
+   "t1": 13.731
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 13.731,
+   "t1": 14.324
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 14.324,
+   "t1": 17.219
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 17.219,
+   "t1": 19.719
+  }
+ ]
+}
