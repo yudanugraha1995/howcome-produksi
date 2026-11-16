@@ -1,0 +1,55 @@
+{
+ "id": "bread_dyk",
+ "SC": "bread_dyk_short",
+ "total": 22.28,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 1.937
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 1.937,
+   "t1": 2.504
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 2.504,
+   "t1": 4.733
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 4.733,
+   "t1": 5.3
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 5.3,
+   "t1": 16.04
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 16.04,
+   "t1": 16.607
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 16.607,
+   "t1": 19.781
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 19.781,
+   "t1": 22.281
+  }
+ ]
+}

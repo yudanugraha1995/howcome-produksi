@@ -1,0 +1,55 @@
+{
+ "id": "moon_dyk",
+ "SC": "moon_dyk_short",
+ "total": 20.44,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.896
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.896,
+   "t1": 3.489
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.489,
+   "t1": 5.34
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 5.34,
+   "t1": 5.933
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 5.933,
+   "t1": 14.539
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 14.539,
+   "t1": 15.132
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 15.132,
+   "t1": 17.939
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 17.939,
+   "t1": 20.439
+  }
+ ]
+}

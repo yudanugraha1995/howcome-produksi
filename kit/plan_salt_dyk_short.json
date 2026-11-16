@@ -1,0 +1,55 @@
+{
+ "id": "salt_dyk",
+ "SC": "salt_dyk_short",
+ "total": 23.32,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.654
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.654,
+   "t1": 3.247
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.247,
+   "t1": 8.379
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 8.379,
+   "t1": 8.972
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 8.972,
+   "t1": 16.801
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 16.801,
+   "t1": 17.394
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 17.394,
+   "t1": 20.819
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 20.819,
+   "t1": 23.319
+  }
+ ]
+}

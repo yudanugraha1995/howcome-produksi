@@ -1,0 +1,55 @@
+{
+ "id": "growl_dyk",
+ "SC": "growl_dyk_short",
+ "total": 21.72,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 1.875
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 1.875,
+   "t1": 2.468
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 2.468,
+   "t1": 5.479
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 5.479,
+   "t1": 6.072
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 6.072,
+   "t1": 15.841
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 15.841,
+   "t1": 16.434
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 16.434,
+   "t1": 19.219
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 19.219,
+   "t1": 21.719
+  }
+ ]
+}

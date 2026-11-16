@@ -1,0 +1,55 @@
+{
+ "id": "microwave_dyk",
+ "SC": "microwave_dyk_short",
+ "total": 22.28,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.912
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.912,
+   "t1": 3.479
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.479,
+   "t1": 8.992
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 8.992,
+   "t1": 9.559
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 9.559,
+   "t1": 16.669
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 16.669,
+   "t1": 17.236
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 17.236,
+   "t1": 19.781
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 19.781,
+   "t1": 22.281
+  }
+ ]
+}

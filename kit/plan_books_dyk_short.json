@@ -1,0 +1,55 @@
+{
+ "id": "books_dyk",
+ "SC": "books_dyk_short",
+ "total": 20.84,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.445
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.445,
+   "t1": 3.038
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.038,
+   "t1": 7.039
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 7.039,
+   "t1": 7.632
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 7.632,
+   "t1": 14.592
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 14.592,
+   "t1": 15.185
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 15.185,
+   "t1": 18.339
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 18.339,
+   "t1": 20.839
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "earspop_dyk",
+ "SC": "earspop_dyk_short",
+ "total": 23.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.421
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.421,
+   "t1": 3.014
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.014,
+   "t1": 7.866
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 7.866,
+   "t1": 8.459
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 8.459,
+   "t1": 17.247
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 17.247,
+   "t1": 17.84
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 17.84,
+   "t1": 20.499
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 20.499,
+   "t1": 22.999
+  }
+ ]
+}
