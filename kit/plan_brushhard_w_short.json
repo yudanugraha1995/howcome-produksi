@@ -1,0 +1,55 @@
+{
+ "id": "brushhard_w",
+ "SC": "brushhard_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.814
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.814,
+   "t1": 7.51
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.51,
+   "t1": 15.275
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.275,
+   "t1": 19.971
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.971,
+   "t1": 36.323
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.323,
+   "t1": 41.019
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.019,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
