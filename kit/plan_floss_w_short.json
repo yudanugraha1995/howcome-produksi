@@ -1,0 +1,55 @@
+{
+ "id": "floss_w",
+ "SC": "floss_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 1.833
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 1.833,
+   "t1": 7.041
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.041,
+   "t1": 15.275
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.275,
+   "t1": 20.483
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.483,
+   "t1": 36.142
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.142,
+   "t1": 41.35
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.35,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
