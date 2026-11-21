@@ -6,5 +6,5 @@ while pgrep -f "run.sh .*_w" >/dev/null; do
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_011yJCQ3Shtw2gXdrwF61pzf"; git pull -q --rebase --autostash origin main; git push -q origin HEAD:main; }
-  sleep 600
+  sleep 120
 done
