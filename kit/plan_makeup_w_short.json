@@ -1,0 +1,55 @@
+{
+ "id": "makeup_w",
+ "SC": "makeup_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.473
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.473,
+   "t1": 5.865
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.865,
+   "t1": 14.697
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 14.697,
+   "t1": 18.089
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.089,
+   "t1": 36.99
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.99,
+   "t1": 40.382
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.382,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
