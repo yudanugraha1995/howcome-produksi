@@ -58,7 +58,7 @@ def build(SC, items, total):
     talk = np.zeros(len(v), np.float32)
     for p in plan:
         if p['kind'] == 'voice': talk[int(p['t0'] * SR):int(p['t1'] * SR)] = 1
-    k = int(0.4 * SR); talk = np.convolve(talk, np.ones(k) / k, mode='same')  # smooth ducking
+    k = int(0.4 * SR); c = np.cumsum(np.concatenate([np.zeros(k // 2 + 1, np.float32), talk, np.zeros(k, np.float32)])); talk = ((c[k:] - c[:-k]) / k)[:len(v)].astype(np.float32)  # smooth ducking (fast moving average)
     gain = 0.55 - 0.40 * talk  # 0.55 in silent scenes, 0.15 under the voice
     mix = v * 1.0 + m * gain
     mix = mix / max(1.0, np.max(np.abs(mix)) / 0.98)
