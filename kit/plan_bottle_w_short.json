@@ -1,0 +1,55 @@
+{
+ "id": "bottle_w",
+ "SC": "bottle_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.857
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.857,
+   "t1": 7.441
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.441,
+   "t1": 15.334
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.334,
+   "t1": 19.918
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.918,
+   "t1": 36.729
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.729,
+   "t1": 41.313
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.313,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
