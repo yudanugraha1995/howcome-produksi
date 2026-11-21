@@ -1,0 +1,55 @@
+{
+ "id": "scabs_w",
+ "SC": "scabs_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.089
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.089,
+   "t1": 6.449
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.449,
+   "t1": 15.537
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.537,
+   "t1": 19.897
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.897,
+   "t1": 36.793
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.793,
+   "t1": 41.153
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.153,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
