@@ -1,0 +1,55 @@
+{
+ "id": "sodaonly_w",
+ "SC": "sodaonly_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.857
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.857,
+   "t1": 5.169
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.169,
+   "t1": 16.945
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 16.945,
+   "t1": 19.257
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.257,
+   "t1": 38.713
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 38.713,
+   "t1": 41.025
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.025,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
