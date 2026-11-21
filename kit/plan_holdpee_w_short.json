@@ -1,55 +1,55 @@
 {
  "id": "holdpee_w",
  "SC": "holdpee_w_short",
- "total": 21.73,
+ "total": 50.0,
  "items": [
   {
    "name": "hook",
    "kind": "voice",
    "t0": 0.0,
-   "t1": 2.089
+   "t1": 2.131
   },
   {
    "name": "sil_hook",
    "kind": "silent",
-   "t0": 2.089,
-   "t1": 2.635
+   "t0": 2.131,
+   "t1": 4.779
   },
   {
    "name": "point",
    "kind": "voice",
-   "t0": 2.635,
-   "t1": 6.56
+   "t0": 4.779,
+   "t1": 17.281
   },
   {
    "name": "sil_point",
    "kind": "silent",
-   "t0": 6.56,
-   "t1": 7.106
+   "t0": 17.281,
+   "t1": 19.929
   },
   {
    "name": "point2",
    "kind": "voice",
-   "t0": 7.106,
-   "t1": 14.487
+   "t0": 19.929,
+   "t1": 38.318
   },
   {
    "name": "sil_point2",
    "kind": "silent",
-   "t0": 14.487,
-   "t1": 15.033
+   "t0": 38.318,
+   "t1": 40.966
   },
   {
    "name": "cta",
    "kind": "voice",
-   "t0": 15.033,
-   "t1": 19.23
+   "t0": 40.966,
+   "t1": 45.0
   },
   {
    "name": "pad_end",
    "kind": "silent",
-   "t0": 19.23,
-   "t1": 21.73
+   "t0": 45.0,
+   "t1": 50.0
   }
  ]
 }
