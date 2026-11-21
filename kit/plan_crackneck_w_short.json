@@ -1,0 +1,55 @@
+{
+ "id": "crackneck_w",
+ "SC": "crackneck_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.217
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.217,
+   "t1": 5.553
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.553,
+   "t1": 16.731
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 16.731,
+   "t1": 20.067
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.067,
+   "t1": 37.987
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.987,
+   "t1": 41.323
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.323,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
