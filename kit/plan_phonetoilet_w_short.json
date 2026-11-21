@@ -1,0 +1,55 @@
+{
+ "id": "phonetoilet_w",
+ "SC": "phonetoilet_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.899
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.899,
+   "t1": 5.723
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.723,
+   "t1": 16.219
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 16.219,
+   "t1": 19.043
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.043,
+   "t1": 38.371
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 38.371,
+   "t1": 41.195
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.195,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
