@@ -1,0 +1,55 @@
+{
+ "id": "eyerub_w",
+ "SC": "eyerub_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.131
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.131,
+   "t1": 5.579
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.579,
+   "t1": 16.63
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 16.63,
+   "t1": 20.078
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.078,
+   "t1": 37.827
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.827,
+   "t1": 41.275
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.275,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
