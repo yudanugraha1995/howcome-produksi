@@ -1,0 +1,55 @@
+{
+ "id": "nailbite_w",
+ "SC": "nailbite_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.473
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.473,
+   "t1": 3.761
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.761,
+   "t1": 18.779
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 18.779,
+   "t1": 20.067
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.067,
+   "t1": 39.609
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 39.609,
+   "t1": 40.897
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.897,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
