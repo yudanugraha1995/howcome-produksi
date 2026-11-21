@@ -23,7 +23,8 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 ## STORAGE + UPLOAD (owner 21 Nov 2026, overrides Hosting below)
 - Every How Come video goes to Buffer via **Cloudinary** (cloud u5zqiuc2, public_id `howcome/<id>`), exactly like Masa Sih: mcp Cloudinary sign-upload -> curl upload -> Buffer uses `secure_url`. Never use raw GitHub links, never push mp4/mp3 to GitHub (repo .git ~3.5 GB, guard 3.8 GB).
 - Voice: Speechify "henry" (`kit/speechify_i.py`). Schedule only through the Buffer connector (api.buffer.com via the proxy is a different Buffer account, do not use it).
-- Narration length (owner 21 Nov 2026, overrides 400 chars / 35 s): dense, max 1000 characters and max 55 s (batch b4: ~450-600 chars incl. extra facts from `naskah/b4/extra.py`).
+- Narration length (owner 21 Nov 2026, overrides 400 chars / 35 s): 50-55 s, max 800 characters, dense (batch b4: ~520-710 chars incl. extra facts from `naskah/b4/extra.py`; compose T = min(55, max(50, speech+4.2))).
+- NO zoom pop-up effect (owner 21 Nov 2026): `window.NOZOOM=true;` in every scenes file (turns off the slam-zoom pop-ups and the camera push-in).
 - Batch 22-28 Nov: `naskah/b4/` (spec.py, gen.py, run.sh, desc.py); scene server for How Come runs on port 8766.
 
 ## Channel

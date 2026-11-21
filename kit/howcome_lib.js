@@ -141,7 +141,7 @@ const PX=fx=>isV?450+fx*1020:280+fx*1360, PY=fy=>isV?600+fy*760:720+fy*560;
 function TS(spec,t0,block){if(typeof spec==='number')return t0+spec;let w=spec,b=block,k=0;if(w.includes('#')){[w,k]=w.split('#');k=+k;}if(w.includes('@'))[w,b]=w.split('@');const r=WT(w,b,k);return r<0?t0+.2:r;}
 const HY={top:()=>isV?460:150,sub:()=>isV?610:270,bot:()=>isV?1330:815};
 // NEWFX zoom-pop: element slams in from big (close) to its size, fades in fast. returns [scale,opacity] or null when NEWFX is off
-function ZP(t,ta,from=1.75,d=.32){if(!window.NEWFX)return null;popS(t,ta,d);const x=clamp((t-ta)/d);if(t<ta)return [0,0];const sc=lerp(from,1,eout(x))-(x>=1?0.06*Math.exp(-(t-ta-d)*9)*Math.sin((t-ta-d)*28):0);return [sc,ss(x*2.5)];}
+function ZP(t,ta,from=1.75,d=.32){if(!window.NEWFX||window.NOZOOM)return null;popS(t,ta,d);const x=clamp((t-ta)/d);if(t<ta)return [0,0];const sc=lerp(from,1,eout(x))-(x>=1?0.06*Math.exp(-(t-ta-d)*9)*Math.sin((t-ta-d)*28):0);return [sc,ss(x*2.5)];}
 // generic scene: o={bg, items:[{ic,at,x,y,s,r,bob,until}], labels:[{t,at,x,y,bg,fill,size,until}], komo:{x,y,s,expr,expr2,at2,aR,mag}, title:{t,at,fill,size}, sub:{t,at,bg,fill}, bot:{t,at,bg,fill,until}, card:{lines,at,y}, src, chapter:[lines], chapterEnd, zoom:[z0,z1]}
 function SCN(o){return (t0,t1,it)=>{const blk=it&&it.kind==='voice'?it.name:undefined;const T=s=>TS(s,t0,blk);
  return {world:t=>{let s=bgDraw(o.bg||'night',t);
@@ -152,7 +152,7 @@ function SCN(o){return (t0,t1,it)=>{const blk=it&&it.kind==='voice'?it.name:unde
    if(o.extra)s+=o.extra(t,t0,t1,T);
    return s;},
   cam:t=>{const z=o.zoom||(window.NEWFX?[1.0,1.12]:[1.0,1.06]);let c=camV(t,t0,t1,[960,960,z[0]],[960,940,z[1]]);
-   if(window.NEWFX&&o.push!==false){ // popup close-up: quick camera push toward each new item/label, then ease back
+   if(window.NEWFX&&!window.NOZOOM&&o.push!==false){ // popup close-up: quick camera push toward each new item/label, then ease back
     let best=0,bx=960,by=960;[...(o.items||[]),...(o.labels||[])].forEach(m=>{const ta=T(m.at??0.1);if(ta<t0+.4||(m.until!==undefined&&t>T(m.until)))return;const d=t-ta;if(d<0||d>1.3)return;const f=d<.25?eout(d/.25):1-ss((d-.55)/.75);if(f>best){best=f;bx=PX(m.x??.5);by=PY(m.y??.5);}});
     if(best>0)c=[lerp(c[0],lerp(960,bx,.45),best),lerp(c[1],lerp(c[1],by,.35),best),c[2]*(1+.22*best)];}
    return isV?c:[c[0],c[1]+90,c[2]];},

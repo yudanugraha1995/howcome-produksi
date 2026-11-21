@@ -15,7 +15,7 @@ NAR={}
 for k,(title,nar,bg,hic,hkw,pic,pkw,p2ic,p2kw,cta,thumb,src,tag) in S.items():
     i=k+'_w';ss0=sents(nar);xp,xt,xk=X[k]
     b0=next(j for j,s in enumerate(ss0) if s.startswith("But here"));q0=max(j for j,s in enumerate(ss0) if s.endswith('?'))
-    ss=ss0[:1]+sents(Y[k])+ss0[1:b0]+sents(xp)+ss0[b0:q0]+sents(xt)+ss0[q0:];nar=' '.join(ss)
+    ss=ss0[:1]+sents(Y[k])+ss0[1:b0]+sents(xp)+ss0[b0:q0]+sents(xt)+sents(Z[k])+ss0[q0:];nar=' '.join(ss)
     def inblk(w,a,bb):
         import re as _r
         return any(_r.sub('[^a-z0-9]','',x.lower()).startswith(_r.sub('[^a-z0-9]','',w.lower())) for x in ' '.join(ss[a:bb]).split())
@@ -43,6 +43,6 @@ for k,(title,nar,bg,hic,hkw,pic,pkw,p2ic,p2kw,cta,thumb,src,tag) in S.items():
 var THUMB=buildTopic(B,['{q(thumb[0])}','{q(thumb[1])}','{q(thumb[2])}']);
 """
     open(K+f'topic_{i}.js','w').write(js)
-    open(K+f'scenes_{i}_short.js','w').write(f"window.NEWFX=true;\nloadTopic('{i}');\n")
+    open(K+f'scenes_{i}_short.js','w').write(f"window.NOZOOM=true;\nwindow.NEWFX=true;\nloadTopic('{i}');\n")
 json.dump(NAR,open('nar.json','w'),indent=0,ensure_ascii=False)
 print(len(NAR),[v[2] for v in list(NAR.values())[:5]])
