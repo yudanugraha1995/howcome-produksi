@@ -1,0 +1,55 @@
+{
+ "id": "toothpaste_w",
+ "SC": "toothpaste_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.432
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.432,
+   "t1": 6.736
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.736,
+   "t1": 15.95
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.95,
+   "t1": 20.254
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.254,
+   "t1": 36.382
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.382,
+   "t1": 40.686
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.686,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
