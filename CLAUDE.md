@@ -19,6 +19,12 @@ Talk to the owner in casual Indonesian. Everything in the videos is in **English
 - Short metadata (owner, 14 Nov 2026; for new Shorts and for every Short in stock that is not aired or scheduled yet): in `meta/<id>.md` the section `## SHORT METADATA (current)` holds the Title, a long YouTube **Description** (as full as useful, up to YouTube's 5,000 characters, never filler or repeated text: hook/summary, how it works, key facts, myth vs fact or tips, plot twist, questions for the comments, sources, disclaimer, about HOWCOME + subscribe CTA) with **3-5 hashtags incl. #shorts** at the end. No YouTube tags (owner, 15 Nov 2026: Buffer cannot set them), so no `## Tags` section. Build it with `python3 meta/build_meta.py` from `meta/longmeta_*.py`.
 - Stock (owner, 15 Nov 2026; was 16): keep **at least 4 Shorts** ready that are neither aired nor scheduled in Buffer (one day = the 4 main slots 22/02/06/10 WITA). Bot A schedules once a day at 11:04 WITA. A daily scheduled task at **11:01 WITA** checks the stock; if fewer than 4, make the missing ones right away and tell Bot A (session_011yJCQ71889A6a32AdsqkWa) once they are pushed. If there are 4 or more, make nothing (save tokens). Report to Bot C only on problems.
 
+
+## STORAGE + UPLOAD (owner 21 Nov 2026, overrides Hosting below)
+- Every How Come video goes to Buffer via **Cloudinary** (cloud u5zqiuc2, public_id `howcome/<id>`), exactly like Masa Sih: mcp Cloudinary sign-upload -> curl upload -> Buffer uses `secure_url`. Never use raw GitHub links, never push mp4/mp3 to GitHub (repo .git ~3.5 GB, guard 3.8 GB).
+- Voice: Speechify "henry" (`kit/speechify_i.py`). Schedule only through the Buffer connector (api.buffer.com via the proxy is a different Buffer account, do not use it).
+- Batch 22-28 Nov: `naskah/b4/` (spec.py, gen.py, run.sh, desc.py); scene server for How Come runs on port 8766.
+
 ## Channel
 - Name: **HOWCOME?** Mascot: **KOMO** (locked, see `maskot/KOMO.md` and `maskot/KOMO_official.png`). Do not change the design.
 - Narrator: young male voice, US accent. Owner sends only the audio (mp3).
