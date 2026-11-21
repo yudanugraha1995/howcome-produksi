@@ -1,0 +1,55 @@
+{
+ "id": "crosslegged_w",
+ "SC": "crosslegged_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.857
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.857,
+   "t1": 7.497
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.497,
+   "t1": 15.134
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.134,
+   "t1": 19.774
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.774,
+   "t1": 36.798
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.798,
+   "t1": 41.438
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.438,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
