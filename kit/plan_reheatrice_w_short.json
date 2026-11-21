@@ -1,0 +1,55 @@
+{
+ "id": "reheatrice_w",
+ "SC": "reheatrice_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.857
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.857,
+   "t1": 6.817
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.817,
+   "t1": 15.137
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.137,
+   "t1": 19.097
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.097,
+   "t1": 37.059
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.059,
+   "t1": 41.019
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.019,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
