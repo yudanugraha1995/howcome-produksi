@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
 (async () => {
   const [a, out] = process.argv.slice(2);
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: a === 'v' ? 1080 : 1920, height: a === 'v' ? 1920 : 1080 } });
-  await p.goto('http://127.0.0.1:8765/scene.html?a=' + a + '&s=' + process.env.SC);
+  await p.goto('http://127.0.0.1:8766/scene.html?a=' + a + '&s=' + process.env.SC);
   await p.waitForFunction('window.READY===true');
   const ev = await p.evaluate(() => {
     const seen = new Set(); const orig = window.popS;

@@ -1,0 +1,55 @@
+{
+ "id": "lightson_w",
+ "SC": "lightson_w_short",
+ "total": 21.22,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.302
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.302,
+   "t1": 2.846
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 2.846,
+   "t1": 6.601
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 6.601,
+   "t1": 7.145
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 7.145,
+   "t1": 14.355
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 14.355,
+   "t1": 14.899
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 14.899,
+   "t1": 18.72
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 18.72,
+   "t1": 21.22
+  }
+ ]
+}
