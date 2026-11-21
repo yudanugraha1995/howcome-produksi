@@ -1,0 +1,55 @@
+{
+ "id": "lipslick_w",
+ "SC": "lipslick_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.131
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.131,
+   "t1": 5.411
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.411,
+   "t1": 15.651
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.651,
+   "t1": 18.931
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.931,
+   "t1": 38.003
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 38.003,
+   "t1": 41.283
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.283,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
