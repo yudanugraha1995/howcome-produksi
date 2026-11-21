@@ -10,3 +10,9 @@ kit/sty2/
 kit/t[0-9]*/
 kit/tt/
 kit/.sfx_*.json
+audio/*_w.mp3
+kit/narasi_*_w_short*.mp3
+kit/out_*_w_short.mp4
+kit/fr_*_w_short/
+kit/log_*_w*
+naskah/b4/*.log
