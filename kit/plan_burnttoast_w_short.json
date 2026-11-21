@@ -1,0 +1,55 @@
+{
+ "id": "burnttoast_w",
+ "SC": "burnttoast_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.473
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.473,
+   "t1": 5.977
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.977,
+   "t1": 13.699
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 13.699,
+   "t1": 17.203
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 17.203,
+   "t1": 37.214
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.214,
+   "t1": 40.718
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.718,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
