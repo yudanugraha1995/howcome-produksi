@@ -1,9 +1,9 @@
 const B={
  hook:SCN({bg:'kitchen',items:[{ic:'bubbles',at:.05,x:.24,y:0.24,s:0.50},{ic:'germ',at:.6,x:.24,y:0.44,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'surprised'},kw:[['SAME SPONGE?','sponge','#FFE27A']]}),
  sil_hook:SCN({bg:'kitchen',items:[{ic:'bubbles',at:.05,x:.24,y:.3,s:.55}],komo:{x:.64,y:1.2,s:.95,expr:'worried'},kw:[['HMM...',.1]],push:false}),
- point:SCN({bg:'kitchen',items:[{ic:'bubbles',at:'sponge',x:.24,y:0.24,s:0.50},{ic:'check',at:'fine',x:.24,y:0.44,s:0.45},{ic:'eye',at:'looks',x:.24,y:0.64,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'think'},kw:[['LOOKS FINE','fine','#9FD8F5'],['STILL GOOD?','looks','#FFFFFF']]}),
+ point:SCN({bg:'kitchen',items:[{ic:'bubbles',at:'sponge',x:.24,y:0.24,s:0.50},{ic:'check',at:'fine',x:.24,y:0.44,s:0.45},{ic:'eye',at:'looks',x:.24,y:0.64,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'think'},kw:[['LOOKS FINE','fine','#9FD8F5'],['STILL GOOD?','looks','#FFFFFF'],['WET + WARM','warm','#FFE27A']]}),
  sil_point:SCN({bg:'kitchen',items:[{ic:'bubbles',at:.05,x:.24,y:.3,s:.55}],komo:{x:.64,y:1.2,s:.95,expr:'think'},kw:[['BUT WAIT...',.1]],push:false}),
- point2:SCN({bg:'kitchen',items:[{ic:'germ',at:'bacteria',x:.24,y:0.24,s:0.50},{ic:'microwave',at:'microwaving',x:.24,y:0.44,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'surprised'},kw:[['BILLIONS OF BACTERIA','billions','#FF8A8A']],labels:[{t:'PLOT TWIST!',at:'twist',x:.5,y:.12,bg:'#E5383B'}]}),
+ point2:SCN({bg:'kitchen',items:[{ic:'germ',at:'bacteria',x:.24,y:0.24,s:0.50},{ic:'microwave',at:'microwaving',x:.24,y:0.44,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'surprised'},kw:[['BILLIONS OF BACTERIA','billions','#FF8A8A'],['SPREADS GERMS','spread','#9FD8F5'],['EVERY 1-2 WEEKS','week','#7BE07B']],labels:[{t:'PLOT TWIST!',at:'twist',x:.5,y:.12,bg:'#E5383B'}]}),
  sil_point2:SCN({bg:'kitchen',items:[{ic:'germ',at:.05,x:.24,y:.3,s:.55}],komo:{x:.64,y:1.2,s:.95,expr:'happy'},kw:[['NOW YOU KNOW!',.1,'#7BE07B']],push:false}),
  cta:VSCTA({L:'THIS WEEK',R:'NO IDEA',icL:'check',icR:'germ',cl:'#F4C542',cr:'#3B4A8A',atL:'When',atR:'Comment',atV:'When',sL:.85,sR:.85,title:'WHEN DID YOU CHANGE IT?',subT:'SUBSCRIBE FOR MORE!',atSub:'subscribe'}),
  pad:(t0,t1,it)=>OUTRO()(t0,t1),

@@ -1,9 +1,9 @@
 const B={
  hook:SCN({bg:'bedroomnight',items:[{ic:'tv',at:.05,x:.24,y:0.24,s:0.50},{ic:'zzz',at:.6,x:.24,y:0.44,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'surprised'},kw:[['TV ON?','TV','#FFE27A']]}),
  sil_hook:SCN({bg:'bedroomnight',items:[{ic:'tv',at:.05,x:.24,y:.3,s:.55}],komo:{x:.64,y:1.2,s:.95,expr:'worried'},kw:[['HMM...',.1]],push:false}),
- point:SCN({bg:'bedroomnight',items:[{ic:'tv',at:'noise',x:.24,y:0.24,s:0.50},{ic:'volume',at:'noise',x:.24,y:0.44,s:0.45},{ic:'zzz',at:'relaxing',x:.24,y:0.64,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'think'},kw:[['SO RELAXING','relaxing','#9FD8F5'],['BACKGROUND NOISE','noise','#FFFFFF']]}),
+ point:SCN({bg:'bedroomnight',items:[{ic:'tv',at:'noise',x:.24,y:0.24,s:0.50},{ic:'volume',at:'noise',x:.24,y:0.44,s:0.45},{ic:'zzz',at:'relaxing',x:.24,y:0.64,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'think'},kw:[['SO RELAXING','relaxing','#9FD8F5'],['BACKGROUND NOISE','noise','#FFFFFF'],['FALL ASLEEP FASTER','faster','#FFE27A']]}),
  sil_point:SCN({bg:'bedroomnight',items:[{ic:'tv',at:.05,x:.24,y:.3,s:.55}],komo:{x:.64,y:1.2,s:.95,expr:'think'},kw:[['BUT WAIT...',.1]],push:false}),
- point2:SCN({bg:'bedroomnight',items:[{ic:'brain',at:'brain',x:.24,y:0.24,s:0.50},{ic:'warn',at:'weight',x:.24,y:0.44,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'surprised'},kw:[['WEIGHT GAIN!','weight','#FF8A8A']],labels:[{t:'PLOT TWIST!',at:'twist',x:.5,y:.12,bg:'#E5383B'}]}),
+ point2:SCN({bg:'bedroomnight',items:[{ic:'brain',at:'brain',x:.24,y:0.24,s:0.50},{ic:'warn',at:'weight',x:.24,y:0.44,s:0.45}],komo:{x:.64,y:1.2,s:.95,expr:'surprised'},kw:[['WEIGHT GAIN!','weight','#FF8A8A'],['SLEEP TIMER','timer','#9FD8F5'],['AUTO OFF','turns','#7BE07B']],labels:[{t:'PLOT TWIST!',at:'twist',x:.5,y:.12,bg:'#E5383B'}]}),
  sil_point2:SCN({bg:'bedroomnight',items:[{ic:'brain',at:.05,x:.24,y:.3,s:.55}],komo:{x:.64,y:1.2,s:.95,expr:'happy'},kw:[['NOW YOU KNOW!',.1,'#7BE07B']],push:false}),
  cta:VSCTA({L:'TV ON',R:'TV OFF',icL:'tv',icR:'moon',cl:'#F4C542',cr:'#3B4A8A',atL:'TV',atR:'Comment',atV:'TV',sL:.85,sR:.85,title:'TV ON OR OFF?',subT:'SUBSCRIBE FOR MORE!',atSub:'subscribe'}),
  pad:(t0,t1,it)=>OUTRO()(t0,t1),

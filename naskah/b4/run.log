@@ -1,2 +1,6 @@
-OK lightson_w 21.220000
-OK stomachsleep_w 22.750000
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json;w=json.load(open('timing_lightson_w_full.json'))['words'];print(round(min(55.0,w[-1][e]+4.2),2))
+                                                                                                     ^
+NameError: name 'e' is not defined
+FAIL compose lightson_w
