@@ -1,0 +1,55 @@
+{
+ "id": "apple_w",
+ "SC": "apple_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.259
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.259,
+   "t1": 7.243
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.243,
+   "t1": 15.691
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.691,
+   "t1": 20.675
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.675,
+   "t1": 36.59
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.59,
+   "t1": 41.574
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.574,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
