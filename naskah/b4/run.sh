@@ -10,6 +10,6 @@ for id in "$@"; do
   rm -f narasi_${id}_short.dry.mp3; python3 sfx.py ${id}_short v > log_s_$id.txt 2>&1 || { echo "FAIL sfx $id"; continue; }
   bash runone.sh ${id}_short v > log_r_$id.txt 2>&1
   D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 out_${id}_short.mp4 2>/dev/null || echo 0); python3 -c "import sys;sys.exit(0 if $D>=$T-1 else 1)" || { echo "RETRY render $id $D"; bash runone.sh ${id}_short v > log_r_$id.txt 2>&1; }
-  [ -f out_${id}_short.mp4 ] && echo "OK $id $(ffprobe -v error -show_entries format=duration -of csv=p=0 out_${id}_short.mp4)" || echo "FAIL render $id"
+  rm -rf fr_${id}_short; [ -f out_${id}_short.mp4 ] && echo "OK $id $(ffprobe -v error -show_entries format=duration -of csv=p=0 out_${id}_short.mp4)" || echo "FAIL render $id"
 done
 echo ALLDONE
