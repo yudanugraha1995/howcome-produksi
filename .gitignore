@@ -16,3 +16,5 @@ kit/out_*_w_short.mp4
 kit/fr_*_w_short/
 kit/log_*_w*
 naskah/b4/*.log
+videos/*.mp4
+videos/**/*.mp4

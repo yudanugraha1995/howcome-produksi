@@ -7,6 +7,8 @@ sleep4h, skipbreakfast, sitallday, energydrink, knuckles, teeth, phone, water (3
 
 Noon slot 11:00 WIB (reserved 13 Nov): phonebed (13 Nov), sleepsocks (14), breadmold (15), nightshower (16), toothbrush (17), snoring (18), chewingice (19), dreams (20), sleepmusic (21), eatfast (22), petbed (23)
 
+Batch 22-28 Nov 2026 (naskah/b4, What if viral style): nailbite, holdpee, towel, lipslick, nosocks, stomachsleep, lightson, sodaonly, noshower, crackneck, nosugar, sunscreen, contacts, makeup, eyerub, scabs, tvsleep, fansleep, grindteeth, mouthbreath, phonetoilet, crosslegged, oneshoulder, flipflops, skinnyjeans, wallet, straw, brushhard, floss, shoesinside, cookiedough, reheatrice, microplastic, sponge, fivesecond, sleepin, nosleep3, noout, hotshower, floorsleep, nopillow, samefood, onlyfruit, toothpaste, barefoot, garlic, milk, hotwater, bottle, hat, jeanswash, apple, blister, loudchew, burnttoast, sunglasses
+
 ## Masa Sih (other channel, for reference)
 nasi sisa, biji semangka, micin, telur bisul, mi instan lilin, nonton dekat TV, kopi dehidrasi, utang tidur, ulat gigi, makan malam gemuk, biji cabai usus buntu, kehujanan pilek, kipas semalaman, permen karet 7 tahun, kerokan, keretek jari, otak 10%, gula hiperaktif, cukur bulu, wortel mata, ikan mas 3 detik, 8 gelas air, petir, bintik kuku, banteng merah
 

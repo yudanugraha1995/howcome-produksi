@@ -1,0 +1,59 @@
+# Judul How Come terpakai — cek sebelum bikin judul baru (lihat juga meta/USED_TOPICS.md)
+
+## Batch 22-28 Nov 2026 (naskah/b4)
+- nailbite_w: What If You Bit Your Nails Every Day? 💅
+- holdpee_w: What If You Held Your Pee Every Day? 🚽
+- towel_w: What If You Used the Same Towel for a Month? 🛁
+- lipslick_w: What If You Licked Your Lips All Day? 👄
+- nosocks_w: What If You Wore Shoes Without Socks Every Day? 👟
+- stomachsleep_w: What If You Slept on Your Stomach Every Night? 😴
+- lightson_w: What If You Slept With the Lights On Every Night? 💡
+- sodaonly_w: What If You Drank Only Soda for 30 Days? 🥤
+- noshower_w: What If You Didn't Shower for a Week? 🚿
+- crackneck_w: What If You Cracked Your Neck Every Day? 💥
+- nosugar_w: What If You Quit Sugar for 30 Days? 🍬
+- sunscreen_w: What If You Never Wore Sunscreen? ☀️
+- contacts_w: What If You Slept in Your Contact Lenses? 👁️
+- makeup_w: What If You Slept With Makeup On Every Night? 💄
+- eyerub_w: What If You Rubbed Your Eyes Every Day? 👀
+- scabs_w: What If You Picked Every Scab? 🩹
+- tvsleep_w: What If You Fell Asleep With the TV On Every Night? 📺
+- fansleep_w: What If You Slept With a Fan On Every Night? 🌀
+- grindteeth_w: What If You Ground Your Teeth Every Night? 😬
+- mouthbreath_w: What If You Breathed Through Your Mouth All Night? 😮
+- phonetoilet_w: What If You Used Your Phone on the Toilet Every Day? 📱
+- crosslegged_w: What If You Crossed Your Legs Every Day? 🦵
+- oneshoulder_w: What If You Carried Your Bag on One Shoulder Every Day? 🎒
+- flipflops_w: What If You Wore Flip Flops Every Day? 🩴
+- skinnyjeans_w: What If You Wore Super Tight Jeans Every Day? 👖
+- wallet_w: What If You Sat on Your Wallet Every Day? 👛
+- straw_w: What If You Drank Everything Through a Straw? 🥤
+- brushhard_w: What If You Brushed Your Teeth Really Hard Every Day? 🪥
+- floss_w: What If You Never Flossed? 🦷
+- shoesinside_w: What If You Wore Your Shoes Inside Every Day? 👞
+- cookiedough_w: What If You Ate Raw Cookie Dough Every Day? 🍪
+- reheatrice_w: What If You Reheated Leftover Rice Every Day? 🍚
+- microplastic_w: What If You Microwaved Food in Plastic Every Day? 🍱
+- sponge_w: What If You Never Replaced Your Kitchen Sponge? 🧽
+- fivesecond_w: What If You Followed the Five Second Rule? 🍕
+- sleepin_w: What If You Slept In Every Weekend? 🛌
+- nosleep3_w: What If You Didn't Sleep for 3 Days? 😵
+- noout_w: What If You Never Went Outside? 🌳
+- hotshower_w: What If You Took Super Hot Showers Every Day? 🔥
+- floorsleep_w: What If You Slept on the Floor Every Night? 🛏️
+- nopillow_w: What If You Slept Without a Pillow? 🛌
+- samefood_w: What If You Ate the Same Food Every Day? 🍽️
+- onlyfruit_w: What If You Ate Only Fruit for a Month? 🍎
+- toothpaste_w: What If You Swallowed Toothpaste Every Day? 🪥
+- barefoot_w: What If You Walked Barefoot Every Day? 🦶
+- garlic_w: What If You Ate Garlic Every Day? 🧄
+- milk_w: What If You Drank Milk Every Day? 🥛
+- hotwater_w: What If You Drank Hot Water Every Morning? ☕
+- bottle_w: What If You Never Washed Your Water Bottle? 💧
+- hat_w: What If You Wore a Hat Every Day? 🧢
+- jeanswash_w: What If You Never Washed Your Jeans? 👖
+- apple_w: What If You Ate an Apple Every Day? 🍎
+- blister_w: What If You Popped Every Blister? 🫧
+- loudchew_w: What If You Chewed Loudly Every Day? 😖
+- burnttoast_w: What If You Ate Burnt Toast Every Day? 🍞
+- sunglasses_w: What If You Never Wore Sunglasses? 😎
