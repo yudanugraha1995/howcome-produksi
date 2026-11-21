@@ -1,4 +1,2 @@
-OK holdpee_w 21.730000
-Terminated
-FAIL compose nailbite_w
-OK phonetoilet_w 35.300000
+SKIP holdpee_w
+SKIP nailbite_w
