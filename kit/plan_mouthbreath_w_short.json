@@ -1,0 +1,55 @@
+{
+ "id": "mouthbreath_w",
+ "SC": "mouthbreath_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.434
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.434,
+   "t1": 6.85
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.85,
+   "t1": 15.166
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.166,
+   "t1": 19.582
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.582,
+   "t1": 36.606
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.606,
+   "t1": 41.022
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.022,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
