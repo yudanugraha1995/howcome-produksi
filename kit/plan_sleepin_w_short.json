@@ -1,0 +1,55 @@
+{
+ "id": "sleepin_w",
+ "SC": "sleepin_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.089
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.089,
+   "t1": 6.161
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.161,
+   "t1": 15.718
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.718,
+   "t1": 19.79
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.79,
+   "t1": 37.027
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.027,
+   "t1": 41.099
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.099,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
