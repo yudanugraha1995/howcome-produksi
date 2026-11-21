@@ -1,0 +1,55 @@
+{
+ "id": "fivesecond_w",
+ "SC": "fivesecond_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.771
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.771,
+   "t1": 6.843
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.843,
+   "t1": 15.675
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.675,
+   "t1": 19.747
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.747,
+   "t1": 36.643
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.643,
+   "t1": 40.715
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.715,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
