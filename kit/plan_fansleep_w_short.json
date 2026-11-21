@@ -1,0 +1,55 @@
+{
+ "id": "fansleep_w",
+ "SC": "fansleep_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.473
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.473,
+   "t1": 6.209
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.209,
+   "t1": 16.833
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 16.833,
+   "t1": 20.569
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.569,
+   "t1": 37.593
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.593,
+   "t1": 41.329
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.329,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
