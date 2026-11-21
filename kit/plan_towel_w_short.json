@@ -1,0 +1,55 @@
+{
+ "id": "towel_w",
+ "SC": "towel_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.899
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.899,
+   "t1": 6.059
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.059,
+   "t1": 18.859
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 18.859,
+   "t1": 22.019
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 22.019,
+   "t1": 37.635
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.635,
+   "t1": 40.795
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.795,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
