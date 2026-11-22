@@ -1,0 +1,55 @@
+{
+ "id": "ponytail_w",
+ "SC": "ponytail_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.899
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.899,
+   "t1": 6.123
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.123,
+   "t1": 15.681
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.681,
+   "t1": 18.905
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.905,
+   "t1": 36.867
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.867,
+   "t1": 40.091
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.091,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
