@@ -1,0 +1,55 @@
+{
+ "id": "ussay5_w",
+ "SC": "ussay5_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.814
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.814,
+   "t1": 4.726
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 4.726,
+   "t1": 19.361
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 19.361,
+   "t1": 21.273
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 21.273,
+   "t1": 38.681
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 38.681,
+   "t1": 40.593
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.593,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}

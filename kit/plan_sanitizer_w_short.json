@@ -1,0 +1,55 @@
+{
+ "id": "sanitizer_w",
+ "SC": "sanitizer_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.027
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.027,
+   "t1": 7.099
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.099,
+   "t1": 17.425
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 17.425,
+   "t1": 21.497
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 21.497,
+   "t1": 37.113
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.113,
+   "t1": 41.185
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.185,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
