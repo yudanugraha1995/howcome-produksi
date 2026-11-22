@@ -1,0 +1,55 @@
+{
+ "id": "loudchew_w",
+ "SC": "loudchew_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.361
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.361,
+   "t1": 7.633
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.633,
+   "t1": 15.382
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.382,
+   "t1": 20.654
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.654,
+   "t1": 35.673
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 35.673,
+   "t1": 40.945
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.945,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
