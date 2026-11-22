@@ -1,0 +1,55 @@
+{
+ "id": "blister_w",
+ "SC": "blister_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.089
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.089,
+   "t1": 4.857
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 4.857,
+   "t1": 15.139
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.139,
+   "t1": 17.907
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 17.907,
+   "t1": 38.131
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 38.131,
+   "t1": 40.899
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.899,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
