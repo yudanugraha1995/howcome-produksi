@@ -1,0 +1,55 @@
+{
+ "id": "penchew_w",
+ "SC": "penchew_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.899
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.899,
+   "t1": 7.539
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.539,
+   "t1": 16.03
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 16.03,
+   "t1": 20.67
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.67,
+   "t1": 36.243
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.243,
+   "t1": 40.883
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.883,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}

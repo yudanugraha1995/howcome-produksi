@@ -9,3 +9,5 @@ ussay5_w 6b028e9ad864a01105a18c45
 sanitizer_w 6b028ea2d864a01105a18d3f
 backcrack_w 6b028eabd5eabfb8cc8a25b4
 ustourist5_w 6b029152d864a01105a24dd8
+leftside_w 6b0293fbd5eabfb8cc8bf5d3
+penchew_w 6b029403d5eabfb8cc8bf6d7

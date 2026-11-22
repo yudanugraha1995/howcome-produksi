@@ -1,0 +1,55 @@
+{
+ "id": "cereal_w",
+ "SC": "cereal_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.466
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.466,
+   "t1": 5.69
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 5.69,
+   "t1": 17.857
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 17.857,
+   "t1": 21.081
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 21.081,
+   "t1": 37.507
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.507,
+   "t1": 40.731
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.731,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
