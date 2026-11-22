@@ -1,0 +1,55 @@
+{
+ "id": "leftside_w",
+ "SC": "leftside_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.686
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.686,
+   "t1": 6.59
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.59,
+   "t1": 17.982
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 17.982,
+   "t1": 21.886
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 21.886,
+   "t1": 36.947
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.947,
+   "t1": 40.851
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.851,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
