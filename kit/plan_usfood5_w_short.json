@@ -1,0 +1,55 @@
+{
+ "id": "usfood5_w",
+ "SC": "usfood5_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.07
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.07,
+   "t1": 4.638
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 4.638,
+   "t1": 21.065
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 21.065,
+   "t1": 22.633
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 22.633,
+   "t1": 37.395
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.395,
+   "t1": 38.963
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 38.963,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
