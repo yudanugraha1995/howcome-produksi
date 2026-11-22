@@ -1,0 +1,55 @@
+{
+ "id": "wallet_w",
+ "SC": "wallet_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.473
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.473,
+   "t1": 7.345
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.345,
+   "t1": 15.494
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.494,
+   "t1": 20.366
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.366,
+   "t1": 36.025
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.025,
+   "t1": 40.897
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.897,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
