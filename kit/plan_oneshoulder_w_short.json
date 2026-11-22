@@ -1,0 +1,55 @@
+{
+ "id": "oneshoulder_w",
+ "SC": "oneshoulder_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.411
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.411,
+   "t1": 7.539
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.539,
+   "t1": 14.622
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 14.622,
+   "t1": 18.75
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.75,
+   "t1": 36.798
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.798,
+   "t1": 40.926
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.926,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
