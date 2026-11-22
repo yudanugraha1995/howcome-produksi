@@ -1,0 +1,55 @@
+{
+ "id": "sunglasses_w",
+ "SC": "sunglasses_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.131
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.131,
+   "t1": 6.259
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.259,
+   "t1": 14.963
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 14.963,
+   "t1": 19.091
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.091,
+   "t1": 36.883
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.883,
+   "t1": 41.011
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.011,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
