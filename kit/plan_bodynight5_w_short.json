@@ -1,0 +1,55 @@
+{
+ "id": "bodynight5_w",
+ "SC": "bodynight5_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.473
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.473,
+   "t1": 4.785
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 4.785,
+   "t1": 21.382
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 21.382,
+   "t1": 23.694
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 23.694,
+   "t1": 38.585
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 38.585,
+   "t1": 40.897
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.897,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
