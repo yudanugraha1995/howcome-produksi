@@ -1,0 +1,55 @@
+{
+ "id": "flipflops_w",
+ "SC": "flipflops_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.131
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.131,
+   "t1": 7.403
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.403,
+   "t1": 13.633
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 13.633,
+   "t1": 18.905
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.905,
+   "t1": 35.971
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 35.971,
+   "t1": 41.243
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.243,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
