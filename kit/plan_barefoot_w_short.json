@@ -1,0 +1,55 @@
+{
+ "id": "barefoot_w",
+ "SC": "barefoot_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.217
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.217,
+   "t1": 6.857
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.857,
+   "t1": 13.982
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 13.982,
+   "t1": 18.622
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 18.622,
+   "t1": 36.542
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.542,
+   "t1": 41.182
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.182,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
