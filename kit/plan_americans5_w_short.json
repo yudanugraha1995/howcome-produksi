@@ -1,0 +1,55 @@
+{
+ "id": "americans5_w",
+ "SC": "americans5_w_short",
+ "total": 50.06,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.667
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.667,
+   "t1": 3.667
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.667,
+   "t1": 22.057
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 22.057,
+   "t1": 22.057
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 22.057,
+   "t1": 40.318
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 40.318,
+   "t1": 40.318
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.318,
+   "t1": 45.912
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.912,
+   "t1": 50.06
+  }
+ ]
+}

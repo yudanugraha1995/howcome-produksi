@@ -115,3 +115,4 @@ S={
 'sunglasses':("What If You Never Wore Sunglasses? 😎","What if you never wore sunglasses? Squinting works fine, right? But here's the twist. UV rays can actually sunburn your eyes, and years of sun are linked to cataracts, so the best sunglasses block one hundred percent of UV! Do you wear sunglasses?"+C,
  'park',['glasses','sun'],('NO SUNGLASSES?','sunglasses'),[('sun','sun'),('eye','Squinting'),('check','fine')],[('SQUINT!','Squinting'),('WORKS FINE?','fine')],[('eyeRed','sunburn'),('warn','cataracts')],('100% UV!','hundred'),('ALWAYS','NEVER','glasses','x','DO YOU WEAR SUNGLASSES?'),['WHAT IF YOU','NEVER WORE','SUNGLASSES?'],'American Academy of Ophthalmology','#eyes'),
 }
+exec(open('spec5.py').read())

@@ -14,3 +14,5 @@ nasi sisa, biji semangka, micin, telur bisul, mi instan lilin, nonton dekat TV, 
 
 ## Topic priority for NEW titles (from Masa Sih top content, 28 days; relayed by Bot C 12 Nov 2026)
 Prefer: everyday habits with a "is it dangerous?" angle (sleeping with lights on, phone in bed, earphones every day, popping pimples, cracking your neck), home food/drink (cold water, fridge rice, seeds), format "What if you ... every day/night?". Sleep/night topics perform best. English, narration different from Masa Sih, never repeat a How Come topic.
+
+Batch slot 10-17 WITA 22-28 Nov 2026 (naskah/b4/spec5.py, listicle US + kebiasaan): americans5, eggdaily, usfood5, thanksgiving5, usschool5, ushome5, ussay5, ustourist5, bodynight5, ponytail, darkchoc, peanutbutter, picknose, sanitizer, backcrack, leftside, penchew, cereal, phonecharge, doubledip, handdryer, cheese, orangejuice, honey, banana, walkafter
