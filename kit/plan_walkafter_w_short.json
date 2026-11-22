@@ -1,0 +1,55 @@
+{
+ "id": "walkafter_w",
+ "SC": "walkafter_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.814
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.814,
+   "t1": 7.454
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 7.454,
+   "t1": 17.737
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 17.737,
+   "t1": 22.377
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 22.377,
+   "t1": 36.627
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.627,
+   "t1": 41.267
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.267,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
