@@ -1,0 +1,55 @@
+{
+ "id": "usschool5_w",
+ "SC": "usschool5_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.739
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.739,
+   "t1": 4.195
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 4.195,
+   "t1": 19.246
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 19.246,
+   "t1": 20.702
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.702,
+   "t1": 38.067
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 38.067,
+   "t1": 39.523
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 39.523,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
