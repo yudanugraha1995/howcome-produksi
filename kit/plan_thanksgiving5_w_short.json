@@ -1,0 +1,55 @@
+{
+ "id": "thanksgiving5_w",
+ "SC": "thanksgiving5_w_short",
+ "total": 51.25,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.838
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.838,
+   "t1": 3.838
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.838,
+   "t1": 22.185
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 22.185,
+   "t1": 22.185
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 22.185,
+   "t1": 41.641
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 41.641,
+   "t1": 41.641
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 41.641,
+   "t1": 47.112
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 47.112,
+   "t1": 51.25
+  }
+ ]
+}

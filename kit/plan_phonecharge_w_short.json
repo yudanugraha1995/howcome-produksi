@@ -1,0 +1,55 @@
+{
+ "id": "phonecharge_w",
+ "SC": "phonecharge_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 3.369
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 3.369,
+   "t1": 6.081
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.081,
+   "t1": 17.985
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 17.985,
+   "t1": 20.697
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.697,
+   "t1": 37.977
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 37.977,
+   "t1": 40.689
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.689,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
