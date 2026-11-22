@@ -1,0 +1,55 @@
+{
+ "id": "ushome5_w",
+ "SC": "ushome5_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.857
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.857,
+   "t1": 3.121
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 3.121,
+   "t1": 20.614
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 20.614,
+   "t1": 20.878
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 20.878,
+   "t1": 39.31
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 39.31,
+   "t1": 39.574
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 39.574,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}

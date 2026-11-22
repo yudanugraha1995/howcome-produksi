@@ -10,7 +10,7 @@ def text(i):
     hook=ss[0];why=' '.join(ss[1:b]);tw=' '.join(ss[b+1:qn]);q=ss[qn]
     emo=title.split()[-1]
     return (f"{hook} {emo}\n\n📌 THE QUICK ANSWER\n{why}\n\n🤯 PLOT TWIST\n{tw}\n\n💬 {q} Tell us in the comments!\n\n"
-            f"🎙️ FULL SCRIPT\n{nar}\n\n📚 SOURCE: {src}\n\n⚠️ For education and entertainment only, not medical advice. If something worries you, talk to a doctor.\n\n"
+            f"🎙️ FULL SCRIPT\n{nar}\n\n📚 SOURCE: {src}\n\n{'⚠️ For education and entertainment only. Habits and customs vary from place to place.' if i.split('_')[0].endswith('5') else '⚠️ For education and entertainment only, not medical advice. If something worries you, talk to a doctor.'}\n\n"
             f"🔔 Subscribe to HOWCOME? for a new \"What if...?\" about everyday life every day. Send this to a friend who does this!\n\n#shorts #howcome {tag} #whatif")
 if __name__=='__main__':
     for i in sys.argv[1:]:
