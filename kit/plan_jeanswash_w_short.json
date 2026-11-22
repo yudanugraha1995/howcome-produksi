@@ -1,0 +1,55 @@
+{
+ "id": "jeanswash_w",
+ "SC": "jeanswash_w_short",
+ "total": 50.0,
+ "items": [
+  {
+   "name": "hook",
+   "kind": "voice",
+   "t0": 0.0,
+   "t1": 2.089
+  },
+  {
+   "name": "sil_hook",
+   "kind": "silent",
+   "t0": 2.089,
+   "t1": 6.393
+  },
+  {
+   "name": "point",
+   "kind": "voice",
+   "t0": 6.393,
+   "t1": 15.694
+  },
+  {
+   "name": "sil_point",
+   "kind": "silent",
+   "t0": 15.694,
+   "t1": 19.998
+  },
+  {
+   "name": "point2",
+   "kind": "voice",
+   "t0": 19.998,
+   "t1": 36.638
+  },
+  {
+   "name": "sil_point2",
+   "kind": "silent",
+   "t0": 36.638,
+   "t1": 40.942
+  },
+  {
+   "name": "cta",
+   "kind": "voice",
+   "t0": 40.942,
+   "t1": 45.0
+  },
+  {
+   "name": "pad_end",
+   "kind": "silent",
+   "t0": 45.0,
+   "t1": 50.0
+  }
+ ]
+}
